@@ -465,4 +465,30 @@
     <loc>https://wandernewzealand.com/</blog/whale-watching-from-lahaina.html</loc>
     <lastmod>2026-04-11</lastmod>
   </url>
+
+    <!-- Blog (NZ-specific, added 2026-05-02) -->
+    <url>
+        <loc>https://wandernewzealand.com/blog/</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/blog/best-time-to-visit-new-zealand.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/blog/north-island-vs-south-island.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/blog/top-adventure-activities-new-zealand.html</loc>
+        <lastmod>2026-05-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
