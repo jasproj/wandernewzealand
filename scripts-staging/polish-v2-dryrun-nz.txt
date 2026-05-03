@@ -1,0 +1,111 @@
+=== description-polish-v2 dry-run report ===
+generated: 2026-05-03T15:40:28.186Z
+mode: DRY-RUN (no writes)
+
+--- STATS ---
+{
+  "total": 500,
+  "pattern_a_cleaned": 128,
+  "pattern_a_no_match": 372,
+  "pattern_b_cleaned": 58,
+  "pattern_b_no_match": 442,
+  "pattern_b_aborted_too_short": 0,
+  "unchanged": 318,
+  "changed_total": 182
+}
+
+--- PATTERN A SAMPLES (5) ---
+[
+  {
+    "id": "486942",
+    "name": "Private Guided Marlborough Wine Tour for 2- 6 pax",
+    "matched_header": "Additional information",
+    "before_len": 918,
+    "after_len": 881,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "hat's included\\n\\nAll standard tasting fees for up to six cellars are included,\\n\\nWe can even provide a two-course lunch with wine.\\n\\nWe will pick you up from your accommodation\\n\\nGuided wine tour\\…"
+  },
+  {
+    "id": "179383",
+    "name": "Shuttle Ongarue to Piropiro",
+    "matched_header": "Additional information",
+    "before_len": 820,
+    "after_len": 778,
+    "stripped_tail": "Additional information\\nFAQs\\nCancellations",
+    "new_tail_first_200": "Ride over the Maramataha Suspension Bridge\\nFollow the historic Ellis and Burnard Tramline\\nExperience the Ongarue Railway Spiral\\nRide through restoring native forest scenery\\nSelf-paced day ride\\nPr…"
+  },
+  {
+    "id": "346531",
+    "name": "Bridge to Nowhere Tour",
+    "matched_header": "Additional information",
+    "before_len": 483,
+    "after_len": 445,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "cluded\\n\\nTea, coffee, hot chocolate and biscuits\\n\\nWhat's not included\\n\\nA packed lunch\\nSuitable walking footwear\\nWarm jackets for the morning jetboat ride\\nSunblock (hot days)\\nInsect Repellant\\…"
+  },
+  {
+    "id": "257745",
+    "name": "Milford Sound Cruise | Aboard The Sovereign or Monarch",
+    "matched_header": "Additional information",
+    "before_len": 560,
+    "after_len": 523,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": " spacious Sovereign or Monarch\\nExtra-large viewing decks, and an impressive and expansive top deck\\nInsightful commentary by our friendly nature guides\\nAmazing nature and wildlife viewing opportunit…"
+  },
+  {
+    "id": "263345",
+    "name": "Sea-kayaking Banks Track",
+    "matched_header": "Additional information",
+    "before_len": 740,
+    "after_len": 702,
+    "stripped_tail": "Additional information\\nCancellations",
+    "new_tail_first_200": "knowledgeable guides. Your safety is our top priority.\\n\\nWhat's included\\n\\nFully guided by qualified and experienced staff\\nAll kayaking gear (life jackets, dry jackets, spray deck, dry bags for cam…"
+  }
+]
+
+--- PATTERN B SAMPLES (5) ---
+[
+  {
+    "id": "179370",
+    "name": "Camp Epic - Accommodation Only",
+    "before_len": 1499,
+    "after_len": 1290,
+    "stripped_head_first_300": "Book your Camp Epic Accommodation | Breakfast Included | No Shuttle | From $50pp\\n\\n\t219 Reviewers\\n#1 of 2 things to do in Ongarue\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Come enjoy the beauty of Pureora Forest Park with a stay at Camp Epic.\\nRates\\n\\nGlamping Twin Room Canvas Tents: Price per person, per night - $140\\nWhen booking these tents you'll automatically be a…"
+  },
+  {
+    "id": "206455",
+    "name": "Ride To The Sky Guided eBike Tour",
+    "before_len": 1500,
+    "after_len": 1256,
+    "stripped_head_first_300": "Queenstown, New Zealand\\n\\n$245 | Most Popular | 3,5 Hours | Intermediate level | To Infinity and Beyond!\\n\\n\t284 Reviewers\\n#17 of 222 Outdoor Activities in Queenstown\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "Ride To The Sky Flagship Tour through exclusive locations on purpose-built eBike track!\\nDuration\\n\\n3 - 3,5 Hours\\n\\nDifficulty Level:\\n\\nConfident/Intermediate (Grade 3)\\n\\nTour Includes:\\nEntry pas…"
+  },
+  {
+    "id": "242834",
+    "name": "Wild Dolphin Encounter",
+    "before_len": 1437,
+    "after_len": 1182,
+    "stripped_head_first_300": "Tauranga, Bay of Plenty\\n\\nAll Ages • 5 hours • Encounter Dolphins In Their Natural Habitat • Dolphin Swim\\n\\n\t372 Reviewers\\n#3 of 12 Boat Tours & Water Sports in Mount Maunganui\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "NZD173.61\\n\tAdults\\nAges 16+\\n\\n\\nNZD131.52\\n\tChildren\\nAges 7 to 16 years of age\\n\\n\\nNZD578.70\\n\tFamily\\n2 Adults + 2 Children\\n\\n\\nNZD10.52\\n\tToddlers\\nUnder 7 years of age\\n\\nPrices for Friday, 1 …"
+  },
+  {
+    "id": "258179",
+    "name": "City Highlights, Olveston House & Larnach Castle Gardens",
+    "before_len": 1500,
+    "after_len": 1323,
+    "stripped_head_first_300": "All ages • 5-6 Hours • Great for families\\n\\n\t219 Reviewers\\n#8 of 65 Outdoor Activities in Dunedin\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "NZD289.35\\n\tAdults\\nAges 9 and over\\n\\nPrices for Saturday, 1 August 2026 @ 9:30am. Prices include fees.\\n\\nLearn about Dunedin and its rich heritage, including city highlights, a guided tour of Olves…"
+  },
+  {
+    "id": "325961",
+    "name": "Otago Peninsula & Natures Wonders Eco Wildlife Tour",
+    "before_len": 1500,
+    "after_len": 1305,
+    "stripped_head_first_300": "For all ages! • 3 Hours • Spectacular Views • Remote Views\\n\\n\t225 Reviewers\\n#12 of 65 Outdoor Activities in Dunedin\\nTripAdvisor Traveler Rating\\nAccording to TripAdvisor travelers as of April 2026",
+    "after_first_200": "See rare yellow-eyed penguins, blue penguins and NZ fur seals in their breeding grounds on this 3.5hrs return tour of Natures Wonders on the Otago Peninsula.\\nDuration\\n\\n3 Hours\\n\\nAbout\\n\\nThe remot…"
+  }
+]
+
+--- PATTERN B ABORTED (would have left <100 chars) ---
+[]
