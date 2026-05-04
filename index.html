@@ -55,7 +55,6 @@
         "areaServed": {"@type": "Place", "name": "New Zealand, United States"}
     }
     </script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6156669175458913" crossorigin="anonymous"></script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -71,7 +70,9 @@
 }
 </script>
 <script src="/tracking.js" defer></script>
-</head>
+    <link rel="stylesheet" href="/sponsor-slot.css">
+    <script src="/sponsor-slot.js" defer></script>
+    </head>
 <body>
     <!-- LEAD MAGNET BANNER -->
     <!-- HEADER -->
@@ -198,10 +199,10 @@
         </div>
     </section>
 
-    <!-- AD SLOT: Below Hero Section (728x90 Leaderboard) -->
-    <div class="ad-slot" id="ad-hero-below">
-        Advertisement
-    </div>
+    <!-- SPONSOR SLOT: Below Hero (728x90 Leaderboard) -->
+    <div class="sponsor-slot"
+         data-slot-id="hero-leaderboard"
+         data-slot-type="leaderboard"></div>
 
     <!-- ISLANDS -->
     <section class="islands-nav" id="islands">
@@ -334,6 +335,11 @@
         </div>
     </section>
 
+    <!-- SPONSOR SLOT: Mid-content (300x250 MREC) -->
+    <div class="sponsor-slot"
+         data-slot-id="mid-content-mrec"
+         data-slot-type="mrec"></div>
+
     <!-- WHY US -->
     <section class="why-section" id="why">
         <div class="container">
@@ -463,6 +469,11 @@
 
     document.addEventListener('DOMContentLoaded', renderFAQs);
     </script>
+
+    <!-- SPONSOR SLOT: Pre-footer (Native) -->
+    <div class="sponsor-slot"
+         data-slot-id="prefooter-native"
+         data-slot-type="native"></div>
 
     <!-- FEATURED BUSINESSES -->
     <section class="featured-businesses">
