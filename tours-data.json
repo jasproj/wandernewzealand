@@ -9144,7 +9144,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/F33O3PxSQcmYO6Lqfn5J",
     "bookingLink": "https://fareharbor.com/embeds/book/fergswellington/items/684265/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 315,
     "description": "Celebrate your birthday with a day of fun and adventure at the Climbing & Croc Bike Birthday Party!\n\nYour session begins at the Enormous Crocodile and Shake Bar, where guests gather and get ready to ride. Tables and chairs will be set up for you to decorate — just note that food is not included in the party package. Ice-cream cake is available for $55.\n\nOnce all the guests are ready, you’ll set off on a ride towards Fergs Rock n Kayak. On arrival, your climbing instructor will greet the group and take you through a full safety briefing and belay lesson.\n\nBelay age requirements:\n\nMinimum age to belay with adult supervision: 12 years old\nMinimum age to belay independently: 14 years old\n\nThen it’s time to climb!\nAfter the climbing session, hop back on your bikes for a ride back to the Enormous Crocodile and Shake Bar.\n\nMaximum Capacity for Croc Bikes\n8 climbers and 4 adult belayers, or\n12 climbers and 6 adult belayers\nAdditional Croc Bikes\n$29 for 3-seaters\n$44 for 6-seaters\nWhat's included\n\nTables and chairs provided for party setup\n\nScenic Croc Bike ride along the waterfront\n\nFull safety briefing and belay lesson with",
     "duration": "2 Hours",
     "durationText": "",
@@ -9154,8 +9154,8 @@
     "reviewCount": null,
     "ratingSource": "",
     "qualityScore": 80,
-    "priceConfidence": null,
-    "priceLabel": null,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
     "highlights": [
       "Minimum age to belay with adult supervision: 12 years old",
       "Minimum age to belay independently: 14 years old",
@@ -9166,7 +9166,8 @@
       "Tables and chairs provided for party setup",
       "Scenic Croc Bike ride along the waterfront"
     ],
-    "currency": "NZD"
+    "currency": "NZD",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "694946",
