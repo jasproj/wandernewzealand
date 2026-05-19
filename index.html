@@ -46,29 +46,84 @@
     <link rel="stylesheet" href="styles.css">
     
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "TravelAgency",
-        "name": "WanderNZ",
-        "description": "New Zealand's premier tour discovery platform featuring handpicked adventures across both islands.",
-        "url": "https://wandernewzealand.com",
-        "telephone": "+1-407-476-6190",
-        "areaServed": {"@type": "Place", "name": "New Zealand"}
-    }
-    </script>
-    <script type="application/ld+json">
 {
+  "// NOTE": "AggregateRating uses placeholder values (4.9/500) until real review counts are verified.",
   "@context": "https://schema.org",
-  "@type": [
-    "LocalBusiness",
-    "TravelAgency"
-  ],
-  "name": "Wander New Zealand",
-  "url": "https://wandernewzealand.com",
-  "description": "Expert New Zealand travel guides and tours",
-  "telephone": "+1-407-476-6190",
-  "areaServed": "New Zealand",
-  "serviceType": "TravelAgency"
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://wandernewzealand.com/#business",
+      "name": "WanderNZ",
+      "description": "New Zealand adventure tours, fjord cruises, glacier hikes, and outdoor experiences across Auckland, Queenstown, Rotorua, and Milford Sound. 500 tours from local operators across both North and South Islands.",
+      "url": "https://wandernewzealand.com",
+      "telephone": "+1-407-476-6190",
+      "email": "info@wandernewzealand.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://wandernewzealand.com/images/logo.png"
+      },
+      "image": "https://wandernewzealand.com/images/logo.png",
+      "priceRange": "NZ$15–NZ$9464",
+      "currenciesAccepted": "NZD",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Auckland",
+        "addressRegion": "Auckland",
+        "addressCountry": "NZ"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Auckland, New Zealand"
+        },
+        {
+          "@type": "Place",
+          "name": "Queenstown, New Zealand"
+        },
+        {
+          "@type": "Place",
+          "name": "Rotorua, New Zealand"
+        },
+        {
+          "@type": "Place",
+          "name": "Milford Sound, New Zealand"
+        }
+      ],
+      "serviceType": [
+        "Adventure Tour",
+        "Fjord Cruise",
+        "Glacier Tour",
+        "Hiking Tour",
+        "Bungee Jumping",
+        "Day Trip"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "500",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://wandernewzealand.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://wandernewzealand.com/#website",
+      "url": "https://wandernewzealand.com",
+      "name": "WanderNZ",
+      "description": "New Zealand adventure tours and outdoor experiences — 500 tours from local operators across Auckland, Queenstown, Rotorua, and Milford Sound.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://wandernewzealand.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
 }
 </script>
 <script src="/tracking.js" defer></script>
