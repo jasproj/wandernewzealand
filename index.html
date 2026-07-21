@@ -234,15 +234,21 @@
         .fiord-cta { display: inline-block; background: #f4b942; color: #1a1a1a !important; padding: 14px 30px; border-radius: 6px; font-weight: 700; text-decoration: none; min-height: 44px; line-height: 20px; }
         .fiord-cta:hover { opacity: .92; }
         @media (max-width: 600px) {
-          .fiord-module { padding: 40px 18px; }
+          .fiord-module { padding: 24px 14px; }
           .fiord-module h2 { font-size: 1.5rem; }
-          .fiord-split { grid-template-columns: 1fr; gap: 10px; }
+          .fiord-verdict { font-size: .95rem; margin-bottom: 16px; }
+          /* 3 compact price items side by side (name + price only) */
+          .fiord-split { grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+          .fiord-opt { padding: 10px 6px; min-width: 0; }
+          .fiord-opt .fo-name { font-size: .8rem; line-height: 1.15; margin-bottom: 2px; }
+          .fiord-opt .fo-price { font-size: .9rem; }
+          .fiord-opt .fo-basis { display: none; }
         }
       </style>
       <div class="fiord-inner">
         <p class="fiord-eyebrow">Fiordland</p>
         <h2>Milford or Doubtful Sound?</h2>
-        <p class="fiord-verdict"><strong>Book Milford</strong> &mdash; it&rsquo;s cheaper, you can drive to the wharf, and it&rsquo;s the fiord you&rsquo;ve seen in photographs. Book Doubtful if crowds would spoil it and you have a spare day.</p>
+        <p class="fiord-verdict"><strong>Book Milford</strong> &mdash; it&rsquo;s cheaper, you can drive to the wharf, and it&rsquo;s the fiord you&rsquo;ve seen in photographs.</p>
         <div class="fiord-split">
           <div class="fiord-opt">
             <div class="fo-name">Milford</div>
