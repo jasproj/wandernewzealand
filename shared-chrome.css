@@ -65,6 +65,24 @@
 body { font-family: var(--font-body); }
 h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 
+/* ===== Footer base-rule dependencies =====
+   The self-styled pages don't load styles.css, so the footer lacks the global
+   base rules its component styles below assume (styles.css L65/68/69/71):
+   the * reset (margin/padding/box-sizing), img display:block, a color/underline,
+   ul/ol list-style, and the body line-height:1.6 the footer link text inherits
+   (404.html's inline body omits it, so its footer rendered tight without this).
+   Scoped to .footer so they can't leak into these pages' own
+   inline layouts. Placed before the component rules so those win on equal
+   specificity (e.g. .footer-links h4 margin-bottom beats .footer h4 margin:0).
+   Note: .footer img omits height:auto so it can't override .footer-logo-img. */
+.footer { line-height: 1.6; }
+.footer, .footer * { box-sizing: border-box; }
+.footer h1, .footer h2, .footer h3, .footer h4,
+.footer p, .footer ul, .footer ol, .footer li { margin: 0; padding: 0; }
+.footer ul, .footer ol { list-style: none; }
+.footer a { color: inherit; text-decoration: none; transition: color var(--transition-fast); }
+.footer img { display: block; max-width: 100%; }
+
 /* ===== Footer (verbatim from styles.css) ===== */
 .footer-logo-img {
     height: 120px;
