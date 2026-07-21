@@ -179,65 +179,25 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <p class="hero-tagline">Book Local. Support Local.</p>
-            <div class="hero-logo-pill">
-                <div class="hero-logo">
-                    <picture>
-                        <source srcset="images/hero-banner.webp" type="image/webp">
-                        <img src="images/hero-banner.png" alt="WanderNZ" class="hero-logo-img" width="1024" height="1024" fetchpriority="high">
-                    </picture>
-                </div>
-            </div>
-            <p class="hero-subtitle">Handpicked tours across New Zealand.<br>Book direct with local tour guides and support local.</p>
-            
-            <div class="hero-search">
-                <div class="search-input-wrap">
-                    <span class="search-icon">🔍</span>
-                    <input type="text" id="hero-search" placeholder="Search snorkeling, whale watching, helicopters..." autocomplete="off">
-                </div>
-                <button class="search-btn" onclick="executeHeroSearch()">Find Tours</button>
-            </div>
-            
-            <!-- Scrolling Category Tags -->
-            <div class="quick-tags-wrapper">
-                <div class="quick-tags">
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
-                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
-                    <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
-                    <!-- Duplicate for seamless loop -->
-                    <button onclick="quickFilter('snorkel')">🤿 Snorkeling</button>
-                    <button onclick="quickFilter('whale')">🐋 Whale Watch</button>
-                    <button onclick="quickFilter('dolphin')">🐬 Dolphins</button>
-                    <button onclick="quickFilter('boat')">🚤 Boat Tours</button>
-                    <button onclick="quickFilter('scuba')">🤿 Scuba & Diving</button>
-                    <button onclick="quickFilter('kayak')">🚣 Kayaking</button>
-                    <button onclick="quickFilter('helicopter')">🚁 Helicopter</button>
-                    <button onclick="quickFilter('sunset')">🌅 Sunset Cruises</button>
-                    <button onclick="quickFilter('hiking')">🥾 Hiking</button>
-                    <button onclick="quickFilter('surf')">🏄 Surfing</button>
-                    <button onclick="quickFilter('zipline')">🎢 Zipline</button>
-                    <button onclick="quickFilter('food')">🍽️ Food Tours</button>
-                    <button onclick="quickFilter('sailing')">⛵ Sailing</button>
-                    <button onclick="quickFilter('manta')">🌙 Manta Rays</button>
-                    <button onclick="quickFilter('private')">✨ Private Tours</button>
-                    <button onclick="quickFilter('farm')">🌴 Farm Tours</button>
-                    <button onclick="quickFilter('fishing')">🎣 Fishing</button>
-                    <button onclick="quickFilter('atv')">🏎️ ATV/UTV</button>
-                </div>
+            <h1 class="hero-decision-h1">Which New Zealand region should you book?</h1>
+            <p class="hero-decision-sub">Queenstown is the adventure capital. Fiordland has the cruises. Rotorua has the geothermal parks. Auckland has the most tours.</p>
+            <div class="region-decision-cards">
+                <a class="region-decision-card" href="queenstown.html" onclick="trackBookingClick('Queenstown Tours', 'queenstown', 'queenstown')">
+                    <span class="region-decision-card__name">Queenstown</span>
+                    <span class="region-decision-card__desc">Bungy, jet boats, wineries &middot; the adventure capital</span>
+                </a>
+                <a class="region-decision-card" href="milford-sound.html" onclick="trackBookingClick('Fiordland Tours', 'milford-sound', 'milford-sound')">
+                    <span class="region-decision-card__name">Fiordland</span>
+                    <span class="region-decision-card__desc">Milford &amp; Doubtful Sound cruises &middot; from NZ$169</span>
+                </a>
+                <a class="region-decision-card" href="rotorua.html" onclick="trackBookingClick('Rotorua Tours', 'rotorua', 'rotorua')">
+                    <span class="region-decision-card__name">Rotorua</span>
+                    <span class="region-decision-card__desc">Geothermal parks, M&#257;ori culture, Redwoods</span>
+                </a>
+                <a class="region-decision-card" href="auckland.html" onclick="trackBookingClick('Auckland Tours', 'auckland', 'auckland')">
+                    <span class="region-decision-card__name">Auckland</span>
+                    <span class="region-decision-card__desc">Most tours, harbour cruises, Waiheke wineries</span>
+                </a>
             </div>
         </div>
         
@@ -249,7 +209,7 @@
             <div class="trust-divider"></div>
             <div class="trust-item">
                 <span class="trust-number">4</span>
-                <span class="trust-label">Islands</span>
+                <span class="trust-label">Regions</span>
             </div>
             <div class="trust-divider"></div>
             <div class="trust-item">
