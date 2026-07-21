@@ -63,6 +63,7 @@
 }
 
 body { font-family: var(--font-body); }
+h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 
 /* ===== Footer (verbatim from styles.css) ===== */
 .footer-logo-img {
