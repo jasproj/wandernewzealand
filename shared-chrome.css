@@ -65,6 +65,116 @@
 body { font-family: var(--font-body); }
 h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 
+/* ===== Header (unify self-styled pages with index) =====
+   Copied from styles.css .header/.logo/.nav rules. Scoped to the .header /
+   .nav-desktop / .nav-mobile / .mobile-menu-btn classes, which the other
+   self-styled pages' bare <header> elements do NOT use — so adding these can't
+   disturb those pages until their markup is migrated. Logo rules are scoped to
+   .header .logo so they can't touch the footer's .logo. The weather widget is
+   omitted (needs app.js to populate; these pages don't load it). The button
+   reset (styles.css L70) is folded into .mobile-menu-btn rather than made global.
+   A fixed header needs a top offset on the content; that lives per-page (milford
+   inline), not here, so unmigrated pages get no phantom gap. */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--gray-200);
+}
+.header.scrolled { box-shadow: var(--shadow-md); }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-md) var(--space-lg);
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: transform var(--transition-fast);
+}
+.header .logo:hover { transform: scale(1.02); }
+.header .logo-img {
+    height: 80px;
+    width: auto;
+    vertical-align: middle;
+}
+.header .logo-group {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.nav-desktop {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xl);
+}
+.nav-desktop a {
+    font-weight: 500;
+    color: var(--gray-700);
+    padding: var(--space-sm) 0;
+    position: relative;
+}
+.nav-desktop a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--ocean-mid);
+    transition: width var(--transition-base);
+}
+.nav-desktop a:hover { color: var(--ocean-deep); }
+.nav-desktop a:hover::after { width: 100%; }
+.mobile-menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: var(--space-sm);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.mobile-menu-btn span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    background: var(--gray-700);
+    transition: all var(--transition-fast);
+}
+.nav-mobile {
+    display: none;
+    flex-direction: column;
+    background: var(--white);
+    border-top: 1px solid var(--gray-200);
+    padding: var(--space-md) var(--space-lg);
+}
+.nav-mobile.active { display: flex; }
+.nav-mobile a {
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid var(--gray-100);
+    font-weight: 500;
+    color: var(--gray-700);
+}
+@media (max-width: 768px) {
+    .header-container { padding: var(--space-sm) var(--space-md); }
+    .header .logo-group { align-items: flex-start; }
+    .header .logo-img { height: 60px; }
+    .nav-desktop { display: none; }
+    .mobile-menu-btn { display: flex; }
+}
+
 /* ===== Footer base-rule dependencies =====
    The self-styled pages don't load styles.css, so the footer lacks the global
    base rules its component styles below assume (styles.css L65/68/69/71):
