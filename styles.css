@@ -1608,7 +1608,7 @@ section { padding: var(--space-3xl) 0; }
        Ported from wanderhawaii #73/#74 (mobile-hero-spec). */
     .hero {
         min-height: 280px;
-        max-height: 290px;
+        max-height: none;
         padding: 85px var(--space-md) var(--space-md);
         justify-content: flex-start;
         overflow: hidden;
