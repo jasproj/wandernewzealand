@@ -3,6 +3,12 @@
 
 let toursData = [];
 
+// Region groups: a filter value that maps to MULTIPLE island slugs (e.g. Fiordland
+// is split across several towns). Values not listed here keep exact island matching.
+const REGION_GROUPS = {
+    fiordland: ['te-anau', 'manapouri', 'milford-sound', 'fiordland-national-park', 'te-anau-downs']
+};
+
 // Wire the homepage "Verified Tours" stat to the live (non-dead) catalog
 // size, replacing the hardcoded value. No-op on pages without the element.
 function updateVerifiedToursCount(n) {
@@ -335,9 +341,13 @@ function filterTours() {
     if (searchInput) trackSearchUsed(searchInput);
     
     filteredTours = toursData.filter(tour => {
-        // Island filter
-        if (islandFilter && tour.island?.toLowerCase() !== islandFilter) {
-            return false;
+        // Island filter (supports multi-slug region groups; exact match otherwise)
+        if (islandFilter) {
+            const island = tour.island?.toLowerCase();
+            const group = REGION_GROUPS[islandFilter];
+            if (group ? !group.includes(island) : island !== islandFilter) {
+                return false;
+            }
         }
         
         // Activity filter
