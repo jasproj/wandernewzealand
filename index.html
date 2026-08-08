@@ -31,15 +31,6 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-ZBV045RQR4');
-        
-        function trackBookingClick(tourName, tourId, island) {
-            gtag('event', 'booking_click', {
-                'event_category': 'conversion',
-                'event_label': tourName,
-                'tour_id': tourId,
-                'island': island || 'home'
-            });
-        }
     </script>
     
     <link rel="preload" as="image" href="images/hero-banner.webp" type="image/webp" fetchpriority="high">
@@ -172,19 +163,19 @@
             <h1 class="hero-decision-h1">Which New Zealand region should you book?</h1>
             <p class="hero-decision-sub">Queenstown is the adventure capital. Fiordland has the cruises. Rotorua has the geothermal parks. Auckland has the most tours.</p>
             <div class="region-decision-cards">
-                <a class="region-decision-card" href="queenstown.html" onclick="trackBookingClick('Queenstown Tours', 'queenstown', 'queenstown')">
+                <a class="region-decision-card" href="queenstown.html">
                     <span class="region-decision-card__name">Queenstown</span>
                     <span class="region-decision-card__desc">Bungy, jet boats, wineries &middot; the adventure capital</span>
                 </a>
-                <a class="region-decision-card" href="milford-sound.html" onclick="trackBookingClick('Fiordland Tours', 'milford-sound', 'milford-sound')">
+                <a class="region-decision-card" href="milford-sound.html">
                     <span class="region-decision-card__name">Fiordland</span>
                     <span class="region-decision-card__desc">Milford &amp; Doubtful Sound cruises &middot; from NZ$169</span>
                 </a>
-                <a class="region-decision-card" href="rotorua.html" onclick="trackBookingClick('Rotorua Tours', 'rotorua', 'rotorua')">
+                <a class="region-decision-card" href="rotorua.html">
                     <span class="region-decision-card__name">Rotorua</span>
                     <span class="region-decision-card__desc">Geothermal parks, M&#257;ori culture, Redwoods</span>
                 </a>
-                <a class="region-decision-card" href="auckland.html" onclick="trackBookingClick('Auckland Tours', 'auckland', 'auckland')">
+                <a class="region-decision-card" href="auckland.html">
                     <span class="region-decision-card__name">Auckland</span>
                     <span class="region-decision-card__desc">Most tours, harbour cruises, Waiheke wineries</span>
                 </a>
@@ -335,7 +326,7 @@
             
             <div class="results-info">
                 <span id="results-count">Loading adventures...</span>
-                <button class="shuffle-btn" onclick="trackBookingClick('Shuffle Tours', 'shuffle', 'all'); shuffleTours()">🎲 Shuffle</button>
+                <button class="shuffle-btn" onclick="shuffleTours()">🎲 Shuffle</button>
             </div>
             
             <div class="tours-grid" id="tours-grid">
@@ -346,7 +337,7 @@
             </div>
             
             <div class="load-more-wrap">
-                <button class="load-more-btn" id="load-more" onclick="trackBookingClick('Load More Adventures', 'load-more', 'all'); loadMoreTours()">
+                <button class="load-more-btn" id="load-more" onclick="loadMoreTours()">
                     Load More Adventures <span>→</span>
                 </button>
             </div>
@@ -591,7 +582,7 @@
 
     <!-- MOBILE CTA -->
     <div class="mobile-cta" id="mobile-cta">
-        <a href="#tours-section" class="mobile-cta-btn" onclick="trackBookingClick('Find Your Adventure', 'mobile-cta', 'all')">
+        <a href="#tours-section" class="mobile-cta-btn">
             <span>🌺</span> Find Your Adventure
         </a>
     </div>

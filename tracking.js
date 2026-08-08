@@ -4,9 +4,13 @@
    Single source of truth for the booking_click GA4 conversion event.
    Loaded site-wide via <script src="/tracking.js" defer> in <head>.
 
-   Wires every Check Availability anchor (FareHarbor links and CTA-class
-   anchors) via document-level click delegation — no per-anchor onclick
-   required. Survives runtime-rendered anchors.
+   Wires every Check Availability anchor via document-level click
+   delegation — no per-anchor onclick required. Survives runtime-rendered
+   anchors.
+
+   Fires only when the clicked anchor's href contains fareharbor.com.
+   CTA/button classes are never sufficient on their own — internal nav,
+   scroll-to-section, and #anchor links must never count as bookings.
 
    Coexistence notes:
    - Anchors with an existing onclick="trackBookingClick(...)" are skipped
@@ -31,22 +35,6 @@
         var sep = url.indexOf('?') === -1 ? '?' : '&';
         return url + sep + 'utm_source=' + encodeURIComponent(slug);
     }
-
-    var CTA_CLASSES = [
-        'book-btn',
-        'book-btn-inline',
-        'btn-primary',
-        'tour-book-btn',
-        'cta-btn',
-        'final-cta-btn',
-        'browse-cta-btn',
-        'mobile-cta-btn',
-        'primary-cta',
-        'island-cta',
-        'footer-cta',
-        'sidebar-cta',
-        'blog-cta'
-    ];
 
     var REGION_KEYWORDS = ['auckland', 'queenstown', 'rotorua', 'milford-sound', 'wellington', 'christchurch'];
 
@@ -80,14 +68,6 @@
         };
     }
 
-    function hasCtaClass(link) {
-        if (!link.classList) return false;
-        for (var i = 0; i < CTA_CLASSES.length; i++) {
-            if (link.classList.contains(CTA_CLASSES[i])) return true;
-        }
-        return false;
-    }
-
     document.addEventListener('click', function (e) {
         var link = e.target.closest && e.target.closest('a');
         if (!link) return;
@@ -95,10 +75,8 @@
         if (onclickAttr.indexOf('trackBookingClick') !== -1) return;
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
-        if (!isFareHarbor && !hasCtaClass(link)) return;
-        if (isFareHarbor) {
-            link.href = appendUtmSource(link.href, 'wandernewzealand');
-        }
+        if (!isFareHarbor) return;
+        link.href = appendUtmSource(link.href, 'wandernewzealand');
         var ctx = readContext(link);
         if (typeof gtag === 'undefined') return;
         gtag('event', 'booking_click', {
