@@ -1,35 +1,39 @@
 # WanderNZ
 
-> New Zealand's tour discovery platform. 595 tours across Oahu, Maui, Big Island, and Kauai.
+> New Zealand tour discovery platform. 3,112 bookable tours from 366 local operators across both main islands and Stewart Island.
 
-WanderNZ helps travelers find and book authentic Hawaiian experiences from local tour operators. We aggregate tours from across all four main Hawaiian islands, making it easy to discover snorkeling, whale watching, hiking, helicopters, luaus, and more.
+WanderNZ helps travelers find and book authentic New Zealand experiences from local operators. We aggregate tours from 184 towns and areas nationwide, making it easy to discover boat cruises and scenic flights, hiking and biking, jetboating and rafting, wine and food tours, wildlife trips, and Māori cultural experiences. Booking goes direct to the operator.
 
 ## Key Pages
 
-- [Homepage](https://wandernewzealand.com/): Search and browse 595 Hawaiian tours
+- [Homepage](https://wandernewzealand.com/): Search and browse New Zealand tours
 - [All Tours](https://wandernewzealand.com/tours.html): Complete tour directory with filters
-- [Islands Guide](https://wandernewzealand.com/islands.html): Compare Oahu, Maui, Big Island, Kauai
+- [Islands Guide](https://wandernewzealand.com/islands.html): North Island, South Island and Stewart Island — what each is for and where to base
+- [Auckland Guide](https://wandernewzealand.com/auckland.html): Auckland tours, Hauraki Gulf islands and Waiheke wine
+- [Queenstown Guide](https://wandernewzealand.com/queenstown.html): Queenstown tours, Lake Wakatipu, bungy and jetboat operators
+- [Rotorua Guide](https://wandernewzealand.com/rotorua.html): Rotorua tours, geothermal parks and Māori cultural experiences
+- [Milford Sound Guide](https://wandernewzealand.com/milford-sound.html): Choosing between Milford and Doubtful Sound cruises in Fiordland
 
 ## Activity Guides
 
-- [Snorkeling](https://wandernewzealand.com/snorkeling.html): 114 snorkel tours, best spots like Molokini and Hanauma Bay
-- [Whale Watching](https://wandernewzealand.com/whale-watching.html): 43 tours, season runs December-April
-- [Shark Diving](https://wandernewzealand.com/shark-diving.html): Cage diving on Oahu's North Shore
-- [Fishing](https://wandernewzealand.com/fishing.html): Deep sea charters, Kona is world-famous for marlin
-- [Ziplines](https://wandernewzealand.com/zipline.html): 15 courses across all islands
-- [Kayaking](https://wandernewzealand.com/kayak.html): Ocean and river adventures, Secret Falls on Kauai
-- [Waterfalls](https://wandernewzealand.com/waterfalls.html): Guided hikes and helicopter tours
-- [Jet Skis](https://wandernewzealand.com/jet-ski.html): Rentals on Oahu, Maui, Big Island
+- [Kayaking](https://wandernewzealand.com/kayak.html): Sea, river and lake paddling; Abel Tasman National Park, Milford and Doubtful Sound, Bay of Islands, Lake Wakatipu, Whanganui River
+- [Fishing](https://wandernewzealand.com/fishing.html): Inshore, offshore and freshwater charters; Bay of Islands, Lake Taupō, Tongariro River, Marlborough Sounds, Stewart Island, Kaikōura
+- [Whale Watching](https://wandernewzealand.com/whale-watching.html): Boat and coastal spotting; Kaikōura, Bay of Islands, Hauraki Gulf, Akaroa Harbour, Cook Strait
+- [Waterfalls](https://wandernewzealand.com/waterfalls.html): Hike-in, roadside and aerial views; Sutherland Falls, Huka Falls, Wairere Falls, McLean Falls, Bridal Veil Falls, Stirling Falls
+- [Snorkeling](https://wandernewzealand.com/snorkeling.html): Reef, boat and wildlife snorkel; Goat Island and Tāwharanui marine reserves, Poor Knights Islands, Marlborough Sounds
+- [Jet Skis](https://wandernewzealand.com/jet-ski.html): Guided rides and rentals; Lake Wakatipu, Lake Taupō, Lake Rotoiti, Lake Wanaka, Bay of Islands, Tauranga Harbour
+- [Ziplines](https://wandernewzealand.com/zipline.html): Canopy and high-line courses; Rotorua Canopy Tours, Christchurch Adventure Park, Waiheke Island, Velocity Valley
+- [Shark Diving](https://wandernewzealand.com/shark-diving.html): Cage and free-swim encounters; Stewart Island out of Bluff, Poor Knights Islands, Three Kings Islands
 
 ## Quick Facts
 
-- 595 total tours from local operators
-- 4 Hawaiian islands covered
-- Tours include: snorkeling, scuba, boat tours, whale watching, dolphins, kayaking, surfing, SUP, hiking, ziplines, helicopters, fishing, luaus, food tours, and more
+- 3,112 bookable tours from 366 local operators
+- 184 towns and areas covered; the largest are Queenstown (378 tours), Auckland (309), Nelson (155), Dunedin (128), Wellington (96), Christchurch (96), Rotorua (83) and Tauranga (68)
+- Tours include: guided and private tours, boat tours and cruises, biking and bike rentals, sightseeing and walking tours, horse riding, hiking, wine and winery tours, fishing, rafting, surfing, food tours, farm visits, scuba, kayaking and canoeing, helicopter and scenic flights, and wildlife trips
 - Booking links go directly to tour operators via FareHarbor
-- Prices range from ~$30 to $500+ depending on activity
+- Most prices are listed in NZD; the median listed price is about NZD 210, ranging from under NZD 100 for short activities to several thousand for private charters and multi-day trips
 
 ## Contact
 
 Website: https://wandernewzealand.com
-Email: aloha@wandernewzealand.com
+Email: info@wandernewzealand.com
