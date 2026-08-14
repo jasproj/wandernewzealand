@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <title>Milford or Doubtful Sound? Which Fiordland Cruise to Book — WanderNewZealand</title>
 <meta name="description" content="Milford costs NZ$169–199 and is the one you've seen in photos. Doubtful costs NZ$359+ and is nearly empty. Here's which Fiordland cruise to book, and why.">
 <link rel="canonical" href="https://wandernewzealand.com/milford-sound.html">
@@ -128,9 +131,26 @@
   .related a:hover { text-decoration: underline; }
 
   @media (max-width: 600px) {
-    .hero { padding: 40px 20px 34px; }
-    .hero h1 { font-size: 1.65rem; }
-    .hero .verdict { font-size: 1.05rem; }
+    /* Mobile hero spec, ported from PR #93 (20976ac) which applied it to the
+       eight activity pages and left this one out. Same two causes, same fix:
+       padding that was pure dead space, and a grid that wrapped badly at 320.
+       No min-height added and no hero content removed -- all three choice
+       cards and every line of copy are still here, at a smaller type scale. */
+    .hero { padding: 28px 20px 24px; }
+    /* .container adds its own 0 20px INSIDE the hero's 20px, so at 320px the
+       cards had only 240px of a 320px screen and wrapped an extra line each.
+       The hero already provides the horizontal inset; drop the inner one. */
+    .hero .container { padding-left: 0; padding-right: 0; }
+    .hero h1 { font-size: 1.3rem; margin: 0 0 10px 0; }
+    .hero .verdict { font-size: 0.95rem; }
+    .hero .verdict-sub { font-size: 0.88rem; margin: 0 0 16px 0; }
+    /* auto-fit minmax(240px) can't fit two columns on a phone anyway; one
+       full-width column per card, tighter gap. */
+    .choice-cards { grid-template-columns: 1fr; gap: 10px; }
+    .choice-card { padding: 11px 13px; }
+    .choice-card .cc-title { font-size: 0.98rem; margin: 4px 0 4px; }
+    .choice-card .cc-price { font-size: 1.05rem; }
+    .choice-card .cc-for { margin-top: 5px; }
     .tours-grid { grid-template-columns: 1fr; }
   }
   @media (max-width: 768px) {
