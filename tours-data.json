@@ -62646,9 +62646,9 @@
       "category": "",
       "location": "New Zealand/Otago/Queenstown",
       "island": "queenstown",
-      "price": 1262,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "price": 1262.61,
+      "priceLabel": "Private Charter",
+      "priceConfidence": "high",
       "qualityScore": 77,
       "currency": "NZD",
       "duration": "4 Hours",
@@ -62682,7 +62682,21 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "2026-05-27T13:58:51.311840"
+      "lastUpdated": "2026-05-27T13:58:51.311840",
+      "priceSource": "s45-wnz-charter-unit: FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 17-date window 2026-08-25..2026-09-10, 18/18 readings agree; evidence scripts/evidence/wnz-charter-unit-2026-08-24/probe-489299-live.json",
+      "priceBasis": "whole-vehicle tier: single customer type \"Private Charter\" (min_party_size 1, note \"Max 4 adults or 2 adult & 2 children (All ages)\"); the figure buys the vehicle, not a seat",
+      "priceTiers": [
+        {
+          "singular": "Private Charter",
+          "note": "Max 4 adults or 2 adult & 2 children (All ages)",
+          "priceCents": 126261,
+          "price": 1262.61,
+          "minPartySize": 1
+        }
+      ],
+      "_unknownFields": {
+        "priceUnit": "whole vehicle · up to 4 people"
+      }
     },
     {
       "id": "fh-498129",
