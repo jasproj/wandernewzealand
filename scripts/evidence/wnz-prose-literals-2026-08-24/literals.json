@@ -1,0 +1,1329 @@
+[
+ {
+  "file": "advertise.html",
+  "line": 302,
+  "literals": [
+   "$99"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "advertise.html",
+  "line": 313,
+  "literals": [
+   "$299"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "advertise.html",
+  "line": 325,
+  "literals": [
+   "$599"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "advertise.html",
+  "line": 361,
+  "literals": [
+   "$99"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "advertise.html",
+  "line": 362,
+  "literals": [
+   "$299"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "advertise.html",
+  "line": 363,
+  "literals": [
+   "$599"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "WNZ ad pricing, not a tour",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 313,
+  "literals": [
+   "NZD5,781.70"
+  ],
+  "cls": "PAIRED",
+  "pk": "232248",
+  "stored": [
+   "232248:5781.7 Friends & Family [high/2026-08-24] tiers=Friends & Family=5781.7,Private Group of 04 to 08 People=3677.35,Private Group of 09 to 16 people=2625.17"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 325,
+  "literals": [
+   "NZD8,412.13"
+  ],
+  "cls": "PAIRED",
+  "pk": "232250",
+  "stored": [
+   "232250:8412.13 Friends & Family [high/2026-08-24] tiers=Friends & Family=8412.13,Private Group of 04 to 08 People=5255.61,Private Group of 09 to 16 people=4203.43"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 337,
+  "literals": [
+   "NZD7,359.96"
+  ],
+  "cls": "PAIRED",
+  "pk": "232253",
+  "stored": [
+   "232253:7359.96 Friends & Family [high/2026-08-24] tiers=Friends & Family=7359.96,Private Group of 04 to 08 People=4203.43,Private Group of 09 to 16 people=3151.26"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 349,
+  "literals": [
+   "NZD5,255.61"
+  ],
+  "cls": "PAIRED",
+  "pk": "232255",
+  "stored": [
+   "232255:5255.61 Friends & Family [high/2026-08-24] tiers=Friends & Family=5255.61,Private Group of 04 to 08 People=3151.26,Private Group of 09 to 16 people=2099.09"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 361,
+  "literals": [
+   "NZD998.51",
+   "NZD893.30"
+  ],
+  "cls": "PAIRED",
+  "pk": "232530",
+  "stored": [
+   "232530:998.51 Adult [high/2026-08-24] tiers=Adult=998.51,Participant - Group of 3 People=893.3,Participant - Group of 4 People=788.08,Participant - Group of 5 to 10 People=682.86"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 373,
+  "literals": [
+   "NZD998.51",
+   "NZD893.30"
+  ],
+  "cls": "PAIRED",
+  "pk": "232533",
+  "stored": [
+   "232533:998.51 Adult [high/2026-08-24] tiers=Adult=998.51,Participant - Group of 3 People=893.3,Participant - Group of 4 People=788.08,Participant - Group of 5 to 10 People=682.86"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 385,
+  "literals": [
+   "NZD1,419.38",
+   "NZD1,103.73"
+  ],
+  "cls": "PAIRED",
+  "pk": "232539",
+  "stored": [
+   "232539:1419.38 Adult [high/2026-08-24] tiers=Adult=1419.38,Participant - Group of 3 People=1103.73,Participant - Group of 4 People=998.51,Participant - Group of 5 to 10 People=893.3"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 397,
+  "literals": [
+   "NZD1,314.17",
+   "NZD1,103.73"
+  ],
+  "cls": "PAIRED",
+  "pk": "232540",
+  "stored": [
+   "232540:1314.17 Adult [high/2026-08-24] tiers=Adult=1314.17,Participant - Group of 3 People=1103.73,Participant - Group of 4 People=998.51,Participant - Group of 5 to 10 People=893.3"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 409,
+  "literals": [
+   "NZD1,103.73",
+   "NZD998.51"
+  ],
+  "cls": "PAIRED",
+  "pk": "232548",
+  "stored": [
+   "232548:1103.73 Adult [high/2026-08-24] tiers=Adult=1103.73,Participant - Group of 3 People=998.51,Participant - Group of 4 People=893.3,Participant - Group of 5 to 10 People=788.08"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 421,
+  "literals": [
+   "NZD1,208.95",
+   "NZD998.51"
+  ],
+  "cls": "PAIRED",
+  "pk": "232553",
+  "stored": [
+   "232553:1208.95 Adult [high/2026-08-24] tiers=Adult=1208.95,Participant - Group of 3 People=998.51,Participant - Group of 4 People=893.3,Participant - Group of 5 to 10 People=788.08"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "auckland.html",
+  "line": 433,
+  "literals": [
+   "NZD1,314.17",
+   "NZD1,103.73"
+  ],
+  "cls": "PAIRED",
+  "pk": "232556",
+  "stored": [
+   "232556:1314.17 Adult [high/2026-08-24] tiers=Adult=1314.17,Participant - Group of 3 People=1103.73,Participant - Group of 4 People=998.51,Participant - Group of 5 to 10 People=893.3"
+  ],
+  "verdict": "current",
+  "note": "card desc quotes operator tiers",
+  "new": null
+ },
+ {
+  "file": "blog/best-milford-sound-tours-from-queenstown.html",
+  "line": 41,
+  "literals": [
+   "NZ$174"
+  ],
+  "cls": "PAIRED",
+  "pk": "694946",
+  "stored": [
+   "694946:179 Adult [high/2026-08-24] tiers=Adult=179,Child=49,Infant=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "name match \"Milford Sound Classic Cruise\"",
+  "new": [
+   "NZ$179"
+  ]
+ },
+ {
+  "file": "blog/best-milford-sound-tours-from-queenstown.html",
+  "line": 43,
+  "literals": [
+   "NZ$188"
+  ],
+  "cls": "PAIRED",
+  "pk": "272184",
+  "stored": [
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "name match \"Milford Sound Boutique Small Boat Cruise\"; operator attribution (Mitre Peak) not in data \u2014 flagged",
+  "new": [
+   "NZ$199"
+  ]
+ },
+ {
+  "file": "blog/best-queenstown-adventure-tours-for-first-time-visitors.html",
+  "line": 31,
+  "literals": [
+   "NZ$230"
+  ],
+  "cls": "PAIRED",
+  "pk": "272823",
+  "stored": [
+   "272823:230.43 Per Person - Hot Seats! [high/2026-08-24] tiers=Per Person - Hot Seats!=230.43,Private Tour - up to 8 people=2095.93"
+  ],
+  "verdict": "current",
+  "note": "name match \"Gibbston Valley Half Day Canyoning Adventure\"",
+  "new": null
+ },
+ {
+  "file": "blog/best-time-to-visit-new-zealand.html",
+  "line": 176,
+  "literals": [
+   "NZ$169",
+   "NZ$49"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "href items/257745; Adult/Child",
+  "new": null
+ },
+ {
+  "file": "blog/milford-sound-vs-doubtful-sound.html",
+  "line": 123,
+  "literals": [
+   "NZ$80"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "generic cost bands; no pk referent",
+  "new": null
+ },
+ {
+  "file": "blog/milford-sound-vs-doubtful-sound.html",
+  "line": 124,
+  "literals": [
+   "NZ$250"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "generic cost bands; no pk referent",
+  "new": null
+ },
+ {
+  "file": "blog/milford-sound-vs-doubtful-sound.html",
+  "line": 166,
+  "literals": [
+   "NZ$80",
+   "NZ$150"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "generic cost bands; no pk referent",
+  "new": null
+ },
+ {
+  "file": "blog/milford-sound-vs-doubtful-sound.html",
+  "line": 168,
+  "literals": [
+   "NZ$250",
+   "NZ$400"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "generic cost bands; no pk referent",
+  "new": null
+ },
+ {
+  "file": "blog/north-island-vs-south-island.html",
+  "line": 141,
+  "literals": [
+   "NZ$199",
+   "NZ$94"
+  ],
+  "cls": "PAIRED",
+  "pk": "272184",
+  "stored": [
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "href items/272184; Adult/Child",
+  "new": null
+ },
+ {
+  "file": "faq.html",
+  "line": 29,
+  "literals": [
+   "NZ$23,",
+   "NZ$35",
+   "NZ$200",
+   "NZ$100",
+   "NZ$30"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "NZeTA/SIM/generic bands; \"~NZ$100 cruise-only\" and \"NZ$200-300\" have no single referent \u2014 flagged, untouched",
+  "new": null
+ },
+ {
+  "file": "faq.html",
+  "line": 99,
+  "literals": [
+   "NZ$23,",
+   "NZ$35"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "NZeTA/SIM/generic bands; \"~NZ$100 cruise-only\" and \"NZ$200-300\" have no single referent \u2014 flagged, untouched",
+  "new": null
+ },
+ {
+  "file": "faq.html",
+  "line": 103,
+  "literals": [
+   "NZ$200",
+   "NZ$100"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "NZeTA/SIM/generic bands; \"~NZ$100 cruise-only\" and \"NZ$200-300\" have no single referent \u2014 flagged, untouched",
+  "new": null
+ },
+ {
+  "file": "faq.html",
+  "line": 108,
+  "literals": [
+   "NZ$30"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "NZeTA/SIM/generic bands; \"~NZ$100 cruise-only\" and \"NZ$200-300\" have no single referent \u2014 flagged, untouched",
+  "new": null
+ },
+ {
+  "file": "index.html",
+  "line": 57,
+  "literals": [
+   "NZ$15",
+   "NZ$9464"
+  ],
+  "cls": "RANGE",
+  "pk": "525692 / 479397",
+  "stored": [
+   "525692:4.21 Adult [high/2026-05-28] tiers=Adult=4.21,Child=4.21,Infant=4.21",
+   "479397:26304.35 Group of 1-3 people [high/2026-05-28] tiers=Group of 1-3 people=26304.35,Group of 4-6 people=36826.09"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "catalog min/max; both endpoints live-probed 18/18",
+  "new": [
+   "NZ$4",
+   "NZ$26304"
+  ]
+ },
+ {
+  "file": "index.html",
+  "line": 172,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "index.html",
+  "line": 238,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "index.html",
+  "line": 243,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "index.html",
+  "line": 248,
+  "literals": [
+   "NZ$749"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 10,
+  "literals": [
+   "NZ$169",
+   "NZ$359"
+  ],
+  "cls": "RANGE",
+  "pk": "257745,272184 / 257750",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0",
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "169\u2013199 = 257745..272184; 359+ = 257750",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 16,
+  "literals": [
+   "NZ$169",
+   "NZ$359"
+  ],
+  "cls": "RANGE",
+  "pk": "257745,272184 / 257750",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0",
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "169\u2013199 = 257745..272184; 359+ = 257750",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 42,
+  "literals": [
+   "NZ$169",
+   "NZ$199",
+   "NZ$249",
+   "NZ$292"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745,272184,265556,265555",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0",
+   "265556:249 Adult [high/2026-08-24] tiers=Adult=249,Child=129,Infant=35",
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 43,
+  "literals": [
+   "NZ$359",
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750,257745",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0",
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 44,
+  "literals": [
+   "NZ$292",
+   "NZ$514"
+  ],
+  "cls": "PAIRED",
+  "pk": "265555,265559",
+  "stored": [
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56",
+   "265559:514 Adult [high/2026-08-24] tiers=Adult=514,Child=314,Infant=50"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 46,
+  "literals": [
+   "NZ$749",
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752,257750",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449",
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 48,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 196,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "RANGE",
+  "pk": "257745,272184",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 197,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 203,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 210,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 217,
+  "literals": [
+   "NZ$749"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 229,
+  "literals": [
+   "NZ$169,"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 230,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 238,
+  "literals": [
+   "NZ$169",
+   "NZ$514"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745,265559",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "265559:514 Adult [high/2026-08-24] tiers=Adult=514,Child=314,Infant=50"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 247,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 248,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 252,
+  "literals": [
+   "NZ$249"
+  ],
+  "cls": "PAIRED",
+  "pk": "265556",
+  "stored": [
+   "265556:249 Adult [high/2026-08-24] tiers=Adult=249,Child=129,Infant=35"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 253,
+  "literals": [
+   "NZ$383"
+  ],
+  "cls": "RANGE",
+  "pk": "295392 / ?",
+  "stored": [
+   "295392:383 Adult [high/2026-08-24] tiers=Adult=383,Child=201,Infant=10"
+  ],
+  "verdict": "deferred",
+  "note": "383 = 295392; 398 has no Doubtful referent in data \u2014 DEFERRED, untouched",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 257,
+  "literals": [
+   "NZ$292"
+  ],
+  "cls": "PAIRED",
+  "pk": "265555",
+  "stored": [
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 258,
+  "literals": [
+   "NZ$514"
+  ],
+  "cls": "PAIRED",
+  "pk": "265559",
+  "stored": [
+   "265559:514 Adult [high/2026-08-24] tiers=Adult=514,Child=314,Infant=50"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 262,
+  "literals": [
+   "NZ$669"
+  ],
+  "cls": "PAIRED",
+  "pk": "257748",
+  "stored": [
+   "257748:669 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=669,Adult - Twin-Share Cabin=669,Single Occupancy=1288,Adult - Quad Share Cabin=499"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 263,
+  "literals": [
+   "NZ$749"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 312,
+  "literals": [
+   "NZ$80"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "derived coach-vs-cruise delta",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 335,
+  "literals": [
+   "NZ$199"
+  ],
+  "cls": "PAIRED",
+  "pk": "272184",
+  "stored": [
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 337,
+  "literals": [
+   "NZ$30"
+  ],
+  "cls": "PAIRED",
+  "pk": "272184,257745",
+  "stored": [
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0",
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "199\u2212169 = 30",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 349,
+  "literals": [
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 351,
+  "literals": [
+   "NZ$49"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "Child 49",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 363,
+  "literals": [
+   "NZ$249"
+  ],
+  "cls": "PAIRED",
+  "pk": "265556",
+  "stored": [
+   "265556:249 Adult [high/2026-08-24] tiers=Adult=249,Child=129,Infant=35"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 377,
+  "literals": [
+   "NZ$292"
+  ],
+  "cls": "PAIRED",
+  "pk": "265555",
+  "stored": [
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 379,
+  "literals": [
+   "NZ$172"
+  ],
+  "cls": "PAIRED",
+  "pk": "265555",
+  "stored": [
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56"
+  ],
+  "verdict": "current",
+  "note": "Child 172",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 396,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 410,
+  "literals": [
+   "NZ$514"
+  ],
+  "cls": "PAIRED",
+  "pk": "265559",
+  "stored": [
+   "265559:514 Adult [high/2026-08-24] tiers=Adult=514,Child=314,Infant=50"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 412,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 424,
+  "literals": [
+   "NZ$749"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 425,
+  "literals": [
+   "NZ$1,448"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449"
+  ],
+  "verdict": "current",
+  "note": "Single Occupancy 1448",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 443,
+  "literals": [
+   "NZ$145"
+  ],
+  "cls": "PAIRED",
+  "pk": "257761",
+  "stored": [
+   "257761:145 Adult [high/2026-08-24] tiers=Adult=145,Child=69,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 666,
+  "literals": [
+   "NZ$169",
+   "NZ$199",
+   "NZ$249",
+   "NZ$292"
+  ],
+  "cls": "PAIRED",
+  "pk": "257745,272184,265556,265555",
+  "stored": [
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0",
+   "272184:198.86 Adult [high/2026-08-24] tiers=Adult=198.86,Child=93.64,Infant=0",
+   "265556:249 Adult [high/2026-08-24] tiers=Adult=249,Child=129,Infant=35",
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 671,
+  "literals": [
+   "NZ$359",
+   "NZ$169"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750,257745",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0",
+   "257745:169 Adult [high/2026-08-24] tiers=Adult=169,Child=49,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 676,
+  "literals": [
+   "NZ$292",
+   "NZ$514,"
+  ],
+  "cls": "PAIRED",
+  "pk": "265555,265559",
+  "stored": [
+   "265555:292 Adult [high/2026-08-24] tiers=Adult=292,Child=172,Infant=56",
+   "265559:514 Adult [high/2026-08-24] tiers=Adult=514,Child=314,Infant=50"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 686,
+  "literals": [
+   "NZ$749",
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257752,257750",
+  "stored": [
+   "257752:749 Adult - Double Cabin [high/2026-08-24] tiers=Adult - Double Cabin=749,Adult - Twin-Share Cabin=749,Single Occupancy=1448,Child - Twin-Share Cabin=449",
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "milford-sound.html",
+  "line": 696,
+  "literals": [
+   "NZ$359"
+  ],
+  "cls": "PAIRED",
+  "pk": "257750",
+  "stored": [
+   "257750:359 Adult [high/2026-08-24] tiers=Adult=359,Child=179,Infant=0"
+  ],
+  "verdict": "current",
+  "note": "",
+  "new": null
+ },
+ {
+  "file": "rotorua.html",
+  "line": 248,
+  "literals": [
+   "NZ$200"
+  ],
+  "cls": "PAIRED",
+  "pk": "94047",
+  "stored": [
+   "94047:230 HE 2026/27 (Adult) [high/2026-08-24] tiers=HE 2026/27 (Adult)=230,HE 2026/27 (Child)=180,Infant=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "gated badge \u2014 swept as same old figure/same pk",
+  "new": [
+   "NZ$230"
+  ]
+ },
+ {
+  "file": "rotorua.html",
+  "line": 253,
+  "literals": [
+   "NZ$200,",
+   "NZ$155"
+  ],
+  "cls": "PAIRED",
+  "pk": "94047",
+  "stored": [
+   "94047:230 HE 2026/27 (Adult) [high/2026-08-24] tiers=HE 2026/27 (Adult)=230,HE 2026/27 (Child)=180,Infant=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "Adult/Child tiers",
+  "new": [
+   "NZ$230,",
+   "NZ$180"
+  ]
+ },
+ {
+  "file": "rotorua.html",
+  "line": 308,
+  "literals": [
+   "NZ$180"
+  ],
+  "cls": "PAIRED",
+  "pk": "94044",
+  "stored": [
+   "94044:190 Afternoon Cultural Tour (ACE) 2027/28 (Adult) [high/2026-08-24] tiers=Afternoon Cultural Tour (ACE) 2027/28 (Adult)=190,Afternoon Cultural Tour (ACE) 2027/28 (Child)=135,Afternoon Cultural Tour (ACE) 2027/28 (Infant)=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "gated badge \u2014 swept as same old figure/same pk",
+  "new": [
+   "NZ$190"
+  ]
+ },
+ {
+  "file": "rotorua.html",
+  "line": 313,
+  "literals": [
+   "NZ$180,",
+   "NZ$125"
+  ],
+  "cls": "PAIRED",
+  "pk": "94044",
+  "stored": [
+   "94044:190 Afternoon Cultural Tour (ACE) 2027/28 (Adult) [high/2026-08-24] tiers=Afternoon Cultural Tour (ACE) 2027/28 (Adult)=190,Afternoon Cultural Tour (ACE) 2027/28 (Child)=135,Afternoon Cultural Tour (ACE) 2027/28 (Infant)=0"
+  ],
+  "verdict": "STALE\u2192fixed",
+  "note": "Adult/Child tiers",
+  "new": [
+   "NZ$190,",
+   "NZ$135"
+  ]
+ },
+ {
+  "file": "rotorua.html",
+  "line": 361,
+  "literals": [
+   "NZ$200,",
+   "NZ$155"
+  ],
+  "cls": "PAIRED",
+  "pk": "667097",
+  "stored": [
+   "667097:200 Afternoon HE 2026/27 Adult [high/2026-08-24] tiers=Afternoon HE 2026/27 Adult=200,Afternoon HE 2026/27 Child=155,Afternoon HE 2026/27 under 5=0"
+  ],
+  "verdict": "current",
+  "note": "Adult/Child tiers",
+  "new": null
+ },
+ {
+  "file": "tours.html",
+  "line": 731,
+  "literals": [
+   "$100"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "budget quiz buckets",
+  "new": null
+ },
+ {
+  "file": "tours.html",
+  "line": 736,
+  "literals": [
+   "$100",
+   "$200"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "budget quiz buckets",
+  "new": null
+ },
+ {
+  "file": "tours.html",
+  "line": 741,
+  "literals": [
+   "$200",
+   "$400"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "budget quiz buckets",
+  "new": null
+ },
+ {
+  "file": "tours.html",
+  "line": 746,
+  "literals": [
+   "$400"
+  ],
+  "cls": "EDITORIAL",
+  "pk": "\u2014",
+  "stored": [],
+  "verdict": "untouched",
+  "note": "budget quiz buckets",
+  "new": null
+ }
+]
