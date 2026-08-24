@@ -1,0 +1,1334 @@
+[
+ {
+  "date": "undated",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-25",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-26",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-27",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-28",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-29",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-29T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826101,
+      "start_at": "2026-08-29T10:00:00",
+      "end_at": "2026-08-29T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-30",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-08-30T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826106,
+      "start_at": "2026-08-30T10:00:00",
+      "end_at": "2026-08-30T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-01",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-02",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-03",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-05",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-05T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826111,
+      "start_at": "2026-09-05T10:00:00",
+      "end_at": "2026-09-05T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-06",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-06T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826119,
+      "start_at": "2026-09-06T10:00:00",
+      "end_at": "2026-09-06T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-07",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-12T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826124,
+      "start_at": "2026-09-12T10:00:00",
+      "end_at": "2026-09-12T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-08",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-12T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826124,
+      "start_at": "2026-09-12T10:00:00",
+      "end_at": "2026-09-12T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-09",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-12T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826124,
+      "start_at": "2026-09-12T10:00:00",
+      "end_at": "2026-09-12T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ },
+ {
+  "date": "2026-09-10",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 2630,
+  "start_at": "2026-09-12T10:00:00",
+  "cts": [
+   "Family=11574[min1] note=2 adults aged 13+ and 2 children/Infants aged 12 and under",
+   "Adult=2630[min1] note=Aged 13+",
+   "Child=3683[min1] note=Aged 3 - 12",
+   "Infant=2104[min1] note=Aged 1-2"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 414735,
+     "availability": {
+      "id": 1973826124,
+      "start_at": "2026-09-12T10:00:00",
+      "end_at": "2026-09-12T16:00:00"
+     },
+     "price": {
+      "low": 2630,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 747220,
+         "singular": "Family",
+         "plural": "Families",
+         "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+         "price": 11574,
+         "min_party_size": 1
+        },
+        {
+         "id": 747218,
+         "singular": "Adult",
+         "plural": "Adults",
+         "note": "Aged 13+",
+         "price": 2630,
+         "min_party_size": 1
+        },
+        {
+         "id": 747219,
+         "singular": "Child",
+         "plural": "Children",
+         "note": "Aged 3 - 12",
+         "price": 3683,
+         "min_party_size": 1
+        },
+        {
+         "id": 747476,
+         "singular": "Infant",
+         "plural": "Infants",
+         "note": "Aged 1-2",
+         "price": 2104,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": true
+   }
+  }
+ }
+]

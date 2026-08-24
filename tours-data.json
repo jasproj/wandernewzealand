@@ -41401,8 +41401,8 @@
       "category": "",
       "location": "New Zealand/Auckland/Auckland",
       "island": "auckland",
-      "price": 115.74,
-      "priceLabel": "Family",
+      "price": 26.3,
+      "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "NZD",
@@ -41478,9 +41478,41 @@
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T18:59:36.397Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentSource": "s47-wnz-badges",
+      "priceEnrichmentAt": "2026-08-24T20:30:00.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s47-wnz-badges: FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 17-date window 2026-08-25..2026-09-10, 18/18 readings agree, details.currency NZD; evidence scripts/evidence/wnz-badges-2026-08-24/probe-414735-live.json",
+      "priceBasis": "adult per-person tier: \"Adult\" (note \"Aged 13+\") 2630¢; the v7 writer anchored on \"Family\" 11574¢ which is a 2-adult + 2-child bundle (note \"2 adults aged 13+ and 2 children/Infants aged 12 and under\"), not a seat price — re-anchored per the adult-anchor rule (WAMS s46 / WHAW 57549 lineage)",
+      "priceTiers": [
+        {
+          "singular": "Family",
+          "note": "2 adults aged 13+ and 2 children/Infants aged 12 and under",
+          "priceCents": 11574,
+          "price": 115.74,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Adult",
+          "note": "Aged 13+",
+          "priceCents": 2630,
+          "price": 26.3,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Child",
+          "note": "Aged 3 - 12",
+          "priceCents": 3683,
+          "price": 36.83,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Infant",
+          "note": "Aged 1-2",
+          "priceCents": 2104,
+          "price": 21.04,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "419407",
@@ -60647,7 +60679,7 @@
       "island": "rotorua",
       "price": null,
       "priceLabel": "per adult",
-      "priceConfidence": "high",
+      "priceConfidence": "low",
       "qualityScore": 74,
       "currency": "NZD",
       "duration": "25 minutes",
@@ -60679,9 +60711,10 @@
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:58:51.311549",
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:01:57.766Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentSource": "s47-wnz-badges",
+      "priceEnrichmentAt": "2026-08-24T20:30:00.000Z",
+      "priceEnrichmentStatus": "none",
+      "priceSource": "s47-wnz-badges: price null / priceEnrichmentStatus none (v7 2026-08-24 live probe returned items:[] for pk 200995, scripts/evidence/v7-reextract-2026-08-24/api-responses.ndjson:84); priceConfidence high was unearned — set low. Renders \"Price on request\" either way"
     },
     {
       "id": "fh-216172",
@@ -117380,9 +117413,34 @@
       ],
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
-      "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:02:06.452Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentSource": "s47-wnz-badges",
+      "priceEnrichmentAt": "2026-08-24T20:30:00.000Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s47-wnz-badges: FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 17-date window 2026-08-25..2026-09-10, 18/18 readings agree, details.currency NZD; evidence scripts/evidence/wnz-badges-2026-08-24/probe-569893-live.json",
+      "priceBasis": "two \"Per Person\" tiers share customer_type id 508332 and differ only by departure option: 52503¢ \"10.30am - Meeting in Makarora - Self Drive\" vs 63025¢ \"8.30am - Queenstown Departure\" (coach transfer included); same product, floor anchors at 525.03; \"Private Tour - up to 6 people\" 378151¢ is a whole-group tier",
+      "priceTiers": [
+        {
+          "singular": "Per Person",
+          "note": "10.30am - Meeting in Makarora - Self Drive",
+          "priceCents": 52503,
+          "price": 525.03,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Per Person",
+          "note": "8.30am - Queenstown Departure",
+          "priceCents": 63025,
+          "price": 630.25,
+          "minPartySize": 1
+        },
+        {
+          "singular": "Private Tour - up to 6 people",
+          "note": "",
+          "priceCents": 378151,
+          "price": 3781.51,
+          "minPartySize": 1
+        }
+      ]
     },
     {
       "id": "569896",
