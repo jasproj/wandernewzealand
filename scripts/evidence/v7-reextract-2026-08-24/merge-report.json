@@ -1,0 +1,240 @@
+{
+  "outsideSame": 2622,
+  "strippedStaleErrorField": 80,
+  "usdRemaining": [
+    {
+      "pk": 294923,
+      "status": "none",
+      "name": "Blue Rider Room"
+    },
+    {
+      "pk": 294925,
+      "status": "none",
+      "name": "Green Foal Room"
+    },
+    {
+      "pk": 266158,
+      "status": "none",
+      "name": "The Afternoon Artisan Tour"
+    },
+    {
+      "pk": 264652,
+      "status": "none",
+      "name": "Discover Okarito - Boat & Walk Tour Package"
+    },
+    {
+      "pk": 266250,
+      "status": "none",
+      "name": "Luxury Hens Tour"
+    },
+    {
+      "pk": 325961,
+      "status": "none",
+      "name": "Otago Peninsula & Natures Wonders Eco Wildlife Tour"
+    },
+    {
+      "pk": 325964,
+      "status": "none",
+      "name": "Otago Peninsula & The Royal Albatross tour"
+    },
+    {
+      "pk": 325967,
+      "status": "none",
+      "name": "Otago Peninsula & Larnach Castle Tour"
+    },
+    {
+      "pk": 271141,
+      "status": "none",
+      "name": "Akaroa - Easy for beginners to steer • Departing Waipapa Landing"
+    },
+    {
+      "pk": 641506,
+      "status": "none",
+      "name": "Artwalk Auckland Private Tour"
+    },
+    {
+      "pk": 659742,
+      "status": "none",
+      "name": "Uniquely Dunedin - Shore Excursion Tour"
+    },
+    {
+      "pk": 201042,
+      "status": "none",
+      "name": "Tarawera Falls Walk"
+    },
+    {
+      "pk": 621507,
+      "status": "none",
+      "name": "1 Hour Riding Lesson"
+    },
+    {
+      "pk": 601384,
+      "status": "none",
+      "name": "Mountain Carting - Cart and Lift"
+    },
+    {
+      "pk": 481458,
+      "status": "none",
+      "name": "Milford Sound Cruise | Aboard The Sinbad"
+    },
+    {
+      "pk": 553771,
+      "status": "none",
+      "name": "Walter Peak Garden to Table Experience | Aboard Modern Catamaran"
+    },
+    {
+      "pk": 647898,
+      "status": "none",
+      "name": "Walter Peak Gourmet BBQ Dining - Motorised Vessel"
+    },
+    {
+      "pk": 326528,
+      "status": "none",
+      "name": "Christmas Function | Walter Peak BBQ Dining & TSS Earnslaw Cruise"
+    },
+    {
+      "pk": 491120,
+      "status": "none",
+      "name": "Christmas Function | Walter Peak BBQ Dining & Spirit of Queenstown Cruise"
+    },
+    {
+      "pk": 552465,
+      "status": "none",
+      "name": "Doubtful Sound Inner Fiord Cruise"
+    },
+    {
+      "pk": 340836,
+      "status": "error",
+      "err": "HTTP 400",
+      "name": "30 minutes - Original Whale Watching Flight"
+    },
+    {
+      "pk": 490196,
+      "status": "none",
+      "name": "Vortex 12D Motion Cinema"
+    },
+    {
+      "pk": 583503,
+      "status": "none",
+      "name": "Family Friendly"
+    },
+    {
+      "pk": 183355,
+      "status": "none",
+      "name": "Paddleboarding Lesson"
+    },
+    {
+      "pk": 400455,
+      "status": "none",
+      "name": "Paddle and Pedal Adventure"
+    },
+    {
+      "pk": 515893,
+      "status": "none",
+      "name": "Omanawa Falls & Great Sights Tour"
+    },
+    {
+      "pk": 525564,
+      "status": "none",
+      "name": "3 Day Whanganui Freedom Paddle Without Accommodation"
+    },
+    {
+      "pk": 264087,
+      "status": "none",
+      "name": "Milford Track Transfers"
+    },
+    {
+      "pk": 196167,
+      "status": "none",
+      "name": "Raft the Wairoa River"
+    },
+    {
+      "pk": 260470,
+      "status": "none",
+      "name": "Rangitaiki River Rafting"
+    },
+    {
+      "pk": 478666,
+      "status": "none",
+      "name": "Rameka Track Shuttle"
+    },
+    {
+      "pk": 478685,
+      "status": "none",
+      "name": "Great Taste Beer Tour (Circuit)"
+    },
+    {
+      "pk": 678548,
+      "status": "none",
+      "name": "Aqualand Family Double Session"
+    },
+    {
+      "pk": 641391,
+      "status": "none",
+      "name": "Aqualand Family Session"
+    },
+    {
+      "pk": 210850,
+      "status": "none",
+      "name": "Mountain Bike Hire: Ride Your Way"
+    },
+    {
+      "pk": 265823,
+      "status": "none",
+      "name": "Milford Track Transfer Package from Queenstown"
+    },
+    {
+      "pk": 265831,
+      "status": "none",
+      "name": "Milford Track Transfer Package from Te Anau"
+    },
+    {
+      "pk": 443125,
+      "status": "none",
+      "name": "Racing Simulator"
+    },
+    {
+      "pk": 709072,
+      "status": "none",
+      "name": "Accommodation"
+    }
+  ],
+  "stamplessRemaining": [
+    489299
+  ],
+  "perPopulation": {
+    "unversioned343": {
+      "high": 333,
+      "zero_price": 0,
+      "none": 7,
+      "error": 3
+    },
+    "usd156": {
+      "high": 109,
+      "zero_price": 8,
+      "none": 38,
+      "error": 1
+    }
+  },
+  "gatesPost": {
+    "total": 3121,
+    "rendered": 3112,
+    "formatPrice_priced": 2001,
+    "formatPrice_onRequest": 1111,
+    "emitPrice_true": 2001,
+    "emitPrice_false": 1111
+  },
+  "gatesPre": {
+    "total": 3121,
+    "rendered": 3112,
+    "formatPrice_priced": 1927,
+    "formatPrice_onRequest": 1185,
+    "emitPrice_true": 1927,
+    "emitPrice_false": 1185
+  },
+  "gateDelta": {
+    "formatPrice_priced": 74,
+    "emitPrice_true": 74,
+    "rendered": 0
+  }
+}

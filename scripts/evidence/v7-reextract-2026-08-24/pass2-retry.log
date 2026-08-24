@@ -1,0 +1,58 @@
+Input: /private/tmp/claude-501/-Users-jasondudney-repos-wandernewzealand/a575dc04-952a-4d89-a899-0b0406f8dcb9/scratchpad/v7-retry.json
+Total tours: 80
+Candidates (price==null + FH bookingUrl): 80
+Already processed (from checkpoint): 0
+To process this run: 80
+Operators (shortnames): 2 | batches: 20 | batch size: 4
+
+  batch 1/20 wayfaregroup (4 pks) -> hi:4 none:0 err:0
+  batch 2/20 wayfaregroup (4 pks) -> hi:8 none:0 err:0
+  batch 3/20 wayfaregroup (4 pks) -> hi:12 none:0 err:0
+  batch 4/20 wayfaregroup (4 pks) -> hi:16 none:0 err:0
+  batch 5/20 wayfaregroup (4 pks) -> hi:20 none:0 err:0
+  batch 6/20 wayfaregroup (4 pks) -> hi:24 none:0 err:0
+  batch 7/20 wayfaregroup (4 pks) -> hi:28 none:0 err:0
+  batch 8/20 wayfaregroup (4 pks) -> hi:31 none:1 err:0
+  batch 9/20 wayfaregroup (4 pks) -> hi:35 none:1 err:0
+  batch 10/20 wayfaregroup (4 pks) -> hi:37 none:3 err:0
+  batch 11/20 wayfaregroup (4 pks) -> hi:38 none:6 err:0
+  batch 12/20 wayfaregroup (4 pks) -> hi:40 none:8 err:0
+  batch 13/20 wayfaregroup (4 pks) -> hi:44 none:8 err:0
+  batch 14/20 wayfaregroup (4 pks) -> hi:48 none:8 err:0
+  batch 15/20 wayfaregroup (4 pks) -> hi:50 none:10 err:0
+  batch 16/20 aucklandandbeyond-nz (4 pks) -> hi:54 none:10 err:0
+  batch 17/20 aucklandandbeyond-nz (4 pks) -> hi:58 none:10 err:0
+  batch 18/20 aucklandandbeyond-nz (4 pks) -> hi:62 none:10 err:0
+  batch 19/20 aucklandandbeyond-nz (4 pks) -> hi:66 none:10 err:0
+  batch 20/20 aucklandandbeyond-nz (4 pks) -> hi:70 none:10 err:0
+
+✓ Price enrichment (v7-api) complete
+  processed:  80
+  high:       70  (price written)
+  zero_price: 0  (charter/vehicle model, preview $0 — price left null, correct)
+  none:       10  (dead / no current availability — price left null, correct)
+  error:      0
+  requests:   20  (batched ≤4 pks each)
+  elapsed:    147.7s
+
+Sample of written prices (spot-check candidates):
+  pk=257745  NZD169  [Adult]  Milford Sound Cruise | Aboard The Sovereign or Monarch
+  pk=471659  NZD159  [Adult]  Walter Peak Gourmet BBQ Dining - Modern Catamaran
+  pk=257719  NZD119  [Adult]  TSS Earnslaw Cruise
+  pk=257722  NZD219  [Adult]  Walter Peak Gourmet BBQ Dining - Vintage Steamship
+  pk=257725  NZD159  [Adult]  Walter Peak Farm Tour | Aboard Vintage Steamship
+  pk=257761  NZD145  [Adult]  Te Anau Glowworm Caves
+  pk=265556  NZD249  [Adult]  Milford Sound Cruise and Coach – Te Anau Departure
+  pk=469609  NZD389  [Adult]  Milford Sound Premium Cruise
+  pk=481450  NZD175  [Adult]  Milford Sound Cruise | Aboard The Haven
+  pk=509497  NZD135  [Adult]  Walter Peak Farm Tour | Aboard Modern Catamaran
+  pk=257750  NZD359  [Adult]  Doubtful Sound Wilderness Cruise
+  pk=265559  NZD514  [Adult]  Doubtful Sound Cruise and Coach – Queenstown Departure
+  pk=295392  NZD383  [Adult]  Doubtful Sound Cruise and Coach – Te Anau Departure
+  pk=319384  NZD125  [Small Car Hire • 4 Hours]  Stewart Island Hires | Car
+  pk=257766  NZD59  [Adult]  Stewart Island Village & Bays Tour
+  pk=257727  NZD299  [Adult]  Walter Peak Horse Treks
+  pk=265555  NZD292  [Adult]  Milford Sound Cruise and Coach – Queenstown Departure
+  pk=257762  NZD145  [Adult]  Ferry • Bluff → Stewart Island
+  pk=257764  NZD145  [Adult]  Ferry • Stewart Island → Bluff
+  pk=319386  NZD150  [Van Hire • 4 Hours]  Stewart Island Hires | Van

@@ -1,0 +1,145 @@
+Input: /private/tmp/claude-501/-Users-jasondudney-repos-wandernewzealand/a575dc04-952a-4d89-a899-0b0406f8dcb9/scratchpad/v7-input.json
+Total tours: 499
+Candidates (price==null + FH bookingUrl): 499
+Already processed (from checkpoint): 0
+To process this run: 499
+Operators (shortnames): 101 | batches: 107 | batch size: 20
+
+  batch 1/107 fantailtours (8 pks) -> hi:8 none:0 err:0
+  batch 2/107 alpinejetthrills (2 pks) -> hi:10 none:0 err:0
+  batch 3/107 riverboarding (4 pks) -> hi:12 none:1 err:0
+  batch 4/107 canoewhanganuiriver (15 pks) -> hi:25 none:3 err:0
+  batch 5/107 skydivetauranga (3 pks) -> hi:28 none:3 err:0
+  batch 6/107 offroad (7 pks) -> hi:35 none:3 err:0
+  batch 7/107 iconictours-nz (2 pks) -> hi:37 none:3 err:0
+  batch 8/107 goingblue (7 pks) -> hi:43 none:4 err:0
+  batch 9/107 tourworks (2 pks) -> hi:45 none:4 err:0
+  batch 10/107 zozotravel (17 pks) -> hi:62 none:4 err:0
+  batch 11/107 camjet (9 pks) -> hi:71 none:4 err:0
+  batch 12/107 opera (3 pks) -> hi:74 none:4 err:0
+  batch 13/107 aotearoasurf (13 pks) -> hi:85 none:4 err:0
+  batch 14/107 fearfactoryqueenstown (1 pks) -> hi:86 none:4 err:0
+  batch 15/107 heletranz (1 pks) -> hi:87 none:4 err:0
+  batch 16/107 kiwidundee (1 pks) -> hi:88 none:4 err:0
+  batch 17/107 kaitunacascades (5 pks) -> hi:92 none:5 err:0
+  batch 18/107 cruisemilfordnz (2 pks) -> hi:94 none:5 err:0
+  batch 19/107 wildlife (9 pks) -> hi:103 none:5 err:0
+  batch 20/107 railbikes (1 pks) -> hi:104 none:5 err:0
+  batch 21/107 canoeandkayak-northshore (1 pks) -> hi:105 none:5 err:0
+  batch 22/107 gravitynelson (15 pks) -> hi:117 none:5 err:0
+  batch 23/107 catchabussouth (1 pks) -> hi:118 none:5 err:0
+  batch 24/107 taxicatadventures (3 pks) -> hi:121 none:5 err:0
+  batch 25/107 pureglenorchy (1 pks) -> hi:122 none:5 err:0
+  batch 26/107 backyardtours (4 pks) -> hi:126 none:5 err:0
+  batch 27/107 hackfarm (3 pks) -> hi:127 none:7 err:0
+  batch 28/107 ananda (9 pks) -> hi:134 none:9 err:0
+  batch 29/107 epiccycleadventures (4 pks) -> hi:138 none:9 err:0
+  batch 30/107 lakedistrictadventures (4 pks) -> hi:142 none:9 err:0
+  batch 31/107 koshertoursandtravel (1 pks) -> hi:143 none:9 err:0
+  batch 32/107 rivervalley (14 pks) -> hi:155 none:11 err:0
+  batch 33/107 segwayonq (2 pks) -> hi:157 none:11 err:0
+  batch 34/107 fiordlandexpeditionsnz (1 pks) -> hi:158 none:11 err:0
+  batch 35/107 skydive (4 pks) -> hi:162 none:11 err:0
+  batch 36/107 glaciervalley (7 pks) -> hi:167 none:12 err:0
+  batch 37/107 nzebiketours (2 pks) -> hi:169 none:12 err:0
+  batch 38/107 whanganuiriveradventures (3 pks) -> hi:172 none:12 err:0
+  batch 39/107 speights (1 pks) -> hi:173 none:12 err:0
+  batch 40/107 kayakcruises (2 pks) -> hi:175 none:12 err:0
+  batch 41/107 electricboat (2 pks) -> hi:176 none:13 err:0
+  batch 42/107 ernestkemp (2 pks) -> hi:178 none:13 err:0
+  batch 43/107 kaitiaki (11 pks) -> hi:186 none:16 err:0
+  batch 44/107 thrillzone (9 pks) -> hi:194 none:17 err:0
+  batch 45/107 centralcycletrail (4 pks) -> hi:198 none:17 err:0
+  batch 46/107 pohatu (9 pks) -> hi:207 none:17 err:0
+  batch 47/107 raglanrock (6 pks) -> hi:212 none:18 err:0
+  batch 48/107 wellingtonsfoodspiceodyssey (1 pks) -> hi:213 none:18 err:0
+  batch 49/107 wayfaregroup (20 pks) -> hi:213 none:18 err:20
+  batch 50/107 wayfaregroup (20 pks) -> hi:213 none:18 err:40
+  batch 51/107 wayfaregroup (20 pks) -> hi:213 none:18 err:60
+  batch 52/107 wayfaregroup (1 pks) -> hi:214 none:18 err:60
+  batch 53/107 lordoftheringstours (2 pks) -> hi:216 none:18 err:60
+  batch 54/107 cruiseteanaunzd (1 pks) -> hi:217 none:18 err:60
+  batch 55/107 crystalmountain (2 pks) -> hi:219 none:18 err:60
+  batch 56/107 eliteadventuresnz (4 pks) -> hi:223 none:18 err:60
+  batch 57/107 sheepworld (1 pks) -> hi:224 none:18 err:60
+  batch 58/107 waipucaves (2 pks) -> hi:226 none:18 err:60
+  batch 59/107 moananzsup (7 pks) -> hi:231 none:20 err:60
+  batch 60/107 albatross (3 pks) -> hi:234 none:20 err:60
+  batch 61/107 exploremarlborough (8 pks) -> hi:242 none:20 err:60
+  batch 62/107 experiencekart (20 pks) -> hi:262 none:20 err:60
+  batch 63/107 experiencekart (20 pks) -> hi:282 none:20 err:60
+  batch 64/107 experiencekart (6 pks) -> hi:288 none:20 err:60
+  batch 65/107 nzdolphin (1 pks) -> hi:289 none:20 err:60
+  batch 66/107 omaka (2 pks) -> hi:291 none:20 err:60
+  batch 67/107 xplortours (3 pks) -> hi:294 none:20 err:60
+  batch 68/107 awesometours (4 pks) -> hi:294 none:24 err:60
+  batch 69/107 whanganuirivercanoes (2 pks) -> hi:296 none:24 err:60
+  batch 70/107 wanakalavenderfarm (4 pks) -> hi:300 none:24 err:60
+  batch 71/107 bikehirenapier (3 pks) -> hi:303 none:24 err:60
+  batch 72/107 emersons (1 pks) -> hi:304 none:24 err:60
+  batch 73/107 thecave (1 pks) -> hi:305 none:24 err:60
+  batch 74/107 rangiriri (2 pks) -> hi:307 none:24 err:60
+  batch 75/107 marlboroughwinetours (8 pks) -> hi:315 none:24 err:60
+  batch 76/107 goldrushtour (1 pks) -> hi:316 none:24 err:60
+  batch 77/107 waihohottubs (1 pks) -> hi:317 none:24 err:60
+  batch 78/107 driftawayqueenstown (1 pks) -> hi:318 none:24 err:60
+  batch 79/107 kiwinorth (1 pks) -> hi:319 none:24 err:60
+  batch 80/107 kiwispottingtours (1 pks) -> hi:320 none:24 err:60
+  batch 81/107 activeoutdooradventures (1 pks) -> hi:321 none:24 err:60
+  batch 82/107 mitai (2 pks) -> hi:322 none:24 err:60
+  batch 83/107 sailfearless (3 pks) -> hi:325 none:24 err:60
+  batch 84/107 dunedinrailways (2 pks) -> hi:327 none:24 err:60
+  batch 85/107 waiotapu (1 pks) -> hi:328 none:24 err:60
+  batch 86/107 highcountryhorses (1 pks) -> hi:329 none:24 err:60
+  batch 87/107 totallytarawera (2 pks) -> hi:329 none:26 err:60
+  batch 88/107 clearyak (1 pks) -> hi:330 none:26 err:60
+  batch 89/107 hotpools (3 pks) -> hi:333 none:26 err:60
+  batch 90/107 southernlakeshelicopters (2 pks) -> hi:335 none:26 err:60
+  batch 91/107 auckywalky (3 pks) -> hi:337 none:27 err:60
+  batch 92/107 betterbybike-nz (1 pks) -> hi:338 none:27 err:60
+  batch 93/107 canyoningnewzealand (7 pks) -> hi:345 none:27 err:60
+  batch 94/107 aucklandandbeyond-nz (20 pks) -> hi:345 none:27 err:80
+  batch 95/107 aucklandandbeyond-nz (18 pks) -> hi:363 none:27 err:80
+  batch 96/107 inflite-mtcook (1 pks) -> hi:364 none:27 err:80
+  batch 97/107 glaciercountryhelicopters (2 pks) -> hi:366 none:27 err:80
+  batch 98/107 fergswellington (1 pks) -> hi:366 none:28 err:80
+  batch 99/107 amequestrian (1 pks) -> hi:366 none:29 err:80
+  batch 100/107 eliteexcursions-nz (1 pks) -> hi:367 none:29 err:80
+  batch 101/107 hairraisertours (3 pks) -> hi:370 none:29 err:80
+  batch 102/107 airkaikoura (4 pks) -> hi:370 none:29 err:84
+  batch 103/107 cavecruzer (1 pks) -> hi:371 none:29 err:84
+  batch 104/107 waimarie (1 pks) -> hi:371 none:30 err:84
+  batch 105/107 gentlecycling (3 pks) -> hi:372 none:32 err:84
+  batch 106/107 aqualand (2 pks) -> hi:372 none:34 err:84
+  batch 107/107 realmvr (1 pks) -> hi:372 none:35 err:84
+
+✓ Price enrichment (v7-api) complete
+  processed:  499
+  high:       372  (price written)
+  zero_price: 8  (charter/vehicle model, preview $0 — price left null, correct)
+  none:       35  (dead / no current availability — price left null, correct)
+  error:      84
+  requests:   115  (batched ≤20 pks each)
+  elapsed:    515.1s
+
+Sample of written prices (spot-check candidates):
+  pk=258173  NZD131.52  [Adult]  Dunedin City Highlights Tour
+  pk=258174  NZD252.52  [Adult]  Otago Peninsula Scenery & City Highlights Tour
+  pk=258176  NZD326.17  [Adult]  Dunedin City, Peninsula Scenery &  Guided Albatross Tour
+  pk=258179  NZD305.13  [Adult]  City Highlights, Olveston House & Larnach Castle Gardens
+  pk=258175  NZD336.7  [Adult]  Dunedin City, Peninsula Scenery & Penguin tour
+  pk=378180  NZD205.17  [Adult]  Larnach Castle Tour
+  pk=260236  NZD1630.87  [Full Day Private Tour]  Private Guided Tour of Dunedin City Heritage and Unique Wildlife and Scenery
+  pk=345550  NZD126.26  [Adult]  Honey Hive and Bees Tour
+  pk=266508  NZD163.09  [Adult]  Canyon Safari
+  pk=266501  NZD94.7  [Adult]  Braided Blast
+  pk=193074  NZD280  [Adult]  River Surfing
+  pk=677069  NZD2400  [Private Group]  River Surfing Private Group
+  pk=491040  NZD68.39  [Cyclist]  42 Traverse - One Way Shuttle
+  pk=480035  NZD1057.43  [Guided Paddler]  The Cultural River Expedition
+  pk=486947  NZD62.08  [Hiker]  Tongariro Alpine Crossing Shuttle–Park & Ride from Ketetahi
+  pk=507729  NZD263.04  [Te Araroa 1-4 Paddlers]  Te Araroa Trail - Freedom Hire Canoe Journey from Whakahoro to Whanganui
+  pk=587874  NZD68.39  [Cyclist]  Fishers Track Mountain Bike Shuttle
+  pk=567982  NZD73.65  [Whakapapa Ski Field Return Shuttle]  Return Shuttle to Whakapapa Ski Field - Sky Waka
+  pk=619839  NZD268.3  [Solo Paddler]  3-Day Whakahoro to Pipiriki - Free Camping the Night Prior
+  pk=615342  NZD199.91  [Child]  3-Day Whakahoro to Pipiriki - Free Accommodation the Night Prior
