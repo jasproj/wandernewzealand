@@ -1,0 +1,16 @@
+{
+ "session": "s48-wnz-currency",
+ "base": "ba57cefd1beda3354470160b646ee54a14a92d93 (#110 squash; origin/main == local HEAD at gate 0)",
+ "template": "wanderengland 9e851fc (#92) app.js diff",
+ "filesChanged": ["app.js"],
+ "appJs": {"preSha256": "f27eb7c5d457a16efb430a603a76349c06d0b4ece391809f5be73ddb5f23a88f", "postSha256": "a70abcd93bab42689de07e9b64a1eb245957a0fb2f81c58c9faf3885ca8de644",
+   "hardCodedSymbolsRemoved": ["app.js:191 `From NZ$${price}`", "app.js:219 \"priceCurrency\": \"NZD\""]},
+ "adaptationsFromTemplate": [
+   "CURRENCY_SYMBOL contents are site-specific: { NZD: 'NZ$', USD: 'US$' } (dataset currencies; 'US$' not bare '$' so a USD card is not misread beside NZ$)",
+   "comment tag s48-wnz-currency; WNZ createTourCard keeps its priceUnit() suffix after priceDisplay (untouched)"],
+ "toursDataJson": {"changed": false, "sha256": "f806de7d6d66cd4bd78028e8235df9e53bfbf0fa0c428d8a134beaef03eda67c"},
+ "population": {"rows": 3121, "currencyField": {"NZD": 3120, "USD": 1}, "noCurrencyField": 0, "nonNzdRows": [{"id": "340836", "company": "Air Kaikoura Aero Club", "currency": "USD", "price": null, "priceConfidence": "high", "priceEnrichmentStatus": "error"}], "carriedClaim": "1 USD row, restamped, null price", "delta": 0},
+ "release": {"released": [], "held": ["340836"], "reason": "live probe HTTP 400 'Company with shortname airkaikoura not found' on 4 attempts incl. bounded retry; unsampled is never released"},
+ "staticBadges": {"total": 66, "perPage": {"auckland": 24, "queenstown": 24, "rotorua": 18}, "rowsNonNzd": 0, "symbolChanges": 0},
+ "renderGate": {"loaded": 3112, "byteIdenticalPrePost": 3112, "visiblePrice": 2001, "jsonLdOffers": 2001, "lowRows": 4, "lowRowsRenderPriceOnRequestNoOffer": true, "symbolMismatch": 0, "offerCurrencyMismatch": 0}
+}

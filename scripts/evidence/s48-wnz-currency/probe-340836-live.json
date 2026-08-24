@@ -1,0 +1,61 @@
+{
+ "shortname": "airkaikoura",
+ "pk": 340836,
+ "protocol": "GET /api/embed/{short}/price-preview/per-item/v2/?item_pks=..&include_breakdown=yes",
+ "attempts": [
+  {
+   "at": "2026-08-24T22:02:37.232638Z",
+   "url": "https://fareharbor.com/api/embed/airkaikoura/price-preview/per-item/v2/?item_pks=340836&include_breakdown=yes",
+   "status": 400,
+   "body": {
+    "type": "validation_error",
+    "errors": [
+     {
+      "code": "input_error",
+      "attr": [],
+      "detail": "Company with shortname airkaikoura not found"
+     }
+    ]
+   }
+  },
+  {
+   "at": "2026-08-24T22:02:37.565697Z",
+   "url": "https://fareharbor.com/api/embed/airkaikoura/price-preview/per-item/v2/?item_pks=340839,340836,634882,340844&include_breakdown=yes",
+   "status": 400,
+   "body": {
+    "type": "validation_error",
+    "errors": [
+     {
+      "code": "input_error",
+      "attr": [],
+      "detail": "Company with shortname airkaikoura not found"
+     }
+    ]
+   }
+  },
+  {
+   "at": "2026-08-24T22:02:56.110297+00:00",
+   "attempt": "retry-1",
+   "url": "https://fareharbor.com/api/embed/airkaikoura/price-preview/per-item/v2/?item_pks=340836&include_breakdown=yes&date=2026-08-26",
+   "status": 400,
+   "body": {
+    "type": "validation_error",
+    "errors": [
+     {
+      "code": "input_error",
+      "attr": [],
+      "detail": "Company with shortname airkaikoura not found"
+     }
+    ]
+   }
+  },
+  {
+   "at": "2026-08-24T22:03:02.220051+00:00",
+   "attempt": "retry-2",
+   "url": "https://fareharbor.com/api/embed/airkaikoura/items/?flow=no",
+   "status": 200,
+   "body": "<FareHarbor embed HTML, title \"FareHarbor\", body contains \"Not found\">"
+  }
+ ],
+ "outcome": "HTTP 400 Company with shortname airkaikoura not found on every attempt (single pk, 4-pk batch, single pk+date retry); company items page = Not found. HELD stays HELD; row 340836 unchanged."
+}

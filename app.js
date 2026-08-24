@@ -185,10 +185,17 @@ function priceUnit(tour) {
     return (typeof u === "string" && u.trim()) ? u.trim() : "";
 }
 
-function formatPrice(price, confidence) {
+// s48-wnz-currency (D-620, port of WENG #92): a row renders in ITS currency or
+// not at all. No conversion, no mixed symbols; a currency outside this map is
+// not rendered.
+const CURRENCY_SYMBOL = { NZD: 'NZ$', USD: 'US$' };
+
+function formatPrice(price, confidence, currency) {
     if (!Number.isFinite(price) || price <= 0) return 'Price on request';
     if (confidence === 'low') return 'Price on request';
-    return `From NZ$${price}`;
+    const symbol = CURRENCY_SYMBOL[currency];
+    if (!symbol) return 'Price on request';
+    return `From ${symbol}${price}`;
 }
 
 function cleanLocation(location = '') {
@@ -205,7 +212,9 @@ function scoreLabel(score) {
 }
 
 function generateTourSchema(tour) {
-    const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low';
+    // Same currency rule as formatPrice(): offers carry the row's own currency verbatim.
+    const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low'
+        && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, tour.currency);
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
@@ -216,7 +225,7 @@ function generateTourSchema(tour) {
             "offers": {
                 "@type": "Offer",
                 "price": tour.price,
-                "priceCurrency": "NZD",
+                "priceCurrency": tour.currency,
                 "url": tour.bookingUrl,
                 "availability": "https://schema.org/InStock"
             }
@@ -258,7 +267,7 @@ function createTourCard(tour) {
         : '';
 
     const cleanLoc = cleanLocation(tour.location);
-    const priceDisplay = formatPrice(tour.price, tour.priceConfidence);
+    const priceDisplay = formatPrice(tour.price, tour.priceConfidence, tour.currency);
     const unit = priceUnit(tour);
     const unitHtml = unit ? `<small>${escapeHtml(unit)}</small>` : '';
 
