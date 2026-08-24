@@ -1,0 +1,177 @@
+{
+ "fixture": {
+  "tours": [
+   {
+    "id": "fx-nzd",
+    "pk": 1,
+    "name": "NZD high",
+    "company": "c",
+    "currency": "NZD",
+    "price": 120.5,
+    "priceConfidence": "high",
+    "bookingUrl": "u"
+   },
+   {
+    "id": "fx-usd",
+    "pk": 2,
+    "name": "USD high",
+    "company": "c",
+    "currency": "USD",
+    "price": 205.17,
+    "priceConfidence": "high",
+    "bookingUrl": "u"
+   },
+   {
+    "id": "fx-eur",
+    "pk": 3,
+    "name": "EUR unmapped",
+    "company": "c",
+    "currency": "EUR",
+    "price": 50,
+    "priceConfidence": "high",
+    "bookingUrl": "u"
+   },
+   {
+    "id": "fx-nocur",
+    "pk": 4,
+    "name": "no currency field",
+    "company": "c",
+    "price": 50,
+    "priceConfidence": "high",
+    "bookingUrl": "u"
+   },
+   {
+    "id": "fx-low",
+    "pk": 5,
+    "name": "USD low",
+    "company": "c",
+    "currency": "USD",
+    "price": 99,
+    "priceConfidence": "low",
+    "bookingUrl": "u"
+   },
+   {
+    "id": "fx-null",
+    "pk": 6,
+    "name": "USD null (340836 shape)",
+    "company": "c",
+    "currency": "USD",
+    "price": null,
+    "priceConfidence": "high",
+    "bookingUrl": "u"
+   }
+  ]
+ },
+ "results": [
+  {
+   "id": "fx-nzd",
+   "currency": "NZD",
+   "price": 120.5,
+   "confidence": "high",
+   "pre": {
+    "priceText": "From NZ$120.5",
+    "priceCurrency": "NZD"
+   },
+   "post": {
+    "priceText": "From NZ$120.5",
+    "priceCurrency": "NZD"
+   }
+  },
+  {
+   "id": "fx-usd",
+   "currency": "USD",
+   "price": 205.17,
+   "confidence": "high",
+   "pre": {
+    "priceText": "From NZ$205.17",
+    "priceCurrency": "NZD"
+   },
+   "post": {
+    "priceText": "From US$205.17",
+    "priceCurrency": "USD"
+   }
+  },
+  {
+   "id": "fx-eur",
+   "currency": "EUR",
+   "price": 50,
+   "confidence": "high",
+   "pre": {
+    "priceText": "From NZ$50",
+    "priceCurrency": "NZD"
+   },
+   "post": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   }
+  },
+  {
+   "id": "fx-nocur",
+   "currency": null,
+   "price": 50,
+   "confidence": "high",
+   "pre": {
+    "priceText": "From NZ$50",
+    "priceCurrency": "NZD"
+   },
+   "post": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   }
+  },
+  {
+   "id": "fx-low",
+   "currency": "USD",
+   "price": 99,
+   "confidence": "low",
+   "pre": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   },
+   "post": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   }
+  },
+  {
+   "id": "fx-null",
+   "currency": "USD",
+   "price": null,
+   "confidence": "high",
+   "pre": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   },
+   "post": {
+    "priceText": "Price on request",
+    "priceCurrency": null
+   }
+  }
+ ],
+ "expectedPost": {
+  "fx-nzd": [
+   "From NZ$120.5",
+   "NZD"
+  ],
+  "fx-usd": [
+   "From US$205.17",
+   "USD"
+  ],
+  "fx-eur": [
+   "Price on request",
+   null
+  ],
+  "fx-nocur": [
+   "Price on request",
+   null
+  ],
+  "fx-low": [
+   "Price on request",
+   null
+  ],
+  "fx-null": [
+   "Price on request",
+   null
+  ]
+ }
+}

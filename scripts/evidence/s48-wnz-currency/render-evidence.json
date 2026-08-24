@@ -1,0 +1,27 @@
+{
+ "appPreSha256": "f27eb7c5d457a16efb430a603a76349c06d0b4ece391809f5be73ddb5f23a88f",
+ "appPostSha256": "a70abcd93bab42689de07e9b64a1eb245957a0fb2f81c58c9faf3885ca8de644",
+ "toursDataSha256": "f806de7d6d66cd4bd78028e8235df9e53bfbf0fa0c428d8a134beaef03eda67c",
+ "loaded": 3112,
+ "byteIdenticalPrePost": 3112,
+ "differingIds": [],
+ "visiblePrice": 2001,
+ "jsonLdOffers": 2001,
+ "symbolMismatch": [],
+ "offerMismatch": [],
+ "lowRowLeak": [],
+ "lowRows": [
+  "200995",
+  "347361",
+  "380505",
+  "389217"
+ ],
+ "nonNzdRows": [
+  [
+   "340836",
+   "Price on request",
+   null
+  ]
+ ],
+ "gate": "visiblePrice==jsonLdOffers"
+}
