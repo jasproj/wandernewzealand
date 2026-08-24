@@ -1,0 +1,1172 @@
+[
+ {
+  "date": "undated",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-25",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-26",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-27",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-28",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-29",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-30",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-01",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-02",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-03",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-04",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-05",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-06",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-07",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-08",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-09",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ },
+ {
+  "date": "2026-09-10",
+  "status": 200,
+  "cur": "NZD",
+  "itemReturned": true,
+  "low": 52503,
+  "start_at": "2026-11-16T08:30:00",
+  "cts": [
+   "Per Person=52503[min1] note=10.30am - Meeting in Makarora - Self Drive",
+   "Per Person=63025[min1] note=8.30am - Queenstown Departure",
+   "Private Tour - up to 6 people=378151[min1]"
+  ],
+  "zeroTiers": [],
+  "raw": {
+   "items": [
+    {
+     "id": 569893,
+     "availability": {
+      "id": 2112071953,
+      "start_at": "2026-11-16T08:30:00",
+      "end_at": "2026-11-16T18:30:00"
+     },
+     "price": {
+      "low": 52503,
+      "high": null,
+      "breakdown": {
+       "customer_types": [
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "10.30am - Meeting in Makarora - Self Drive",
+         "price": 52503,
+         "min_party_size": 1
+        },
+        {
+         "id": 508332,
+         "singular": "Per Person",
+         "plural": "Per Person",
+         "note": "8.30am - Queenstown Departure",
+         "price": 63025,
+         "min_party_size": 1
+        },
+        {
+         "id": 1120310,
+         "singular": "Private Tour - up to 6 people",
+         "plural": "Private Tour - up to 6 people",
+         "note": "",
+         "price": 378151,
+         "min_party_size": 1
+        }
+       ]
+      }
+     }
+    }
+   ],
+   "details": {
+    "currency": "NZD",
+    "prices_include_booking_fees": true,
+    "prices_include_mandatory_field_costs": false,
+    "prices_include_taxes": true,
+    "should_display_zero_as_free": false
+   }
+  }
+ }
+]
