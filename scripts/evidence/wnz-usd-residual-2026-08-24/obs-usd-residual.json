@@ -1,0 +1,900 @@
+[
+  {
+    "pk": 294923,
+    "name": "Blue Rider Room",
+    "shortname": "hackfarm",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": "high",
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 294925,
+    "name": "Green Foal Room",
+    "shortname": "hackfarm",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": "high",
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 266158,
+    "name": "The Afternoon Artisan Tour",
+    "shortname": "ananda",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 264652,
+    "name": "Discover Okarito - Boat & Walk Tour Package",
+    "shortname": "glaciervalley",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 266250,
+    "name": "Luxury Hens Tour",
+    "shortname": "ananda",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 325961,
+    "name": "Otago Peninsula & Natures Wonders Eco Wildlife Tour",
+    "shortname": "awesometours",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 325964,
+    "name": "Otago Peninsula & The Royal Albatross tour",
+    "shortname": "awesometours",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 325967,
+    "name": "Otago Peninsula & Larnach Castle Tour",
+    "shortname": "awesometours",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 271141,
+    "name": "Akaroa - Easy for beginners to steer • Departing Waipapa Landing",
+    "shortname": "electricboat",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 641506,
+    "name": "Artwalk Auckland Private Tour",
+    "shortname": "auckywalky",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 659742,
+    "name": "Uniquely Dunedin - Shore Excursion Tour",
+    "shortname": "awesometours",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 201042,
+    "name": "Tarawera Falls Walk",
+    "shortname": "totallytarawera",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 621507,
+    "name": "1 Hour Riding Lesson",
+    "shortname": "amequestrian",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 601384,
+    "name": "Mountain Carting - Cart and Lift",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 481458,
+    "name": "Milford Sound Cruise | Aboard The Sinbad",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 553771,
+    "name": "Walter Peak Garden to Table Experience | Aboard Modern Catamaran",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 647898,
+    "name": "Walter Peak Gourmet BBQ Dining - Motorised Vessel",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 326528,
+    "name": "Christmas Function | Walter Peak BBQ Dining & TSS Earnslaw Cruise",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 491120,
+    "name": "Christmas Function | Walter Peak BBQ Dining & Spirit of Queenstown Cruise",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 552465,
+    "name": "Doubtful Sound Inner Fiord Cruise",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 340836,
+    "name": "30 minutes - Original Whale Watching Flight",
+    "shortname": "airkaikoura",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": null,
+    "liveCurrencyDiffersFromNZD": null,
+    "itemReturned": false,
+    "httpStatuses": [
+      400,
+      400
+    ],
+    "attempts": 2,
+    "priorStatus": "error",
+    "newStatus": "error",
+    "price": null,
+    "priceConfidence": "high",
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 490196,
+    "name": "Vortex 12D Motion Cinema",
+    "shortname": "thrillzone",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 583503,
+    "name": "Family Friendly",
+    "shortname": "raglanrock",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 183355,
+    "name": "Paddleboarding Lesson",
+    "shortname": "moananzsup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 400455,
+    "name": "Paddle and Pedal Adventure",
+    "shortname": "moananzsup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 515893,
+    "name": "Omanawa Falls & Great Sights Tour",
+    "shortname": "kaitiaki",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 525564,
+    "name": "3 Day Whanganui Freedom Paddle Without Accommodation",
+    "shortname": "canoewhanganuiriver",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 264087,
+    "name": "Milford Track Transfers",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 196167,
+    "name": "Raft the Wairoa River",
+    "shortname": "kaitiaki",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 260470,
+    "name": "Rangitaiki River Rafting",
+    "shortname": "kaitunacascades",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 478666,
+    "name": "Rameka Track Shuttle",
+    "shortname": "gentlecycling",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 478685,
+    "name": "Great Taste Beer Tour (Circuit)",
+    "shortname": "gentlecycling",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": "high",
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 678548,
+    "name": "Aqualand Family Double Session",
+    "shortname": "aqualand",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 641391,
+    "name": "Aqualand Family Session",
+    "shortname": "aqualand",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 210850,
+    "name": "Mountain Bike Hire: Ride Your Way",
+    "shortname": "goingblue",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 265823,
+    "name": "Milford Track Transfer Package from Queenstown",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 265831,
+    "name": "Milford Track Transfer Package from Te Anau",
+    "shortname": "wayfaregroup",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 443125,
+    "name": "Racing Simulator",
+    "shortname": "realmvr",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  },
+  {
+    "pk": 709072,
+    "name": "Accommodation",
+    "shortname": "canoewhanganuiriver",
+    "storedCurrency": "USD",
+    "liveDetailsCurrency": "NZD",
+    "liveCurrencyDiffersFromNZD": false,
+    "itemReturned": false,
+    "httpStatuses": [
+      200
+    ],
+    "attempts": 1,
+    "priorStatus": "none",
+    "newStatus": "none",
+    "price": null,
+    "priceConfidence": null,
+    "zeroOnlyDates": [],
+    "fallbackEchoDates": [],
+    "changedFields": [
+      "priceEnrichmentAt"
+    ],
+    "d620Applied": false
+  }
+]

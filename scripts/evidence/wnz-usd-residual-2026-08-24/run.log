@@ -1,0 +1,38 @@
+Input: scope-39.json
+Total tours: 39
+Candidates (price==null + FH bookingUrl): 39
+Already processed (from checkpoint): 0
+To process this run: 39
+Operators (shortnames): 20 | batches: 22 | batch size: 4
+
+  batch 1/22 hackfarm (2 pks) -> hi:0 none:2 err:0
+  batch 2/22 ananda (2 pks) -> hi:0 none:4 err:0
+  batch 3/22 glaciervalley (1 pks) -> hi:0 none:5 err:0
+  batch 4/22 awesometours (4 pks) -> hi:0 none:9 err:0
+  batch 5/22 electricboat (1 pks) -> hi:0 none:10 err:0
+  batch 6/22 auckywalky (1 pks) -> hi:0 none:11 err:0
+  batch 7/22 totallytarawera (1 pks) -> hi:0 none:12 err:0
+  batch 8/22 amequestrian (1 pks) -> hi:0 none:13 err:0
+  batch 9/22 wayfaregroup (4 pks) -> hi:0 none:17 err:0
+  batch 10/22 wayfaregroup (4 pks) -> hi:0 none:21 err:0
+  batch 11/22 wayfaregroup (2 pks) -> hi:0 none:23 err:0
+  batch 12/22 airkaikoura (1 pks) -> hi:0 none:23 err:1
+  batch 13/22 thrillzone (1 pks) -> hi:0 none:24 err:1
+  batch 14/22 raglanrock (1 pks) -> hi:0 none:25 err:1
+  batch 15/22 moananzsup (2 pks) -> hi:0 none:27 err:1
+  batch 16/22 kaitiaki (2 pks) -> hi:0 none:29 err:1
+  batch 17/22 canoewhanganuiriver (2 pks) -> hi:0 none:31 err:1
+  batch 18/22 kaitunacascades (1 pks) -> hi:0 none:32 err:1
+  batch 19/22 gentlecycling (2 pks) -> hi:0 none:34 err:1
+  batch 20/22 aqualand (2 pks) -> hi:0 none:36 err:1
+  batch 21/22 goingblue (1 pks) -> hi:0 none:37 err:1
+  batch 22/22 realmvr (1 pks) -> hi:0 none:38 err:1
+
+✓ Price enrichment (v7-api) complete
+  processed:  39
+  high:       0  (price written)
+  zero_price: 0  (charter/vehicle model, preview $0 — price left null, correct)
+  none:       38  (dead / no current availability — price left null, correct)
+  error:      1
+  requests:   23  (batched ≤4 pks each)
+  elapsed:    13.5s
