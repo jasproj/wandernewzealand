@@ -1,0 +1,61 @@
+{
+  "pass": "s45-wnz-charter-unit",
+  "baseTip": "0fd59e70e7c68a858eef818214a78249afd82654",
+  "mechanism": "KWST _unknownFields.priceUnit (explicit string, no inference) — keywestsandbartours/app.js:147-150, 242-244; styles.css:1032",
+  "rejected": "FST card-format.js:203-222 unitPhrase (explicit _unknownFields.unit with priceLabel word-inference fallback)",
+  "rowsChanged": [
+    489299
+  ],
+  "changedFields": [
+    "price",
+    "priceLabel",
+    "priceConfidence",
+    "priceSource",
+    "priceBasis",
+    "priceTiers",
+    "_unknownFields"
+  ],
+  "otherRowsByteIdentical": 3120,
+  "gatePre": {
+    "rendered": 3112,
+    "visiblePriced": 2001,
+    "jsonLdOffers": 2001
+  },
+  "gatePost": {
+    "rendered": 3112,
+    "visiblePriced": 2001,
+    "jsonLdOffers": 2001
+  },
+  "floatTokensPrePost": [
+    14190,
+    14192
+  ],
+  "live": {
+    "readings": 18,
+    "uniform": true,
+    "currency": "NZD",
+    "priceCents": 126261,
+    "customerTypes": [
+      "Private Charter"
+    ],
+    "zeroTiersDiscarded": 0,
+    "zeroOnlyDates": [],
+    "fallbackEchoes": 0,
+    "dateAnchoring": "availability.start_at tracked each requested date (2026-08-26 for undated/08-25 because 08-25 had no departure; 08:00 slot every date after)"
+  },
+  "stored": {
+    "before": {
+      "price": 1262,
+      "priceConfidence": "medium",
+      "priceLabel": "charter"
+    },
+    "after": {
+      "price": 1262.61,
+      "priceConfidence": "high",
+      "priceLabel": "Private Charter",
+      "priceUnit": "whole vehicle · up to 4 people"
+    }
+  },
+  "rowsWithPriceUnit": 1,
+  "wholeUnitCandidatesByLabelInference": 49
+}
