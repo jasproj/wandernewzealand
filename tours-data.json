@@ -14455,7 +14455,7 @@
       "priceLabel": "One Night",
       "priceConfidence": "high",
       "qualityScore": 71,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "From $130 incl. fees & taxes • Double Bed • per room pricing • 1-7 nights available\n\n$130 for the room per night (incl. fees & taxes)\n\nA comfortable room in our historic farmhouse\nDuration\n\nBook for 1-7 nights (if you would like to stay longer please contact us)\n\nAbout\n\nOur Blue Rider room in our funky horse themed homestead is the perfect choice for friends visiting or a room for the kids and provides a comfortable place to rest your head after a day of exploring Golden Bay.\n\nHouse guests have access to large communal lounge & dining area, fully equipped kitchen, pizza oven, outdoor entertainment area and shared shower/bathroom facilities. There is limited wifi available (enough to make plans or check social media, but not enough to stream movies etc).\n\nFrom our homestead you can follow the hack-track down to the beach, hang out with our team of horses, try our indoor climbing wall, go for a swim or swing down by the lake or even book a ride to make the most of your time with us.\n\nWe look forward to welcoming you to Hack Farm and creating a memorable holiday together.",
@@ -14548,7 +14548,15 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:42.862Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "hackfarm",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "294925",
@@ -14563,7 +14571,7 @@
       "priceLabel": "Two Nights",
       "priceConfidence": "high",
       "qualityScore": 71,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "From $260 incl. fees & taxes • Double Bed • per room pricing • 2-7 nights available\n\n$260 for the room for the first two nights, $130 per night thereafter (incl. fees & taxes)\n\nComfortable rooms in a historic farmhouse\nDuration\n\nBook for 2-7 nights (if you would like to stay longer please contact us)\n\nAbout\n\nOur beautiful farmstead stay is ideally suited to be combined with multi-day rides. Stay from 2 - 7 days of riding along horsome Golden Bay/New Zealand. The multi-day rides are based from the Hack 'n Stay farmstead and with a new destination every day, depending on the tide times, your abilities and of course the weather.",
@@ -14647,7 +14655,15 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:42.862Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "hackfarm",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-466722",
@@ -30582,7 +30598,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 78,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "5 Hours",
       "durationText": "",
       "description": "If you are after a relaxed pace day, with a small group of people this afternoon tour is a great option.\n\nDiscover some of Waiheke's 'off the beaten track' vineyards located amongst the rugged and beautiful landscape found at the Eastern End of Waiheke.\n\nThe tour includes tastings at a brewery, winery, gin disillery and an excellent platter lunch.\n\nIf you would like to linger a little longer on the island, we can arrange a dinner booking at a venue of your choice or drop off into Oneroa Village and enjoy the evening at leisure.\n\nFor the Afternoon Artisan Tour - Please catch the 12pm Fullers sailing from Downtown Auckland. Timetable subject to change.\n\nNote: Itineraries may change according to seasonal vineyard availability.\n\nPlease Note: Tour requires minimum of 2 people to run. (maximum group size 10 people)\n\nDietaries/allergies can be catered for.\n\nPlease note that our group tours are not suitable for guests travelling with children under the age of 18 years. If you wish to make a booking, please contact us about a private tour.\n\nGuests need to call 24 hours prior to their tour to confirm their pick up address.\n\nA booking fee applies if booking online. Contact us on 093727530 or info@ananda.co.nz if you wish to av",
@@ -30608,7 +30624,15 @@
       "lastUpdated": "2026-05-27T13:58:51.306240",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:43.652Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "ananda",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-266509",
@@ -35903,7 +35927,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 75,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "5 hours",
       "durationText": "",
       "description": "Discover the magnificent Okarito Lagoon\nDuration\n\n5 hours\n\nAbout\n\nDid you know?\nOkarito lagoon is New Zealand’s largest unmodified wetland area - surrounded by national park and rainforest, home to a variety of wading and forest birds and takes a special place in the history books of the West Coast.\n\nJoin Paula & Swade onboard the 'Explorer Douglas'. During your 2 hour EcoTour they engage in both an informative and friendly way to help you discover the absolute magic of Okarito and its environment - from wetlands to rainforest and mountain landscapes, and an amazing diverse range of bird life.\nThen our local guide will meet you off the boat at the wharf us for a 3 hour guided walk. With mountain and glacier views, flora & fauna, lagoon, beach, rich history, amazing sunrises & the best bird song in the area, this is one of New Zealand's hidden gems.\n\nWhat to Bring\n\nOutdoor clothing for the day’s weather conditions, spare warm top layer of clothing, comfortable walking shoes, sun hat, sunblock, lip balm, sunglasses, camera & water bottle.\n\nInclusions\n2 hours guided tour on the “Explorer Douglas” - customised for the Okarito lagoon and wetlands\ncup of tea and home baked treat on board\nBookmark with a check list for the birds you have seen while on",
@@ -35938,7 +35962,15 @@
       "lastUpdated": "2026-05-27T13:58:51.307008",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:44.281Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "glaciervalley",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "266250",
@@ -35953,7 +35985,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 78,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "5 hours",
       "durationText": "",
       "description": "A fun, easy and memorable day out!\nDuration\n5 hours on Island\nDEPART: 11.00AM FULLERS FERRY EX-AUCKLAND - RETURN: 5.35PM.\n\nPLEASE NOTE: Start times reflect ferry departure times to Waiheke. Start times may slightly vary if you are already on the island. In which case we will contact you once you have booked!\n\nAbout\n\nEnjoy a fun day out on Waiheke, accompanied by one of our entertaining and knowledgeable local guides. Start with wine tasting at the beautiful Mudbrick Vineyard, followed by a wine tasting with cheeses at Kennedy Point.From here you will continue on to either Batch Winery or Stonyridge for a delightful platter lunch with a glass of bubbles.\n\nThe package includes your return ferry tickets, wine tour, tasting fees, platter lunch, and a gift for the bride!!\n\nAfterward, we will pick you up and return you to a ferry or your Waiheke accommodation.\n\nWhy Choose Us\nLocally owned and operated family business.\nMost experienced tour company on the Island - Over 23 years.\nWe own our own vehicles which are modern, clean and well maintained.\nWe go the extra mile and offer flexibility and professionalism.\nClose relationships with all the vineyards to ensure you get the best experience.\nPick up from any accommodation (please confirm with us accommodatio",
@@ -35988,7 +36020,15 @@
       "lastUpdated": "2026-05-27T13:58:51.307016",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:43.652Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "ananda",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "280798",
@@ -36828,7 +36868,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 85,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3 Hours",
       "durationText": "",
       "description": "See rare yellow-eyed penguins, blue penguins and NZ fur seals in their breeding grounds on this 3.5hrs return tour of Natures Wonders on the Otago Peninsula.\nDuration\n\n3 Hours\n\nAbout\n\nThe remote beaches at Natures Wonders are a breeding ground for remarkable wildlife. This coach tour takes you across farmland to wildlife viewing areas where you’ll see penguins, seals and cormorants in their natural habitat.\nThe scenery is incredible, but it’s the wildlife that steals the show on this fully-guided, small-group tour.\nYou’ll see:\n\nHoiho yellow-eyed penguins (one of the world’s rarest)\nBlue penguins (the world’s smallest), and\nNZ fur seals (one of the cutest).\n\nKeep an eye skyward and you might catch a glimpse of the majestic Royal Albatross - the bird with the world’s largest wingspan.\n\nThe journey to Natures Wonders is as as the destination. The drive there takes you over the high road of the Otago Peninsula to Taiaroa Head. Along the way you’ll take in the spectacular views of remote beaches, steep rolling hills, rustic farmhouses and picturesque inlets. You will also stop (photo stop) for a look at Otakou Marae before continuing to your destination.\n\nAfter the tour, we will return to the city via the low road - a captivating harbour-side drive. Let Awesome Tours take you on a",
@@ -36863,7 +36903,15 @@
       "lastUpdated": "2026-05-27T13:58:51.307115",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:44.814Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "awesometours",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-328397",
@@ -46384,7 +46432,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 78,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3 Hours",
       "durationText": "",
       "description": "An absolutely marvellous tour with a great tour guide.\nDuration\n\n3 Hours\n\nAbout\n\nTake this fantastic opportunity to visit the Royal Albatross Centre at Taiaroa Head. This breath-taking location on the Otago Peninsula is home to the only mainland Northern Royal Albatross breeding colony in the world.\n\nWatch the albatross come and go overhead, gliding on the wind or nesting on the hillside. With its 3-metre wingspan, the Northern Royal Albatross is quite a sight to see.\nSee it with Awesome Tours.\n\nThe 1-hour, fully guided tour includes:\n\nA short film\nPresentation on the Northern Royal Albatross breeding cycle\nA short walk up the hill to a viewing observatory\nExplore the centre and its surrounds, with impressive views, a delightful gift shop and cafe, and everything you ever wanted to know about albatross.\n\nThe journey to the Royal Albatross Colony is as as the destination. The drive there takes you over the high road of the Otago Peninsula to Taiaroa Head. Along the way you will take in the spectacular views of remote beaches, steep rolling hills, rustic farmhouses, and picturesque inlets. You will also stop for a look at Otakou Marae before continuing to your destination.\n\nAfter the tour, we will return to the city via the low road - a captivating harbour-side driv",
@@ -46419,7 +46467,15 @@
       "lastUpdated": "2026-05-27T13:58:51.308713",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:44.814Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "awesometours",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "325967",
@@ -46434,7 +46490,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 77,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "2.5 hours",
       "durationText": "",
       "description": "The journey to the Larnach Castle is as as the destination.\nDuration\n\n2.5 hours\n\nAbout\n\nA 2 ½ - hour return trip tour, travelling the Otago Peninsula via the high road for the most picturesque scenery towards the Pacific Ocean on one side and the Otago harbour with Dunedin City on the other. Larnach Castle – New Zealand’s only castle. Views from the top of the tower are spectacular and the beautiful gardens complete this enjoyable award-winning experience.\n\nIncludes entry, to both the Castle and the Gardens – No hidden Costs.\n\nAfter the tour, we will return to the city via the low road - a captivating harbour-side drive.\n\n“Otago Peninsula… the finest example of ecotourism in the world.”\nDavid Bellamy, British botanist, and environmentalist.\n\nWhat is included in the Larnach Castle Tour\n\nAll transport to and from the Octagon (or central city accommodation, if organised prior to tour)\n20 min guided tour of the Castle’s main floor and then free time to explore the rest of the castle and the award-winning Gardens.\nTravel the Otago Peninsula with its scenery.\nExperience driver/guide\nFull commentary\nMore info\n\nAll tours are confirmed after 12 hours of booking, deposit must be payed to secure a spot.\n\nDaily tour details\nThis tour operates in all weather.\nDu",
@@ -46469,7 +46525,15 @@
       "lastUpdated": "2026-05-27T13:58:51.308724",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:44.814Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "awesometours",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "390133",
@@ -61463,7 +61527,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 76,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "1 to 7 hour options • Seats 7 • Kids can steer (accompanied by an over 16)\n\nAkaroa was designed and built in France especially for hire. She comfortably accommodates 7 people and is exceptionally easy to steer. Perfect for beginners and the motor is truly smooth and silent.\nDuration\n\n1-7 hour options\n\nAbout\n\nGet up close to the birds and other wildlife without disturbing them. Relax, explore the river and enjoy the beautiful scenery.\n\nThe self-drive boats are very easy for anyone to operate and no license is required.\n\nAge restrictions\n\nPerson booking must be aged 16 or older and persons under 18 declare that they have obtained permission from a parent or guardian. Where a single group occupies multiple boats then a suitably mature and responsible person over the age of 16 must be in charge of each boat.\n\nPlease bring\n\nsuitable clothing and equipment including: windproof and waterproof clothing, warm clothing, high factor sun cream, sun glasses, sun hats, non-slip, flat, soft-soled shoes.",
@@ -61489,7 +61553,15 @@
       "lastUpdated": "2026-05-27T13:58:51.311653",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:45.341Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "electricboat",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-277384",
@@ -63552,7 +63624,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 76,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "2 Hours",
       "durationText": "",
       "description": "This private Auckland walking tour celebrates the city’s proud Maori heritage, Pasifika identity and colonial past through its street art, sculptures and landmarks.\n\nWander down hidden lanes as your local guide reveals where creativity abounds, through every brush stroke, stencil, shape and colour.\n\nThis leisurely walking tour will open your eyes to the bounty of local creative talent, so walk this way and see for yourself!\n\nThis tour is subject to confirmation so please enquire first with your desired date and group size (no instant online bookings). Please email us with your desired date, time and group size at hello@auckywalky.co.nz\n\nWhat's included\n\nPrivate 2-hour tour\n\nArt-loving local guide keen to shine a light on the creatives who brighten up Auckland city.\n\nThis private tour concludes at a bustling downtown bar with the first drink on us.\n\nWhat's not include",
@@ -63587,7 +63659,15 @@
       "lastUpdated": "2026-05-27T13:58:51.312027",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:45.869Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "auckywalky",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "643040",
@@ -71394,7 +71474,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 75,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Discover the heart and soul of Dunedin on this small-group tour designed to showcase the city’s most iconic sights. From striking architecture to sweeping coastal views, this tour blends rich history with vibrant local culture for a truly memorable day ashore.\nYour journey begins with a warm welcome at Port Chalmers before heading into the city to explore highlights such as the Dunedin Railway Station, picturesque Otago University, and the scenic St Clair Promenade. Take in panoramic views from Signal Hill Lookout and Unity Park, and snap a photo on Baldwin Street - the steepest street in the world.\nYou’ll enjoy some free time in The Octagon, Dunedin’s lively city centre, where you can explore, grab a bite, or simply soak up the local vibe.\nA visit to Larnach Castle, New Zealand’s only castle, rounds out the day. You’ll have approximately an hour to wander at your own pace through the beautifully restored interiors and award-winning gardens with a self-guided tour.\nAfter a full day of discovery, we’ll return you to your ship well in time for departure.\nThis tour is offered in partnership with one of our trusted local operators and delivered under the same high standards you can expect from Awesome Tours NZ.\n\nYou will see\n• University of Otago\n•",
@@ -71418,7 +71498,15 @@
       "lastUpdated": "2026-05-27T13:58:51.314644",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:44.814Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "awesometours",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "667097",
@@ -75174,7 +75262,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 71,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "40 minutes",
       "durationText": "",
       "description": "Health & Safety\n\nThe Tarawera River is the only outlet for Lake Tarawera. There can be a strong currents and care should be taken if you choose to swim.\n\nThere is limited Mobile Coverage in this area.\n\nHealth & Safety Policy\n\nPark your vehicle at Kariri Point Reserve/Boat Shed Bay before boarding the water taxi to Tarawera Falls.\nThe Tarawera Falls walking track runs parallel to the Tarawera River which is the final outlet to the sea for seven of Rotorua’s lakes.\nDuration\n\n40 minutes each way by water taxi. Loop walk 3.5hrs.\n\nSchedule\n\n9:00am - departs Kariri Point Reserve/Boat Shed Bay, Lake Tarawera\n40 minute cruise to Te Tapahoro Bay, Tarawera Outlet\n\n9:45am Start the 1.5hrs walk to the Tarawera Falls. Enjoy the spectacular Falls before beginning the return walk to Tapahoro Bay, Tarawera Outlet and the Lake Tarawera Water Taxi.\n\n01:00pm Water Taxi pick up at The Jetty, Tapahoro Bay for your return to Kariri Point Reserve/Boat Shed Bay.\n\n01:30pm Arrive at Kariri Point Reserve/Boat Shed Bay, Lake Tarawera.\n\nAbout\n\nBOOKINGS ARE ESSENTIAL\n\nAlong the way to the falls you pass two other cascading waterfalls and walk through some of the most beautiful native forests in New Zealand befo",
@@ -75204,7 +75292,15 @@
       "lastUpdated": "2026-05-27T13:58:51.315630",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:46.458Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "totallytarawera",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-201157",
@@ -80341,7 +80437,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 76,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "1 Hour",
       "durationText": "",
       "description": "Saddle up for a riding adventure—learn, ride, and grow with expert coaches just minutes from Queenstown!\n\nFrom total beginner to advanced rider, our experienced enthusiastic coaches can guide you towards your riding dreams and provide a fun, educational outdoor experience right on your doorstep.\nExperience grooming and saddling your horse with help from our experienced coaches, and ride under their expert guidance in our purpose built arena.\n\nFor bookings of 3 or more, please contact us via email or phone\n\nWhat's included\n\nHelmet hire\n\nHorse hire\n\nPersonal coach\n\n1hr total visit time\n\n40-50 minutes riding time\n\nItinerary\n\nArrive at AME approx 10 minutes prior to the start of your session. Park on the gravelled area by the arena, and meet your coach at the yards.\nYour coach will fit you with a helmet, weigh you, and have a quick chat about your prior experience and any goals you might have for your session.\nMeet your horse, groom him and tack him up, before mounting and commencing the riding portion of your experience.\n\nHighlights\n\nRide our beautiful horses just minutes fro",
@@ -80376,7 +80472,15 @@
       "lastUpdated": "2026-05-27T13:58:51.316371",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:47.038Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "amequestrian",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-641488",
@@ -107386,7 +107490,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 74,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "2 Hours",
       "durationText": "",
       "description": "Three wheels, three times the fun, and one summer activity for your bucket list. Cardrona’s mountain carting experience has been named the coolest thing to do in New Zealand by Stuff.co.nz, and we couldn’t agree more!\n\nWhat's included\nAustralasia’s only lift-accessed mountain carting experience\nAs many uplifts as you want for two hours\nThree trails designed specifically for mountain carts\n3km long mountain cart trails, three trails to choose from\nFull-face helmet, goggles and coveralls to wear while carting\nAccess to the Base Area for drinks and treats",
@@ -107421,7 +107525,15 @@
       "lastUpdated": "2026-05-27T13:58:51.321343",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:47.767Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-610038",
@@ -111055,7 +111167,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 73,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "2 hours",
       "durationText": "",
       "description": "Cruise in morning stillness aboard the Sinbad, our smallest vessel, for a tour of Milford Sound. Enjoy insightful commentary and amazing opportunities for nature and wildlife viewing.\n\nWhat's included\nExplore Milford Sound with us on the Sinbad\nSmall vessel experience\nInsightful commentary by our friendly guides\nAmazing nature and wildlife viewing opportunities",
@@ -111090,7 +111202,15 @@
       "lastUpdated": "2026-05-27T13:58:51.322215",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:47.767Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-537920",
@@ -111186,7 +111306,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 73,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3.5 hours",
       "durationText": "",
       "description": "Cruise across Lake Whakatipu to Walter Peak High Country Farm, one of Queenstown’s most picturesque eco destinations. Explore the gardens, learn about local produce, plant a native tree, and enjoy a high-country tea with homegrown treats.\n\nWhat's included\nReturn scenic cruise from Queenstown aboard the Spirit of Queenstown (modern catamaran)\nDiscover the market garden: Wander through expansive gardens and see how fresh produce goes from garden to plate\nReconnect with nature: Stroll along the reforested peninsula and plant a native seedling (optional)\nEngage with conservation: Learn about New Zealand’s native wildlife and conservation efforts with an expert host\nSavour high-country flavours: Indulge in a selection of homegrown and locally sourced treats",
@@ -111223,7 +111343,15 @@
       "lastUpdated": "2026-05-27T13:58:51.322290",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:47.767Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-556070",
@@ -111733,7 +111861,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 73,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3 hours and 30 minutes",
       "durationText": "",
       "description": "Discover Queenstown's ultimate dining destination, Walter Peak High Country Farm - the only place where you can enjoy a cruise, dinner, and show combined into one experience.\n\nWhat's included\nReturn cruise across scenic Lake Whakatipu aboard the Explorer (Motorised Vessel)\nBuffet-style Gourmet BBQ lunch or dinner at the Colonel’s Homestead Restaurant\nLakeside dining at Walter Peak, away from the bustle of Queenstown\nWalter Peak farm show with sheep-herding demonstration",
@@ -111769,7 +111897,15 @@
       "lastUpdated": "2026-05-27T13:58:51.322389",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:47.767Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-657450",
@@ -113517,7 +113653,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Treat your team to a Christmas Party at the iconic Walter Peak High Country Farm.\n\nWhat's included\nFull Christmas theming\nWelcome Drink\nReserved seating at Walter Peak\nGourmet BBQ lunch or dinner at the Colonel’s Homestead Restaurant\nReturn scenic lake cruise on board the TSS Earnslaw\nEntertaining farm demonstration",
@@ -113554,7 +113690,15 @@
       "lastUpdated": "2026-05-27T13:58:51.323703",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.374Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-332176",
@@ -114000,7 +114144,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Treat your team to a Christmas Party at the iconic Walter Peak station.\n\nWhat's included\nFull Christmas theming\nWelcome Drink\nReserved seating at Walter Peak\nGourmet BBQ lunch or dinner at the Colonel’s Homestead Restaurant\nReturn scenic cruise on board the Spirit of Queenstown (modern catamaran)\nEntertaining farm demonstration",
@@ -114037,7 +114181,15 @@
       "lastUpdated": "2026-05-27T13:58:51.323884",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.374Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-499658",
@@ -115242,7 +115394,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "6 hours",
       "durationText": "",
       "description": "Cruise along Doubtful Sound’s 40km stretch of pristine waterways surrounded by untouched nature, towering peaks and powerful waterfalls.\n\nWhat's included\nCruise across Lake Manapouri, followed by a coach trip over the epic Wilmot Pass, Fiordland’s rainforest, and into the fiord\nA 2-hour cruise through the inner waterways of Doubtful Sound\nCommentary by our knowledgeable Skipper and Nature Guide\nWildlife viewing opportunities, including dolphins, New Zealand fur seals and penguins\nWhat's not included\nPicnic lunches available for pre purchase up to 8pm the day before your cruise\nSnacks and drinks available for purchase onboard",
@@ -115275,7 +115427,15 @@
       "lastUpdated": "2026-05-27T13:58:51.324067",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.374Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "552510",
@@ -116968,7 +117128,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 81,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "20 Minutes",
       "durationText": "",
       "description": "Stimulate your senses when you visit the most thrilling 12D state of the art motion theatre! A white-knuckle adventure with snow, wind, rain, bubbles, fog and a few surprises!\n\nStimulate your senses when you visit the most thrilling 12D state of the art motion theatre!\n\nA white-knuckle adventure with snow, wind, rain, bubbles, fog and a few surprises!\nWith over 80 MOVIES to choose from in your very own theatre, we have themes to suit all ages.\n\nChoose everything from wild roller coasters, cyber races, haunted houses, space adventures or even a visit to the land of dinosaurs.\n\nLOADS OF FUN FOR THE WHOLE FAMILY!\n\nWhat's included\n\nGuided by an experienced team member\nYour very own cinema\n3D Glasses\n\nHighlights\n\nYour very own theatre\nFamily-friendly\nOver 80 different movies to choose from",
@@ -116994,7 +117154,15 @@
       "lastUpdated": "2026-05-27T13:58:51.324979",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:50.830Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "thrillzone",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-553419",
@@ -117394,7 +117562,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 78,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "5 hours",
       "durationText": "",
       "description": "Step into an underground wonderland on Raglan Rock’s family caving adventure through the ancient Karamu Cave system. This real-cave experience includes wriggles, squeezes and optional stream sections, so participants should expect to get wet and muddy. Along the route your expert guide explains the cave’s geology and history while you discover stalactites, stalagmites, fossils and crystal formations. Keep an eye out for glowworms in hidden chambers as you explore this magical underground world at a relaxed, family pace.\n\nWhat's included\n\nAll equipment\n\nFree photos\n\nProfessional guides\n\nHighlights\nSee glowworms in hidden chambers\nDiscover fossils and crystal formations\nExplore a real cave formed over 30 million years",
@@ -117429,7 +117597,15 @@
       "lastUpdated": "2026-05-27T13:58:51.325039",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:51.589Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "raglanrock",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-624951",
@@ -120322,7 +120498,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 75,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Bisley Walk, Tāhunanui, Nelson 701\n\nFrom $50 | One - Two Hours | Learn To Paddle | Small Groups\n\n5\nstars\n\n\n338 Google reviews\n\nFirst time on a board? Want to build confidence? Keen to learn how to paddle properly and be safe? This session is for you!\nRates\n\n1 hour\nAdult (Aged 16+): $60 for one hour lesson\nChild (Aged Under 16): $50 for one hour lesson\n\n2 hours\nAdult (Aged 16+): $80 for two hours (1hr lesson, 1 hr practice)\nChild (Aged Under 16): $70 for two hours (1hr lesson, 1 hr practice)\nChildren must be closely supervised by an adult for the second half of the session.\n\nDuration\n\nOne Hour Lesson or\nOne Hour Lesson + One Hour Board Hire to practice\n\nAbout\n\nWith a focus on safety and fun, we will teach you the skills required to start your journey into the world of SUP. Mornings are best, with calmer conditions and smaller crowds and our fully qualified SNZ/ISA accredited instructors will have you up and paddling in no time. The session will include:\n\nIntroduction to boards and equipment\nSUP safety and handling\nConditions and environment\nStance and positioning\nPaddle technique – forward, turning, braking\nIntro to water safety and self rescue\n\nPlease arrive 10 minutes early to kit up, sign in and be briefed. If you are bringing your own board, please allow enough time to pump it up or set it up - it takes longer than you think!\n\nIf the wind is too strong to be safe on the ocean, we will contact you in advance to move your booking.\n\nInclusions\nSUP (or bring your own, that's",
@@ -120357,7 +120533,15 @@
       "lastUpdated": "2026-05-27T13:58:51.326569",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:52.102Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "moananzsup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-207835",
@@ -121847,7 +122031,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 83,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Tahunanui\n\n$90 Per Person | Cycle & Paddle Nelson Tour | All Ages\n\n5\nstars\n\n\n338 Google reviews\n\nThe perfect way to spend a day exploring the best that Nelson has to offer\nRates\n\n$90 per person\nChildren must be accompanied by a responsible adult\n\nDuration\n\nAll Day\n\nAbout\n\nGrab your land Waka (bike) from Nelson Cycling at Tahunanui Motor Camp (Tahuna Holiday Park 70 Beach Road, Tāhunanui, Nelson 7011) and after a short briefing and a 5 minute ride to the beach, you are ready to enjoy a one hour Stand Up Paddleboard (SUP) or Kayak hire from the gorgeous Tahunanui Beach and a paddle along Nelson’s iconic waterfront.\n\nCalm and sheltered, with easy access to Fifeshire Rock and Haulashore Island, paddling at Tahuna is easy for everyone.\n\nFollowing your Paddle Nelson experience, it's back on the bike to enjoy the rest of the day (3+ hours) exploring more what our awesome little city has to offer. Time cycling with spectacular views on the Great Taste Trail. Follow the trail out to the local wineries and artisan breweries which are located within an easy cycling distance.\n\nYour time is your own to enjoy a nice lunch or a tour of Pics Peanut Butter (bookings essential) before returning to the Nelson Cycling base to drop back ya wheels, or continue out to Mapua for a shuttle home. Optional upgrade for an E-bike is available too.\n\nPaddling\n\nIf the wind is too strong to be safe on the ocean, we will contact you in advance to move your booking.\n\nWe ask that you are comfortable in",
@@ -121878,7 +122062,15 @@
       "lastUpdated": "2026-05-27T13:58:51.326967",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:52.102Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "moananzsup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-412420",
@@ -123261,7 +123453,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 75,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "2.5 Hours",
       "durationText": "",
       "description": "Omanawa Falls & Mt Maunganui, New Zealand\n\n2.5 Hours • Ages 7+ • Most Popular!\n\n4.9\nstars\n\n\n1151 Google reviews\n\nAbout\n\nFrequently referred to as one of New Zealand's most spectacular destinations, Omanawa Falls is situated in the Kaimai ranges. At its heart featuring a 35m waterfall cascading into a pristine pool surrounded by lush New Zealand native rainforest. Kaitiaki Adventures will lead you on an unparalleled, culturally integral, and historic guided walk that immerses you in the rich cultural history of the Ngati Hangarau people. A regenerative tourism experience in the unique cultural space of Omanawa Falls.\n\nDuration\n\n2.5 Hours\n\nMore\n\nJoin our friendly, knowledgeable local guides through the beautiful trails to 2 lookouts, the Māori carvings, the century old hydro electric power station service tunnel and the Omanawa falls. Departing Omanawa falls follows a visit to McLaren Falls and Tauranga's best view point the Minden Lookout.\n\nImmerse yourself in the surrounding flora and fauna while listening to the stories of the area, the Awa (River), and the cultural values of mana whenua.",
@@ -123288,7 +123480,15 @@
       "lastUpdated": "2026-05-27T13:58:51.327128",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:52.564Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "kaitiaki",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-522104",
@@ -123353,7 +123553,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 74,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3 Days",
       "durationText": "",
       "description": "4.5\nstars\n\n\n319 Google reviews\n\nPLEASE NOTE ALL JOURNEYS BOOKED THROUGH MAY - JUNE 2024 WILL REQUIRE TO TAKE A PERSONAL LOCATOR BEACON - IF YOU DO NOT HAVE ONE WE HAVE THEM AVAILABLE FOR HIRE\nYou can either camp at our base for free the night prior or arrive with us on the day of your journey at 0630am\n\n \n\nThis is our most popular paddle! 3 Days gives you a great amount of time to explore the most beautiful scenery on the Whanganui River.\nDuration\n\n3 Days\n\nPlease note this price includes the shuttles from our base to the journey start point and the journey end point back to our base. The vehicle transfer optional extra is to have your vehicle relocated to the journey end point for you when you finish, better suited to southbound travelers.\n\n.\nFor Solo Paddlers Please Phone 0800 2 CANOE or email info@owhangoadventures.co.nz to be paired up with other solo paddlers or groups\n\nIncludes\nFree Camping At Our Base The Night Prior to Your Journey\nCanoe and Associated Gear\nLife Jackets\nDry Bags and Barrels\nDrop Off and Pick Up\nSafe Vehicle Storage\nMaps\nSafety Briefing\nCoffee and Tea\nAccommodation\nAccommodation will be a room in our lodge at our Base in Owhango, your booking group will have a room to yourself unless otherwise stated (will only be shared in extremely busy circumstances).\nShowers and toilets are available. Very basic cooking facilities at the moment as our kitchen is under construction.\nLounge and dining area with TV, coffee and tea facilities for you to relax. Grassed",
@@ -123388,7 +123588,15 @@
       "lastUpdated": "2026-05-27T13:58:51.327146",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:53.437Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "canoewhanganuiriver",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-525681",
@@ -126706,7 +126914,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 89,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "1 hour",
       "durationText": "",
       "description": "Seamless boat transfer across Lake Te Anau to the start of the Milford Track.\n\nWhat's included\nBoat transfer from Te Anau Downs to track start - Departs at 10:30am or 2:00pm (Day 1).\nTransfer from Sandfly Point to Milford Sound at the end of the hike on Day 4. There will be multiple daily departures between 2pm and 4.30pm.\nPlease note: Return coach from Milford Sound to Te Anau Downs is not included and must be booked separately with Tracknet.",
@@ -126741,7 +126949,15 @@
       "lastUpdated": "2026-05-27T13:58:51.328574",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.374Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-265114",
@@ -137789,7 +138005,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 84,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3hr",
       "durationText": "",
       "description": "Prepare for the adrenaline rush of a lifetime on the Wairoa River, the ultimate rafting experience in New Zealand! This full-throttle, Grade 5 river operates for approximately 26 days a year, offering an exclusive opportunity to tackle some of the most exhilarating whitewater in the country.\n\nNavigate through a boulder and tree-lined gorge, where turbulent rapids and exciting drops create a Grade 5 adventure. This rafting option is designed for those with a taste for adventure, making it perfect for thrill-seekers who aren’t afraid to face intense challenges!\n\nOur expert guides will ensure your safety while providing all necessary river equipment, allowing you to focus on the exhilarating experience ahead. Whether you’re an experienced rafter or looking to push your limits, the Wairoa promises a wild ride you won’t soon forget!\n\nWhat's included\n\nAll River Gear Provided (Includes wetsuits/Jackets/Booties/Safety Equipment etc.)\n\n100% Pure NZ Kaituna Rafting! (3hr round trip)\n\nProfessional Kiwi Guide\n\nProfessional Adventure Photographer\n\nLight Lunch (All di",
@@ -137824,7 +138040,15 @@
       "lastUpdated": "2026-05-27T13:58:51.331807",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:52.564Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "kaitiaki",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-197468",
@@ -150438,7 +150662,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 83,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "5 Hours",
       "durationText": "",
       "description": "The Rangitaiki is an awesome half day Wilderness rafting trip passing through spectacular NZ scenery and Native bush.\n\nKaituna Cascades normally offers the Rangitaiki River Rafting Tours while the Kaituna river is flooded. Generally it’s low rocky and bouncy, but after the rains that close & flood the Kaituna river – the “Rangi” becomes and class 4/5 beast and a brown rollercoaster of fun!\n\nThe Rangitaiki is an awesome half day Wilderness rafting trip passing through spectacular NZ scenery and Native bush between the Kaiangaroa forest and the beautiful and untouched Te Urewera National Park.\n\nThe Rangi is the complete rafting package with continuous and hard whitewater at the start of the river, with larger rapids like Geoff’s Joy, Fantail Falls, Pop Up, and Tautika getting ya pumped up and holding on tight…\n\nThen chilling out in the middle with a nice quiet flat stretch, ideal for swimming and floating followed by fun grade 3+ rapids through to the finish.\n\nOnce you’ve rafted the epic 12 km’s!! of whitewater – we’ll cruise back to Rotorua!\n\nNo prior experience is necessary as you will be given full and comprehensive training and accompanied by a highly experienced guide. All you need is a reasonable level of fitness, a sense of fun and adventure, swimwear and a to",
@@ -150466,7 +150690,15 @@
       "lastUpdated": "2026-05-27T13:58:51.337628",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:54.059Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "kaitunacascades",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-261539",
@@ -160036,7 +160268,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Nelson to Takaka\n\nA great day exploring Golden Bay\n\nShuttle to ride the Rameka Tracks\nDuration\n\nFull day tour\n\nAbout\n\nEarly morning shuttle (with coffee stop) to the top of Takaka hill. Ride the rugged & ramblinbg Rameka tracks down to Takaka. Return shuttle to Nelson.\n\nIf time allows, we can stop to complete a lap or two of the Pikikirunga track or Kaiteriteri MTB Park\n\n*The Rameka track is a Grade 3+ trail, with some rough and technical sections. You will need to guide yourselves (TrailForks app recommended) and carry sufficient gear, spares, tools and first aid. There is limited phone reception, but the landscape and trails are a treat.\n\nTrack information: https://www.mtbtrailstrust.org.nz/rameka-track",
@@ -160064,7 +160296,15 @@
       "priceEnrichmentAt": "2026-08-24T19:44:54.535Z",
       "priceEnrichmentStatus": "none",
       "bookingDead": true,
-      "bookingDeadCheckedAt": "2026-05-28"
+      "bookingDeadCheckedAt": "2026-05-28",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "gentlecycling",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "478684",
@@ -160250,7 +160490,7 @@
       "priceLabel": "Touring Bike Step-Through S",
       "priceConfidence": "high",
       "qualityScore": 73,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Ages 18+ • 6-7h • 23km off-road cycling, door-to-door transport, bike and beer tasting at McCashin's\n\nA cruisy, off-road circuit with breweries, bars, beach and beer tasting experience included!\nDuration\n\nApprox. 10:30am-5pm\n\nAbout\n\nVisit some of Nelson's best breweries, pubs and bars whilst cycling this cruisy, flat circuit.\n\nYou will enjoy coastal views and follow a short rail trail whilst cycling between a coastal country pub, historic tap room & breweries with hop-tastic delights.\n\nYou'll be treated to a beer tasting paddle at one of Nelson's finest breweries, whilst you watch the working brewery in action.\n\nSuitable for couples, families and groups of friends, there are many tasty options along the way.",
@@ -160406,7 +160646,15 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:54.535Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "gentlecycling",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-478688",
@@ -164485,7 +164733,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 73,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "100 -minute session on our Aqua Park. Includes 2 adults and 2 children aged 17 and under. Guests must arrive 30 minutes prior to the activity start time.\n\nWhat's included\n\nLife jackets are provided as part of your entry fee and are compulsory to wear.\n\nWhat's not included\n\nGrip socks are not included in your ticket price and are compulsory to wear. You can purchase them on the next screen, at the check-in desk, or bring your own.\n\nWetsuit is not provided. You may bring your own if you like.\n\nItinerary\nArrive at least 30 minutes prior to your session.\nSign in, sign the waiver (if not already completed online),\nGet your life jacket fitted.\nAttend Safety Briefing\nEnjoy 100 minutes on the Aquapark.",
@@ -164520,7 +164768,15 @@
       "lastUpdated": "2026-05-27T13:58:51.341407",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:55.063Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "aqualand",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-678562",
@@ -166987,7 +167243,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "50-minute session on our Aqua Park. Includes 2 adults and 2 children aged 17 and under. Guests must arrive 30 minutes prior to the activity start time.\n\nWhat's included\n\nLife jackets are provided as part of your entry fee and are compulsory to wear.\n\nWhat's not included\n\nGrip socks are not included in your ticket price and are compulsory to wear. You can purchase them on the next screen, at the check-in desk, or bring your own.\n\nWetsuit is not provided. You may bring your own if you like.\n\nItinerary\n\nArrive at least 30 minutes prior to your session.\nSign in, sign the waiver (if not already completed online),\nGet your life jacket fitted.\nAttend Safety Briefing\nEnjoy 50 minutes on the Aqua Park.",
@@ -167013,7 +167269,15 @@
       "lastUpdated": "2026-05-27T13:58:51.342540",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:55.063Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "aqualand",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-642123",
@@ -172095,7 +172359,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 75,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Frankton, Queenstown, New Zealand\n\nHalf-Day: Frankton Trail | Full-Day: Arrowtown & Queenstown | Multi-Day Adventures\n\nHealth & Safety\nE-Bike Safety and Usage Guidelines\nSafety Requirements\nWeight Limit: Max 120 kg.\nPregnancy: Consult your healthcare provider.\nRiding Skills: Ensure you can operate the bike safely.\nProtective Gear\nHelmets: Provided and recommended.\nGloves & Footwear: Recommended; gloves available for purchase.\nHealth and Age\nHealth Conditions: Seek advice if you have pre-existing conditions.\nMinimum Age: 16+ to ride unsupervised.\nRiding Training and Equipment\nSafety Training: Brief training on handling, speed control, and braking.\nEquipment Check: Regularly check brakes, tires, and battery.\n\nHealth & Safety Policy\n\nRidden by the Locals: Queenstown's Best Trails\nKelvin Heights Loop (4 Hours):\nDistance: 28 km (Loop around one of the world's most beautiful golf courses, Kelvin Heights Golf Course)\nTerrain: Mostly flat, cycle paths, minimal shared roads.\nFitness Level Required: 💪 (1 out of 5)\nJourney Highlights:\nviews of Lake Wakatipu.\nOptional Stops: The Boat Shed for brunch, The Frankton Arm Tavern for a relaxing meal, and The Hilton's Wakatipu Grill for upscale dining.\nExtended Option: For a 6-hour ride, visit Altitude Brewery for craft beers.\nVisualize the Route\nArrowtown & Ayrburn Adventure (6 Hours):\nDistance: 48 km (Lake Hayes, Ayrburn Winery and Resort, and Arrowtown)\nTerrain: Gentle hills, scenic vistas.\nFitness Level Required: 💪💪💪 (3 out o",
@@ -172130,7 +172394,15 @@
       "lastUpdated": "2026-05-27T13:58:51.344751",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:55.605Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "goingblue",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-232847",
@@ -177401,7 +177673,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 79,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "3.5 hours",
       "durationText": "",
       "description": "Seamless transfer from Queenstown and across Lake Te Anau to the start of the Milford Track.\n\nWhat's included\nCoach from Queenstown to Te Anau Downs\nBoat transfer from Te Anau Downs to track start at Glade Wharf\nBoat ferry from Sandfly Point to Milford Sound on last day, day 4\nReturn coach from Milford Sound to Queenstown, departing Milford at 2.30pm, arriving back at Queenstown approximately 7.45pm",
@@ -177436,7 +177708,15 @@
       "lastUpdated": "2026-05-27T13:58:51.348045",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.959Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "265831",
@@ -177451,7 +177731,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 79,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": "1.5 hours",
       "durationText": "",
       "description": "Seamless transfer from Te Anau centre and across Lake Te Anau to the start of the Milford Track.\n\nWhat's included\nCoach from Te Anau to Te Anau Downs, choose between 9.45am or 1.25pm\nBoat transfer from Te Anau Downs to track start\nBoat ferry from Sandfly Point to Milford Sound on last day, day 4\nReturn coach from Milford Sound to Te Anau, choose between 2.30pm and 5pm departure options. The 5pm departure is recommended for those wanting to add a Milford Sound Cruise (works perfectly with our 3.15pm Milford Sound Cruise departure)",
@@ -177486,7 +177766,15 @@
       "lastUpdated": "2026-05-27T13:58:51.348054",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:48.959Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "wayfaregroup",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-319096",
@@ -180965,7 +181253,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 72,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Ages 10+ • 10 or 30 minutes • Ultimate VR & 2D Racing Experience\n\n4.9\nstars\n\n\n290 Google reviews\n\nCan you drop the fastest lap at Bathurst or Monaco?\n\nEver wanted to drive a Le Mans unlimited? or a racing Banana?\n\nThis is as real as it gets, 4DoF, wind and performance to match.\n\nDrive, Fly, Space? We can simulate it all.\n\nA 10min taster gets you into the zone, wanna go all the way? extend to a full 30min or longer.\n\nHot Laps, Race against Bots or just enjoy the scenery.",
@@ -180991,7 +181279,15 @@
       "lastUpdated": "2026-05-27T13:58:51.349409",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:56.068Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "realmvr",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-465682",
@@ -183754,7 +184050,7 @@
       "priceLabel": null,
       "priceConfidence": null,
       "qualityScore": 76,
-      "currency": "USD",
+      "currency": "NZD",
       "duration": null,
       "durationText": "",
       "description": "Comfortable lodge-style accommodation with easy self-check-in via carpark entrance, whiteboard instructions on arrival, pillow and sheet provided, and shared bathroom facilities available depending on room allocation (guests must bring their own sleeping bag/blanket and towel).\n\nWhat's included\n\nPrivate room (subject to availability)\n\nPillow and fitted sheet\n\nFree Wi-Fi\n\nUse of jug, toaster, microwave, and BBQ\n\nAccess to shared toilets and shower facilities (if room does not include a private bathroom)\n\nSelf check-in access\n\nWhat's not included\n\nSleeping bag or blanket\n\nTowel\n\nToiletries\n\nMeals or catering\n\nItinerary\n\nCheck-In:\nSelf-check-in available from 4pm. Please enter through the sliding door on the carpark side of the building. Your instructions will be on the whiteboard, and your room key will be in the door.\n\nDuring Your Stay:\nRelax and enjoy your accommodation. Shared facilities are available if your room does not include a private bathroom.",
@@ -183787,7 +184083,15 @@
       "lastUpdated": "2026-05-27T13:58:51.350733",
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:53.437Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "currencyProvenance": {
+        "pass": "s45-wnz-usd-restamp",
+        "evidence": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+        "basis": "live details.currency==NZD (task-1 probe, items[] empty, no new FH calls)",
+        "liveDetailsCurrency": "NZD",
+        "shortname": "canoewhanganuiriver",
+        "priorCurrency": "USD"
+      }
     },
     {
       "id": "fh-712989",

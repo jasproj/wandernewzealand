@@ -1,0 +1,68 @@
+{
+  "pass": "s45-wnz-usd-restamp",
+  "baseTip": "d8d68acb86976bef230eddde1cbe34301035c9c8",
+  "evidenceSource": "scripts/evidence/wnz-usd-residual-2026-08-24/obs-usd-residual.json",
+  "population": 39,
+  "restamped": 38,
+  "restampedPks": [
+    294923,
+    294925,
+    266158,
+    264652,
+    266250,
+    325961,
+    325964,
+    325967,
+    271141,
+    641506,
+    659742,
+    201042,
+    621507,
+    601384,
+    481458,
+    553771,
+    647898,
+    326528,
+    491120,
+    552465,
+    490196,
+    583503,
+    183355,
+    400455,
+    515893,
+    525564,
+    264087,
+    196167,
+    260470,
+    478666,
+    478685,
+    678548,
+    641391,
+    210850,
+    265823,
+    265831,
+    443125,
+    709072
+  ],
+  "changedFields": {
+    "currency": 38,
+    "currencyProvenance": 38
+  },
+  "priceFieldsTouched": 0,
+  "skipped": [
+    {
+      "pk": 340836,
+      "name": "30 minutes - Original Whale Watching Flight",
+      "status": "error",
+      "reason": "live currency unreachable (HTTP 400)"
+    }
+  ],
+  "pk489299ByteIdentical": true,
+  "pk340836ByteIdentical": true,
+  "usdRemaining": 1,
+  "floatTokensPrePost": [
+    14190,
+    14190
+  ],
+  "newFareHarborCalls": 0
+}
