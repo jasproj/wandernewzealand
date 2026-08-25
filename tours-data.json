@@ -30999,7 +30999,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T18:59:42.043Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "534869",
@@ -59768,7 +59770,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-631939",
@@ -61747,7 +61751,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:01:58.377Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-294945",
@@ -64572,7 +64578,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:21:21.150Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-723987",
@@ -65365,7 +65373,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-606504",
@@ -65428,7 +65438,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-621517",
@@ -66164,7 +66176,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:21:21.150Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-710416",
@@ -70687,7 +70701,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-606505",
@@ -70750,7 +70766,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-606508",
@@ -70813,7 +70831,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-606509",
@@ -70876,7 +70896,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-613133",
@@ -74242,7 +74264,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "613135",
@@ -76555,7 +76579,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-494900",
@@ -76627,7 +76653,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:30.994Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-495419",
@@ -79650,7 +79678,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:48.949Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "108031",
@@ -80887,7 +80917,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:23:08.809Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-664869",
@@ -83881,7 +83913,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:23:08.809Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-669865",
@@ -84970,7 +85004,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:48.949Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-196362",
@@ -88416,7 +88452,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:48.949Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-172160",
@@ -115755,7 +115793,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:27:18.890Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-605694",
@@ -130207,7 +130247,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-164263",
@@ -146373,7 +146415,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-614234",
@@ -163147,7 +163191,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-585537",
@@ -165542,7 +165588,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-717278",
@@ -169825,7 +169873,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-623393",
@@ -169875,7 +169925,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-627020",
@@ -171329,7 +171381,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-581176",
@@ -179367,7 +179421,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-639966",
@@ -180397,7 +180453,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-715678",
@@ -182722,7 +182780,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-625388",
@@ -182772,7 +182832,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:29:29.898Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "637073",
@@ -184740,7 +184802,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-583930",
@@ -186511,7 +186575,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-600004",
@@ -190191,7 +190257,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:29:29.898Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-627949",
@@ -190395,7 +190463,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:22:29.837Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-636690",
@@ -203460,7 +203530,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-641036",
@@ -204026,7 +204098,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-586423",
@@ -205305,7 +205379,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-587879",
@@ -206681,7 +206757,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:20:54.206Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-211632",
@@ -207871,7 +207949,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:27:18.890Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-598435",
@@ -211480,7 +211560,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-603852",
@@ -213049,7 +213131,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:25.700Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-591930",
@@ -213516,7 +213600,9 @@
       ],
       "imageEnrichmentSource": "extract-images-v1",
       "imageEnrichmentAt": "2026-05-28T00:20:25.936Z",
-      "imageEnrichmentStatus": "filestack_found"
+      "imageEnrichmentStatus": "filestack_found",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-680226",
@@ -214256,7 +214342,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-605707",
@@ -214559,7 +214647,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:29:29.898Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-642896",
@@ -215072,7 +215162,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:29:29.898Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-676137",
@@ -215424,7 +215516,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-684908",
@@ -220937,7 +221031,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:27:18.890Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-592688",
@@ -223385,7 +223481,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-603434",
@@ -223430,7 +223528,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-672525",
@@ -223475,7 +223575,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-697449",
@@ -223714,7 +223816,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-721988",
@@ -223772,7 +223876,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-721992",
@@ -223830,7 +223936,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-722002",
@@ -223875,7 +223983,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-722246",
@@ -224359,7 +224469,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-670934",
@@ -224641,7 +224753,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-723043",
@@ -224699,7 +224813,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-733481",
@@ -225314,7 +225430,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-619438",
@@ -225359,7 +225477,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-647911",
@@ -225755,7 +225875,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-679938",
@@ -227565,7 +227687,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-611667",
@@ -228168,7 +228292,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-618255",
@@ -228213,7 +228339,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-639428",
@@ -228361,7 +228489,9 @@
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentStatus": "high",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-693152",
@@ -228631,7 +228761,9 @@
       },
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-05-28T06:28:29.597Z",
-      "priceEnrichmentStatus": "none"
+      "priceEnrichmentStatus": "none",
+      "providerSource": "s49-wnz-companies-endpoint",
+      "providerSourceAt": "2026-08-25T16:30:51.652Z"
     },
     {
       "id": "fh-670937",
