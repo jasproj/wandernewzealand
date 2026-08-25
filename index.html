@@ -124,14 +124,9 @@
                     </picture>
 </a>
 </div>
-            <div class="header-weather" id="header-weather">
-                <span class="weather-icon">☀️</span>
-                <span class="weather-temp">--°C</span>
-                <span class="weather-location">New Zealand</span>
-            </div>
             <nav class="nav-desktop">
                 <a href="#tours-section">Tours</a>
-                <a href="#islands">Regions</a>
+                <a href="#islands">Islands</a>
                 <a href="/blog/">Blog</a>
                 <a href="about.html">About</a>
                 <a href="#faq">FAQs</a>
@@ -142,7 +137,7 @@
         </div>
         <nav class="nav-mobile">
             <a href="#tours-section">Tours</a>
-            <a href="#islands">Regions</a>
+            <a href="#islands">Islands</a>
             <a href="/blog/">Blog</a>
             <a href="about.html">About</a>
             <a href="#faq">FAQs</a>
@@ -203,6 +198,7 @@
     <!-- FIORDLAND DECISION MODULE -->
     <section class="fiord-module" id="fiordland">
       <style>
+        .header-weather-section { display: flex; justify-content: center; padding: var(--space-lg) var(--space-lg); }
         .fiord-module { padding: 54px 20px; background: linear-gradient(135deg, #0a5c4f 0%, #0d7a68 100%); color: #fff; }
         .fiord-inner { max-width: 900px; margin: 0 auto; text-align: center; }
         .fiord-eyebrow { font-size: .78rem; letter-spacing: .09em; text-transform: uppercase; opacity: .85; margin: 0 0 10px; }
@@ -341,6 +337,15 @@
                     Load More Adventures <span>→</span>
                 </button>
             </div>
+        </div>
+    </section>
+
+    <!-- WEATHER (relocated from header 2026-08-25 — widgets sit at page bottom, not top chrome) -->
+    <section class="header-weather-section">
+        <div class="header-weather" id="header-weather">
+            <span class="weather-icon">☀️</span>
+            <span class="weather-temp">--°C</span>
+            <span class="weather-location">New Zealand</span>
         </div>
     </section>
 
@@ -542,7 +547,7 @@
                 </div>
 
                 <div class="footer-links">
-                    <h4>Regions</h4>
+                    <h4>Islands</h4>
                     <ul>
                         <li><a href="/auckland.html">Auckland</a></li>
                         <li><a href="/queenstown.html">Queenstown</a></li>
