@@ -117152,10 +117152,10 @@
       "timeOfDay": "",
       "capacity": 7,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-company-not-found",
       "statusFirstSeen": null,
-      "statusConsecutiveRuns": null,
+      "statusConsecutiveRuns": 0,
       "lastUpdated": "2026-05-27T13:58:51.324970",
       "priceBreakdown": [
         {
@@ -117200,7 +117200,15 @@
       "priceEnrichmentSource": "extract-prices-v7-api",
       "priceEnrichmentAt": "2026-08-24T19:44:49.632Z",
       "priceEnrichmentStatus": "error",
-      "priceEnrichmentError": "HTTP 400"
+      "priceEnrichmentError": "HTTP 400",
+      "retirementProvenance": {
+        "pass": "s49-wnz-retire",
+        "date": "2026-08-25",
+        "reason": "fareharbor-company-not-found",
+        "basis": "Structural probe (FareHarbor price-preview `details` object absent; response shape identical to a deliberately-bogus control shortname, not error-prose matching) confirms shortname 'airkaikoura' does not resolve on FareHarbor. Repo-wide enumeration of every reference to pk 340836 (data, staging JSON, evidence files) found exactly one shortname ever recorded — no wrong-shortname candidate exists to fix. Confirmed non-resolving across 4 independent live-probe events spanning 3 sessions (s45 PR #106, s48 PR #111 dedicated 4-attempt probe, s49 structural probe) plus a pre-s45 task-1 pass (v7-reextract) — 0 successful resolutions ever recorded.",
+        "reversible": true,
+        "priorStatus": "active"
+      }
     },
     {
       "id": "490196",
