@@ -1,0 +1,14 @@
+{
+  "before": {
+    "bareOffer": 2001,
+    "none": 0
+  },
+  "after": {
+    "bareOffer": 1289,
+    "priceSpecification": 1,
+    "none": 711
+  },
+  "perPersonByteIdentical": true,
+  "nonPerPersonNeverBareAfter": true,
+  "unknownNeverEmitsAfter": true
+}

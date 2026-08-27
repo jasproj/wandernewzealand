@@ -1,0 +1,33 @@
+{
+  "_comment": "s53-wnz-schema-gate: word lists mined from THIS repo's own priceLabel vocabulary (see price-labels-census.json, 425 distinct labels across the 2001-row render-eligible offer-emitting population). Checked in this order — an explicit multi-person or group signal always outranks a bare person noun. Regex source strings here are copy-identical to the RegExp literals in app.js (classifyPriceUnit); this file is the evidence copy, app.js is the runtime copy — keep them in sync by construction, not by import (app.js is a plain non-module script).",
+  "order": ["multiCount", "group", "person", "equipment", "unknown"],
+  "multiCount": {
+    "verdict": "non-per-person",
+    "rationale": "An explicit count of two-or-more attached to a person/pax noun means the row price pays for the whole party, not one person.",
+    "source": "\\b(two|three|four|five|six|seven|eight|nine|ten|2|3|4|5|6|7|8|9|10)[\\s-]*(people|persons?|adults?|passengers?|pax|players?|guests?|surfers?|paddlers?|children|kids?|occupants?)\\b",
+    "examples": ["Group of 2", "2 Pax", "Two people", "1-2  Surfers", "Adult (2 Pax)", "Two to Three People"]
+  },
+  "group": {
+    "verdict": "non-per-person",
+    "rationale": "Family/group/team/shared/twin/double/triple/couple/party/seater/charter wording, 'up to N', and 'private tour|event|transport' all describe a price for a party or a vessel, not a seat.",
+    "source": "\\b(family|families|group|groups|team|teams|shared|twin|double|triple|couple|companions?|pair|party|parties|seater|charter|charters)\\b|\\bup\\s*to\\s*(\\d+|two|three|four|five|six|seven|eight|nine|ten)\\b|\\bprivate\\b.*\\b(tour|event|transport)\\b",
+    "examples": ["Friends & Family", "Private Charter", "Three Seater", "MD520N Helicopter for up to 3 pax (weight dependent)", "Person - Groups of 4 or Fewer", "Kid's Party"]
+  },
+  "person": {
+    "verdict": "per-person",
+    "rationale": "An unmodified single-person noun (adult, person, participant, passenger, child, rider, diver, solo, student, surfer, guest, senior, toddler, youth, hiker, walker, climber, cyclist, paddler, paddleboarder, sightseer, backpacker, traveller, pillion, player, occupancy, rafter) or 'General Admission', with no multiCount/group override ahead of it.",
+    "source": "\\b(adults?|persons?|participants?|passengers?|child(ren)?|kids?|riders?|divers?|solo|students?|surfers?|guests?|seniors?|toddlers?|youths?|hikers?|walkers?|climbers?|cyclists?|paddlers?|paddleboarders?|sightseers?|backpackers?|travell?ers?|pillion|players?|occupanc(y|ies)|occupants?|rafters?|general\\s+admission)\\b",
+    "examples": ["Adult", "Person", "Passenger", "Adult with Bike", "Number of Participant", "1 Paddleboarder"]
+  },
+  "equipment": {
+    "verdict": "non-per-person",
+    "rationale": "Vehicle/equipment/site rental or accommodation-night wording with no person noun and no group override — the row prices the item or the night, not a rider.",
+    "source": "\\b(hire|rental|rentals|sedans?|suv|vans?|kayaks?|canoes?|boats?|jet\\s*ski|helicopters?|buggy|troop\\s*carrier|e-?bikes?|bikes?|escape\\s*room|hot\\s*tub|saunas?|car\\s*park|valet|vehicles?|cabins?|nights?|site\\s*fee|rafts?|wetsuits?|dogs?)\\b",
+    "examples": ["One Day Hire", "One Night Site fee", "XS Bike", "Executive Sedan", "Dog Day Pass"]
+  },
+  "unknown": {
+    "verdict": "unknown — no price key",
+    "rationale": "No person, group, or equipment signal in the label at all. Absence of evidence is not per-person (s52 ruling) — these labels genuinely could be either and this pool gives no way to tell (durations, session names, misc one-off item names).",
+    "examples": ["Small", "Beginner", "Half Day", "Auckland City Tour - 7.5 Hours", "Private Lesson", "Session", "Bag"]
+  }
+}
