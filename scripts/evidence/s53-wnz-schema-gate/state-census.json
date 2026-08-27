@@ -1,0 +1,26 @@
+{
+  "renderEligibleRows": 3111,
+  "emittingPopulation": 2001,
+  "partitionTotal": 2001,
+  "partitionExact": true,
+  "states": [
+    {
+      "state": "per-person",
+      "count": 1289,
+      "dollars": 626240.7700000006,
+      "withMirrorableUnit": 0
+    },
+    {
+      "state": "non-per-person",
+      "count": 557,
+      "dollars": 755064.9600000003,
+      "withMirrorableUnit": 1
+    },
+    {
+      "state": "unknown",
+      "count": 155,
+      "dollars": 68641.19999999997,
+      "withMirrorableUnit": 0
+    }
+  ]
+}

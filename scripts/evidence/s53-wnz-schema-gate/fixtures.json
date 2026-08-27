@@ -1,0 +1,94 @@
+{
+  "perPersonByteIdentical": {
+    "id": "fh-171361",
+    "pk": 171361,
+    "name": "Bushwalk & Snack Run",
+    "priceLabel": "Adult",
+    "price": 120,
+    "currency": "NZD",
+    "priceConfidence": "high",
+    "unitState": "per-person",
+    "unitText": "",
+    "beforeOffers": {
+      "@type": "Offer",
+      "price": 120,
+      "priceCurrency": "NZD",
+      "url": "https://fareharbor.com/embeds/book/awakerirail/items/171361/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    },
+    "afterOffers": {
+      "@type": "Offer",
+      "price": 120,
+      "priceCurrency": "NZD",
+      "url": "https://fareharbor.com/embeds/book/awakerirail/items/171361/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  "nonPerPersonMirroredUnit": {
+    "id": "489299",
+    "pk": 489299,
+    "name": "Skippers Canyon Bespoke Tour",
+    "priceLabel": "Private Charter",
+    "price": 1262.61,
+    "currency": "NZD",
+    "priceConfidence": "high",
+    "unitState": "non-per-person",
+    "unitText": "whole vehicle · up to 4 people",
+    "beforeOffers": {
+      "@type": "Offer",
+      "price": 1262.61,
+      "priceCurrency": "NZD",
+      "url": "https://fareharbor.com/embeds/book/pureglenorchy/items/489299/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    },
+    "afterOffers": {
+      "@type": "Offer",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 1262.61,
+        "priceCurrency": "NZD",
+        "unitText": "whole vehicle · up to 4 people"
+      },
+      "url": "https://fareharbor.com/embeds/book/pureglenorchy/items/489299/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    }
+  },
+  "nonPerPersonSilentNoMirror": {
+    "id": "fh-649402",
+    "pk": 649402,
+    "name": "Mountain Explorer - Ride Along Buggy Tour",
+    "priceLabel": "Scenic Tour - Honda Pioneer (up to 5 passengers)",
+    "price": 798,
+    "currency": "NZD",
+    "priceConfidence": "high",
+    "unitState": "non-per-person",
+    "unitText": "",
+    "beforeOffers": {
+      "@type": "Offer",
+      "price": 798,
+      "priceCurrency": "NZD",
+      "url": "https://fareharbor.com/embeds/book/offroad/items/649402/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    },
+    "afterOffers": null
+  },
+  "noEvidenceSilent": {
+    "id": "fh-254542",
+    "pk": 254542,
+    "name": "Double Kayak Hire",
+    "priceLabel": "Half Day",
+    "price": 83.74,
+    "currency": "NZD",
+    "priceConfidence": "high",
+    "unitState": "unknown",
+    "unitText": "",
+    "beforeOffers": {
+      "@type": "Offer",
+      "price": 83.74,
+      "priceCurrency": "NZD",
+      "url": "https://fareharbor.com/embeds/book/lakedistrictadventures/items/254542/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "availability": "https://schema.org/InStock"
+    },
+    "afterOffers": null
+  }
+}

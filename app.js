@@ -211,25 +211,77 @@ function scoreLabel(score) {
     return '';
 }
 
+// s53-wnz-schema-gate (network ruling s52, ref wanderhawaii #263): a bare
+// Offer.price asserts "this is what one person pays". priceLabel is this
+// pool's only broad-coverage evidence of what the row's price actually
+// buys — word lists below are mined from this repo's own priceLabel
+// vocabulary (scripts/evidence/s53-wnz-schema-gate/vocab.json), not ported
+// from another site's pool. Checked in priority order so an explicit
+// multi-person or group signal always outranks a bare person noun (e.g.
+// "Person - Groups of 4 or Fewer" is a group price, not a person price).
+// Unmatched labels are 'unknown' on purpose: absence of evidence is not
+// per-person.
+const MULTI_COUNT_UNIT_RE = /\b(two|three|four|five|six|seven|eight|nine|ten|2|3|4|5|6|7|8|9|10)[\s-]*(people|persons?|adults?|passengers?|pax|players?|guests?|surfers?|paddlers?|children|kids?|occupants?)\b/i;
+const GROUP_UNIT_RE = /\b(family|families|group|groups|team|teams|shared|twin|double|triple|couple|companions?|pair|party|parties|seater|charter|charters)\b|\bup\s*to\s*(\d+|two|three|four|five|six|seven|eight|nine|ten)\b|\bprivate\b.*\b(tour|event|transport)\b/i;
+const PERSON_UNIT_RE = /\b(adults?|persons?|participants?|passengers?|child(ren)?|kids?|riders?|divers?|solo|students?|surfers?|guests?|seniors?|toddlers?|youths?|hikers?|walkers?|climbers?|cyclists?|paddlers?|paddleboarders?|sightseers?|backpackers?|travell?ers?|pillion|players?|occupanc(y|ies)|occupants?|rafters?|general\s+admission)\b/i;
+const EQUIPMENT_UNIT_RE = /\b(hire|rental|rentals|sedans?|suv|vans?|kayaks?|canoes?|boats?|jet\s*ski|helicopters?|buggy|troop\s*carrier|e-?bikes?|bikes?|escape\s*room|hot\s*tub|saunas?|car\s*park|valet|vehicles?|cabins?|nights?|site\s*fee|rafts?|wetsuits?|dogs?)\b/i;
+
+function classifyPriceUnit(tour) {
+    const label = tour.priceLabel || '';
+    if (MULTI_COUNT_UNIT_RE.test(label)) return 'non-per-person';
+    if (GROUP_UNIT_RE.test(label)) return 'non-per-person';
+    if (PERSON_UNIT_RE.test(label)) return 'per-person';
+    if (EQUIPMENT_UNIT_RE.test(label)) return 'non-per-person';
+    return 'unknown';
+}
+
 function generateTourSchema(tour) {
     // Same currency rule as formatPrice(): offers carry the row's own currency verbatim.
     const emitPrice = Number.isFinite(tour.price) && tour.priceConfidence !== 'low'
         && Object.prototype.hasOwnProperty.call(CURRENCY_SYMBOL, tour.currency);
+    const unitState = emitPrice ? classifyPriceUnit(tour) : 'unknown';
+
+    let offers;
+    if (unitState === 'per-person') {
+        // State 1 — byte-identical to the pre-s53 unconditional offer.
+        offers = {
+            "@type": "Offer",
+            "price": tour.price,
+            "priceCurrency": tour.currency,
+            "url": tour.bookingUrl,
+            "availability": "https://schema.org/InStock"
+        };
+    } else if (unitState === 'non-per-person') {
+        // State 2 — unitText must be the exact string the card renders
+        // (priceUnit(), the same _unknownFields.priceUnit field the card
+        // badge reads). No mirrorable unit on the row means no mirrorable
+        // wording exists anywhere in this pipeline, so it emits nothing
+        // rather than inventing text the card itself doesn't show.
+        const unitText = priceUnit(tour);
+        if (unitText) {
+            offers = {
+                "@type": "Offer",
+                "priceSpecification": {
+                    "@type": "UnitPriceSpecification",
+                    "price": tour.price,
+                    "priceCurrency": tour.currency,
+                    "unitText": unitText
+                },
+                "url": tour.bookingUrl,
+                "availability": "https://schema.org/InStock"
+            };
+        }
+    }
+    // State 3 (unitState === 'unknown') and the no-mirrorable-unit case of
+    // state 2 both fall through with offers left undefined — no price key.
+
     return {
         "@context": "https://schema.org",
         "@type": "TouristTrip",
         "name": tour.name,
         "description": tour.description || "",
         "touristType": tour.tags ? tour.tags.join(", ") : "",
-        ...(emitPrice && {
-            "offers": {
-                "@type": "Offer",
-                "price": tour.price,
-                "priceCurrency": tour.currency,
-                "url": tour.bookingUrl,
-                "availability": "https://schema.org/InStock"
-            }
-        }),
+        ...(offers && { "offers": offers }),
         "provider": {
             "@type": "LocalBusiness",
             "name": tour.company

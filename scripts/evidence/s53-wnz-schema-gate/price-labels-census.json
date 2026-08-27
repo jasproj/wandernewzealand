@@ -1,0 +1,2552 @@
+[
+  {
+    "priceLabel": "Adult",
+    "unitState": "per-person",
+    "count": 711,
+    "dollars": 284091.76000000007
+  },
+  {
+    "priceLabel": "Person",
+    "unitState": "per-person",
+    "count": 189,
+    "dollars": 101368.71000000002
+  },
+  {
+    "priceLabel": "One Day Hire",
+    "unitState": "non-per-person",
+    "count": 37,
+    "dollars": 4993.2
+  },
+  {
+    "priceLabel": "Passenger",
+    "unitState": "per-person",
+    "count": 28,
+    "dollars": 23820.19
+  },
+  {
+    "priceLabel": "One Night Site fee",
+    "unitState": "non-per-person",
+    "count": 28,
+    "dollars": 2191.75
+  },
+  {
+    "priceLabel": "Player (1 Hour)",
+    "unitState": "per-person",
+    "count": 26,
+    "dollars": 1250
+  },
+  {
+    "priceLabel": "MD520N Helicopter for up to 3 pax (weight dependent)",
+    "unitState": "non-per-person",
+    "count": 23,
+    "dollars": 71830.86
+  },
+  {
+    "priceLabel": "Group of 2",
+    "unitState": "non-per-person",
+    "count": 23,
+    "dollars": 60605.19999999999
+  },
+  {
+    "priceLabel": "Touring Bike Step-Through S",
+    "unitState": "non-per-person",
+    "count": 20,
+    "dollars": 3756.23
+  },
+  {
+    "priceLabel": "Group of 1-3 people",
+    "unitState": "non-per-person",
+    "count": 20,
+    "dollars": 154638.02000000002
+  },
+  {
+    "priceLabel": "Participant",
+    "unitState": "per-person",
+    "count": 18,
+    "dollars": 5436.299999999999
+  },
+  {
+    "priceLabel": "Solo",
+    "unitState": "per-person",
+    "count": 18,
+    "dollars": 22806
+  },
+  {
+    "priceLabel": "Child",
+    "unitState": "per-person",
+    "count": 17,
+    "dollars": 2122.9799999999996
+  },
+  {
+    "priceLabel": "Friends & Family",
+    "unitState": "non-per-person",
+    "count": 17,
+    "dollars": 105864.49
+  },
+  {
+    "priceLabel": "Small",
+    "unitState": "unknown",
+    "count": 16,
+    "dollars": 9004
+  },
+  {
+    "priceLabel": "Rider",
+    "unitState": "per-person",
+    "count": 15,
+    "dollars": 2182.0899999999997
+  },
+  {
+    "priceLabel": "Adult with Bike",
+    "unitState": "per-person",
+    "count": 15,
+    "dollars": 1967.5799999999997
+  },
+  {
+    "priceLabel": "1 Night",
+    "unitState": "non-per-person",
+    "count": 14,
+    "dollars": 4575
+  },
+  {
+    "priceLabel": "XS Bike",
+    "unitState": "non-per-person",
+    "count": 14,
+    "dollars": 3783.1400000000003
+  },
+  {
+    "priceLabel": "Person for One Night",
+    "unitState": "per-person",
+    "count": 9,
+    "dollars": 257.90000000000003
+  },
+  {
+    "priceLabel": "Private Tour",
+    "unitState": "non-per-person",
+    "count": 9,
+    "dollars": 11798.239999999998
+  },
+  {
+    "priceLabel": "Adult Standard Bike",
+    "unitState": "per-person",
+    "count": 9,
+    "dollars": 1962.2999999999997
+  },
+  {
+    "priceLabel": "Two people",
+    "unitState": "non-per-person",
+    "count": 9,
+    "dollars": 8164.880000000001
+  },
+  {
+    "priceLabel": "Adult eBike",
+    "unitState": "per-person",
+    "count": 9,
+    "dollars": 1636.1599999999999
+  },
+  {
+    "priceLabel": "Diver",
+    "unitState": "per-person",
+    "count": 9,
+    "dollars": 3223.8599999999997
+  },
+  {
+    "priceLabel": "One Day Bike Hire",
+    "unitState": "non-per-person",
+    "count": 9,
+    "dollars": 4813.38
+  },
+  {
+    "priceLabel": "Solo Traveller",
+    "unitState": "per-person",
+    "count": 9,
+    "dollars": 90544.82
+  },
+  {
+    "priceLabel": "24inch E-Bike (130cm-144cm)",
+    "unitState": "non-per-person",
+    "count": 8,
+    "dollars": 1446.76
+  },
+  {
+    "priceLabel": "Private charter",
+    "unitState": "non-per-person",
+    "count": 8,
+    "dollars": 34199.43
+  },
+  {
+    "priceLabel": "Racer (1 Hour)",
+    "unitState": "unknown",
+    "count": 7,
+    "dollars": 350
+  },
+  {
+    "priceLabel": "Solo Paddler",
+    "unitState": "per-person",
+    "count": 7,
+    "dollars": 2056.9900000000002
+  },
+  {
+    "priceLabel": "Surfer",
+    "unitState": "per-person",
+    "count": 7,
+    "dollars": 709.1600000000001
+  },
+  {
+    "priceLabel": "Adult - Double Cabin",
+    "unitState": "non-per-person",
+    "count": 7,
+    "dollars": 5787
+  },
+  {
+    "priceLabel": "Student",
+    "unitState": "per-person",
+    "count": 7,
+    "dollars": 213.57
+  },
+  {
+    "priceLabel": "e-Bike",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 1194.62
+  },
+  {
+    "priceLabel": "Private Charter",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 17853.899999999998
+  },
+  {
+    "priceLabel": "Private tour",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 8988.869999999999
+  },
+  {
+    "priceLabel": "Player (2 Hours)",
+    "unitState": "per-person",
+    "count": 6,
+    "dollars": 395
+  },
+  {
+    "priceLabel": "Executive Sedan",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 5760
+  },
+  {
+    "priceLabel": "2-3 People",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 1880
+  },
+  {
+    "priceLabel": "Adult (2 Pax)",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 8949.79
+  },
+  {
+    "priceLabel": "2 Pax",
+    "unitState": "non-per-person",
+    "count": 6,
+    "dollars": 2498.9100000000003
+  },
+  {
+    "priceLabel": "Two Nights",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 1351.3
+  },
+  {
+    "priceLabel": "Person - Double or Twin Share",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 3405
+  },
+  {
+    "priceLabel": "Large Bike",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 589.2199999999999
+  },
+  {
+    "priceLabel": "Per Person",
+    "unitState": "per-person",
+    "count": 5,
+    "dollars": 2463.1299999999997
+  },
+  {
+    "priceLabel": "Player",
+    "unitState": "per-person",
+    "count": 5,
+    "dollars": 266
+  },
+  {
+    "priceLabel": "Double Kayak",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 1809.74
+  },
+  {
+    "priceLabel": "Car Hire",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 999.57
+  },
+  {
+    "priceLabel": "Three Seater",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 9574.779999999999
+  },
+  {
+    "priceLabel": "General Admission",
+    "unitState": "per-person",
+    "count": 5,
+    "dollars": 542.91
+  },
+  {
+    "priceLabel": "Jet Ski",
+    "unitState": "non-per-person",
+    "count": 5,
+    "dollars": 2020.1699999999998
+  },
+  {
+    "priceLabel": "One Person",
+    "unitState": "per-person",
+    "count": 5,
+    "dollars": 5176
+  },
+  {
+    "priceLabel": "Beginner",
+    "unitState": "unknown",
+    "count": 5,
+    "dollars": 447.15999999999997
+  },
+  {
+    "priceLabel": "Mountain (Pedal) Bike",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 450.32
+  },
+  {
+    "priceLabel": "Guided Paddler",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 4718.990000000001
+  },
+  {
+    "priceLabel": "Person x 1",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 4734.79
+  },
+  {
+    "priceLabel": "Hiker",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 953.2700000000001
+  },
+  {
+    "priceLabel": "Standard Experience",
+    "unitState": "unknown",
+    "count": 4,
+    "dollars": 248.32
+  },
+  {
+    "priceLabel": "AS350 Helicopter for up to 6 pax (weight dependent)",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 23700.22
+  },
+  {
+    "priceLabel": "Private Group",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 5643.83
+  },
+  {
+    "priceLabel": "Adult Bike",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 220
+  },
+  {
+    "priceLabel": "One Adult",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 2377.9100000000003
+  },
+  {
+    "priceLabel": "Single Kayak - Adult",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 322
+  },
+  {
+    "priceLabel": "Bike Hire",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 2797.11
+  },
+  {
+    "priceLabel": "Single Traveller - Adults only",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 2156.95
+  },
+  {
+    "priceLabel": "Adult + Rod",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 715.47
+  },
+  {
+    "priceLabel": "Adult return",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 257.78000000000003
+  },
+  {
+    "priceLabel": "Adult Rider",
+    "unitState": "per-person",
+    "count": 4,
+    "dollars": 1104.78
+  },
+  {
+    "priceLabel": "E-Bike Low Step S/M",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 820.7
+  },
+  {
+    "priceLabel": "1-2  Surfers",
+    "unitState": "non-per-person",
+    "count": 4,
+    "dollars": 888.04
+  },
+  {
+    "priceLabel": "Half Day",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 220.48
+  },
+  {
+    "priceLabel": "Standard Railbikes",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 656.5699999999999
+  },
+  {
+    "priceLabel": "1 to 2 Surfers",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 597
+  },
+  {
+    "priceLabel": "Own Bikes",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 262.88
+  },
+  {
+    "priceLabel": "One Hour",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 148.59
+  },
+  {
+    "priceLabel": "Family Package",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 2271.7
+  },
+  {
+    "priceLabel": "Electric Bike",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 390
+  },
+  {
+    "priceLabel": "Adult – Regular Ride",
+    "unitState": "per-person",
+    "count": 3,
+    "dollars": 3793
+  },
+  {
+    "priceLabel": "Additional Person",
+    "unitState": "per-person",
+    "count": 3,
+    "dollars": 1345
+  },
+  {
+    "priceLabel": "Private Charter - Full Day",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 12499.83
+  },
+  {
+    "priceLabel": "Team of Two",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 330.39
+  },
+  {
+    "priceLabel": "60 min session",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 173.60999999999999
+  },
+  {
+    "priceLabel": "Adult Half Day",
+    "unitState": "per-person",
+    "count": 3,
+    "dollars": 2247
+  },
+  {
+    "priceLabel": "30 Minutes",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 482.16
+  },
+  {
+    "priceLabel": "Full Day Adult",
+    "unitState": "per-person",
+    "count": 3,
+    "dollars": 384
+  },
+  {
+    "priceLabel": "Per person",
+    "unitState": "per-person",
+    "count": 3,
+    "dollars": 530.3
+  },
+  {
+    "priceLabel": "One Activity",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 91.53
+  },
+  {
+    "priceLabel": "O-Bike 2 Pax",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 862.79
+  },
+  {
+    "priceLabel": "Twin Share",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 17999
+  },
+  {
+    "priceLabel": "4-Seater Premium SUV",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 2251.65
+  },
+  {
+    "priceLabel": "Person - Groups of 4 or Fewer",
+    "unitState": "non-per-person",
+    "count": 3,
+    "dollars": 3787.83
+  },
+  {
+    "priceLabel": "2 Day Program",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 597
+  },
+  {
+    "priceLabel": "Aqua Lounge",
+    "unitState": "unknown",
+    "count": 3,
+    "dollars": 946.95
+  },
+  {
+    "priceLabel": "Cyclist",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 136.78
+  },
+  {
+    "priceLabel": "Scenic Tour - Honda Pioneer (up to 5 passengers)",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 1396
+  },
+  {
+    "priceLabel": "Waka",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 1700
+  },
+  {
+    "priceLabel": "Heli Fishing Charter",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 9870
+  },
+  {
+    "priceLabel": "Kid's Party",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 462.96
+  },
+  {
+    "priceLabel": "Sightseer - Adult",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 395.23
+  },
+  {
+    "priceLabel": "Guests Shuttled",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 142.84
+  },
+  {
+    "priceLabel": "E-Bike: Liv Tempt E+3S Extra Small",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 1012
+  },
+  {
+    "priceLabel": "Guests In Twin Bed Tent (2 single beds)",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 342.84000000000003
+  },
+  {
+    "priceLabel": "Day Hire",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 338
+  },
+  {
+    "priceLabel": "One Passenger",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 104
+  },
+  {
+    "priceLabel": "Deluxe Double Canadian Canoe",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 160
+  },
+  {
+    "priceLabel": "Two People + Guide",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 11648.61
+  },
+  {
+    "priceLabel": "Group of Two",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 1857.0900000000001
+  },
+  {
+    "priceLabel": "1 Person Uplift",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 45
+  },
+  {
+    "priceLabel": "Guest",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 200
+  },
+  {
+    "priceLabel": "Two Players",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 200
+  },
+  {
+    "priceLabel": "Adult - Half Day",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 547.13
+  },
+  {
+    "priceLabel": "Twin share",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 2314.7799999999997
+  },
+  {
+    "priceLabel": "1 Adult",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 950
+  },
+  {
+    "priceLabel": "Per Person - Hot Seats!",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 418.77
+  },
+  {
+    "priceLabel": "2-People",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 683.91
+  },
+  {
+    "priceLabel": "Four People + Guide",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 24618.77
+  },
+  {
+    "priceLabel": "Private Return Transport",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 1187.9
+  },
+  {
+    "priceLabel": "Motorbike Rider",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 17881.69
+  },
+  {
+    "priceLabel": "4 week program",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 538
+  },
+  {
+    "priceLabel": "Family",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 788.0799999999999
+  },
+  {
+    "priceLabel": "Toddler",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 26.299999999999997
+  },
+  {
+    "priceLabel": "Up to 14 Guests",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 631.3
+  },
+  {
+    "priceLabel": "Two Hour Hire - Full Suspension - Small",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 189
+  },
+  {
+    "priceLabel": "O-Bike",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 289.35
+  },
+  {
+    "priceLabel": "Two to Three People",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 452.43
+  },
+  {
+    "priceLabel": "Indoor Escape Room",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 78.92
+  },
+  {
+    "priceLabel": "Senior",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 78
+  },
+  {
+    "priceLabel": "Adult - Twin-Share Cabin",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 1748
+  },
+  {
+    "priceLabel": "Adult Electric Bike",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 925.9200000000001
+  },
+  {
+    "priceLabel": "Auckland City Tour - 7.5 Hours",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 1578.26
+  },
+  {
+    "priceLabel": "4 Seater SUV",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 7260
+  },
+  {
+    "priceLabel": "Day Rental",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 147.3
+  },
+  {
+    "priceLabel": "Minions Room - up to 8 players",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 761.77
+  },
+  {
+    "priceLabel": "Private Lesson",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 185
+  },
+  {
+    "priceLabel": "One-Hour-Tuition (Bring your own bike)",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 261.65
+  },
+  {
+    "priceLabel": "Adult (16+)",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 38.93
+  },
+  {
+    "priceLabel": "VR Escape Room",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 115.74
+  },
+  {
+    "priceLabel": "Walker",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 315.65999999999997
+  },
+  {
+    "priceLabel": "Sneak Peak Session",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 39.98
+  },
+  {
+    "priceLabel": "Backpacker/ Student",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 107.32
+  },
+  {
+    "priceLabel": "Can-Am Rental (side-by-side)",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 2000
+  },
+  {
+    "priceLabel": "Passenger/s",
+    "unitState": "per-person",
+    "count": 2,
+    "dollars": 142.04000000000002
+  },
+  {
+    "priceLabel": "Valet Car Park",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 31.56
+  },
+  {
+    "priceLabel": "Single Lesson",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 294.6
+  },
+  {
+    "priceLabel": "Single",
+    "unitState": "unknown",
+    "count": 2,
+    "dollars": 284.09000000000003
+  },
+  {
+    "priceLabel": "1-2 Surfers",
+    "unitState": "non-per-person",
+    "count": 2,
+    "dollars": 467.15999999999997
+  },
+  {
+    "priceLabel": "Adult (13 yrs and over)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 79
+  },
+  {
+    "priceLabel": "Person - 1 Night",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 58
+  },
+  {
+    "priceLabel": "Adult Ticket Haunted Show",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 38.92
+  },
+  {
+    "priceLabel": "Two People",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 999
+  },
+  {
+    "priceLabel": "Two People (price/person)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 499.78
+  },
+  {
+    "priceLabel": "Paddle to the Pub",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 119
+  },
+  {
+    "priceLabel": "Bluefin Tuna Private Charter",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 2785
+  },
+  {
+    "priceLabel": "1 Paddleboarder",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 299
+  },
+  {
+    "priceLabel": "Adult inc Lunch and Wine",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 299.87
+  },
+  {
+    "priceLabel": "Adult - Includes Lunch",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 341.96
+  },
+  {
+    "priceLabel": "Up to 4 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 84.8
+  },
+  {
+    "priceLabel": "Adult Inc. two course lunch",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 986.94
+  },
+  {
+    "priceLabel": "Premium Cabin Single Occupancy",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 1888.65
+  },
+  {
+    "priceLabel": "2 Days",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 212
+  },
+  {
+    "priceLabel": "2-3 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 762.83
+  },
+  {
+    "priceLabel": "Adult - Including Lunch",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 268.3
+  },
+  {
+    "priceLabel": "Child Front Seat",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 45
+  },
+  {
+    "priceLabel": "Bike Shuttle",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 30
+  },
+  {
+    "priceLabel": "1 Hour",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 284.09
+  },
+  {
+    "priceLabel": "Adult 14+ years",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 80
+  },
+  {
+    "priceLabel": "Rafter",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 146.25
+  },
+  {
+    "priceLabel": "Hiker - Half Day",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 219.9
+  },
+  {
+    "priceLabel": "Easy",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 36.83
+  },
+  {
+    "priceLabel": "7 - 8 Surfers",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 69
+  },
+  {
+    "priceLabel": "Full Day Private Tour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1630.87
+  },
+  {
+    "priceLabel": "Person• Waihaha - Waihora BOAT ONLY Scenic Bike Transfer",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 95.4
+  },
+  {
+    "priceLabel": "Sedan",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 94.7
+  },
+  {
+    "priceLabel": "Single Recreational Sit On Kayak",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 31.57
+  },
+  {
+    "priceLabel": "Family Pass",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 615.52
+  },
+  {
+    "priceLabel": "Adult (International)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 31.57
+  },
+  {
+    "priceLabel": "Full Day 1-10 PAX",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1678.22
+  },
+  {
+    "priceLabel": "Person 200 paintballs including masks and guns",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 42.09
+  },
+  {
+    "priceLabel": "Small E-Bike – 4 HOURS",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 188
+  },
+  {
+    "priceLabel": "Adult - Margarita Package - Entry + 2 Margaritas",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 57.87
+  },
+  {
+    "priceLabel": "4-Hour eBike",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 99.96
+  },
+  {
+    "priceLabel": "Small Car Hire • 4 Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 125
+  },
+  {
+    "priceLabel": "Full Day Eco Thermal Tour (FDE) 2027/28 (Adult)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 420
+  },
+  {
+    "priceLabel": "FCE 2025/27 Adult",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 420
+  },
+  {
+    "priceLabel": "Winter Weekend Family Deal",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 73.65
+  },
+  {
+    "priceLabel": "2 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 946.96
+  },
+  {
+    "priceLabel": "HE 2026/27 (Adult)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 230
+  },
+  {
+    "priceLabel": "Rotorua Full Day",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 750
+  },
+  {
+    "priceLabel": "Adult - 1 Hour",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 30
+  },
+  {
+    "priceLabel": "Adult SUP with Transport",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 188.34
+  },
+  {
+    "priceLabel": "Adult - 1 course",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 16
+  },
+  {
+    "priceLabel": "Adult - 2 course combo",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 25
+  },
+  {
+    "priceLabel": "Adult - 3 course combo",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 29
+  },
+  {
+    "priceLabel": "Raft",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 840
+  },
+  {
+    "priceLabel": "Adult - Regular ride",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 289
+  },
+  {
+    "priceLabel": "Casual Racing Simulator",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 47.35
+  },
+  {
+    "priceLabel": "Photoshoot Session / Permit",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 157.83
+  },
+  {
+    "priceLabel": "Coronet Peak",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 649
+  },
+  {
+    "priceLabel": "Adult Picton Pick Up",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 226.22
+  },
+  {
+    "priceLabel": "One Bather Private Hot Tub",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 103.11
+  },
+  {
+    "priceLabel": "Hot Tub",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 145.2
+  },
+  {
+    "priceLabel": "One person using gin still",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 263.04
+  },
+  {
+    "priceLabel": "half day experience",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 631.3
+  },
+  {
+    "priceLabel": "**NEW** Entry with 2 Espresso Martinis",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 68.39
+  },
+  {
+    "priceLabel": "Van Hire • 4 Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 150
+  },
+  {
+    "priceLabel": "Hot Tub Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 89.43
+  },
+  {
+    "priceLabel": "Family Pass - 2 adults & 3 children (Whangārei Resident)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 47.35
+  },
+  {
+    "priceLabel": "E-Bike Hire • 2 Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 58
+  },
+  {
+    "priceLabel": "Private Full Day Tour for 2 Adults from Blenheim",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1736.09
+  },
+  {
+    "priceLabel": "13,000 Ft. Skydive + Franz & Tasman Experience Combo",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 729
+  },
+  {
+    "priceLabel": "One Day Course",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 419.82
+  },
+  {
+    "priceLabel": "Private Tour (1-4 Passengers)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1210
+  },
+  {
+    "priceLabel": "Ski The Tasman - 2 Runs",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1400
+  },
+  {
+    "priceLabel": "One Hour Double Kayak Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 60
+  },
+  {
+    "priceLabel": "Cabri G2 Trial Flight with Instructor - 30 minutes",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 520.83
+  },
+  {
+    "priceLabel": "2 Adults (First 2 or only 2 in group)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 350.01
+  },
+  {
+    "priceLabel": "Adult (Ages 18+)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 78.91
+  },
+  {
+    "priceLabel": "Experienced quad bike rider (regular group)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 399
+  },
+  {
+    "priceLabel": "Child (2-8yo)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 84.17
+  },
+  {
+    "priceLabel": "Adult - 2 Hours",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 130
+  },
+  {
+    "priceLabel": "Adult - 3 Hours",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 160
+  },
+  {
+    "priceLabel": "Toyota Landcruiser Troop Carrier (up to 6 passengers)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1450
+  },
+  {
+    "priceLabel": "Van: 5 Seater",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 904.87
+  },
+  {
+    "priceLabel": "Two people Half Day Tour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 263.04
+  },
+  {
+    "priceLabel": "Te Araroa 1-4 Paddlers",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 263.04
+  },
+  {
+    "priceLabel": "Adult under 100 kg",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 52.61
+  },
+  {
+    "priceLabel": "Yamaha Wolverine Buggy (including 2 people)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 460
+  },
+  {
+    "priceLabel": "Climber",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 5
+  },
+  {
+    "priceLabel": "3 Heats & Final",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 57.87
+  },
+  {
+    "priceLabel": "10 Laps. 30 Laps Total per driver",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 568.17
+  },
+  {
+    "priceLabel": "One Hour Single Kayak Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 30
+  },
+  {
+    "priceLabel": "50 Ball Bucket",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 12
+  },
+  {
+    "priceLabel": "4 Hours Islands Safari",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 735.47
+  },
+  {
+    "priceLabel": "30 Minutes Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 156.77
+  },
+  {
+    "priceLabel": "1 Hour Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 240.95
+  },
+  {
+    "priceLabel": "2 Hours Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 419.82
+  },
+  {
+    "priceLabel": "3 Hours Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 525.03
+  },
+  {
+    "priceLabel": "Clearyak-Double 30 min",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 89.43
+  },
+  {
+    "priceLabel": "Luxury 3 seater Jet Ski",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 250
+  },
+  {
+    "priceLabel": "Four Hour Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 70
+  },
+  {
+    "priceLabel": "Driving Range 6 Bay Reservation",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 250
+  },
+  {
+    "priceLabel": "E-bikes and Grade 3 river tour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 388.25
+  },
+  {
+    "priceLabel": "One Day Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 159.04
+  },
+  {
+    "priceLabel": "Adult Kart Double Session - 2x10min races",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 57.87
+  },
+  {
+    "priceLabel": "Afternoon Cultural Tour (ACE) 2027/28 (Adult)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 190
+  },
+  {
+    "priceLabel": "One Hour Pass",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 104.17
+  },
+  {
+    "priceLabel": "Whakapapa Ski Field Return Shuttle",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 73.65
+  },
+  {
+    "priceLabel": "Five person private charter",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 2550
+  },
+  {
+    "priceLabel": "Number of Participant",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 25
+  },
+  {
+    "priceLabel": "Black/White Hoodie",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 99
+  },
+  {
+    "priceLabel": "Afternoon HE 2026/27 Adult",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 200
+  },
+  {
+    "priceLabel": "Group of 4",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 589.22
+  },
+  {
+    "priceLabel": "Mountain's OFF - River’s ON Skier's Deal",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 73.65
+  },
+  {
+    "priceLabel": "Single Player (1 Person)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 84.17
+  },
+  {
+    "priceLabel": "Cromwell Family Tour Experience",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 314.6
+  },
+  {
+    "priceLabel": "Guided Ride (Rider) -  3 Hours",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 631.3
+  },
+  {
+    "priceLabel": "Pillion Passenger - 3 Hours",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 305.13
+  },
+  {
+    "priceLabel": "Charter Flight",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 4999
+  },
+  {
+    "priceLabel": "4 Hours Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 630.25
+  },
+  {
+    "priceLabel": "6 Hours Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 840.69
+  },
+  {
+    "priceLabel": "Doughboat",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 162.62
+  },
+  {
+    "priceLabel": "Driving Range 3 Bay Reservation",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 115
+  },
+  {
+    "priceLabel": "Shared Charter",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 183.48
+  },
+  {
+    "priceLabel": "One Hour Hire Standard - Small",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 39
+  },
+  {
+    "priceLabel": "Four Hour Hire - Full Suspension - Small",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 199
+  },
+  {
+    "priceLabel": "Half Day Hire One Set",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 25
+  },
+  {
+    "priceLabel": "Four Hour Giant Tumbling Tower",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 20
+  },
+  {
+    "priceLabel": "Native Plant",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 53
+  },
+  {
+    "priceLabel": "Paddling Birthday Party",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 315.65
+  },
+  {
+    "priceLabel": "Half Day Private Fishing Charter",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 999.57
+  },
+  {
+    "priceLabel": "Mini Sprint Race",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 526.09
+  },
+  {
+    "priceLabel": "Group of One to Five Adults - price per adult",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 173.61
+  },
+  {
+    "priceLabel": "45 min session - 3 Games",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 23.15
+  },
+  {
+    "priceLabel": "Up to 50 People",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1946.52
+  },
+  {
+    "priceLabel": "Single Sit-on-top Kayak - 1 hour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 29.46
+  },
+  {
+    "priceLabel": "Person - 4 Day Trip",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 2500
+  },
+  {
+    "priceLabel": "75-minutes Private Sauna",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 73.65
+  },
+  {
+    "priceLabel": "Single Session",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 789.13
+  },
+  {
+    "priceLabel": "Adult – Full Gym",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 25.25
+  },
+  {
+    "priceLabel": "3-seater 30 min",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 30.51
+  },
+  {
+    "priceLabel": "10 Min",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 47.35
+  },
+  {
+    "priceLabel": "Half hour Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 19.99
+  },
+  {
+    "priceLabel": "One and a half hour Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 39.98
+  },
+  {
+    "priceLabel": "Four Hour Private Tour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 1050
+  },
+  {
+    "priceLabel": "All day pass",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 10.52
+  },
+  {
+    "priceLabel": "Person - Single",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 740
+  },
+  {
+    "priceLabel": "1 hour private track",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1578.26
+  },
+  {
+    "priceLabel": "Guided Sunrise Kayak & Guided E-Bike Tour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 300
+  },
+  {
+    "priceLabel": "Self Guided  3 Hour Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 89
+  },
+  {
+    "priceLabel": "30-Minutes",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 42.09
+  },
+  {
+    "priceLabel": "Thirty Minutes",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 120
+  },
+  {
+    "priceLabel": "Group Lesson",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 231.48
+  },
+  {
+    "priceLabel": "Rope 30 – 60 metres",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 47.35
+  },
+  {
+    "priceLabel": "Family - Miniputt 18 holes +  Driving Range + PIZZA",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 59
+  },
+  {
+    "priceLabel": "Family - Miniputt 36 holes + Driving Range + PIZZA",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 79
+  },
+  {
+    "priceLabel": "Family - Miniputt 1 course + Driving Range +  Food",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 89
+  },
+  {
+    "priceLabel": "Group $460 - up to 10 People",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 460
+  },
+  {
+    "priceLabel": "25 Minute Flight",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1573
+  },
+  {
+    "priceLabel": "Two Children",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 156.77
+  },
+  {
+    "priceLabel": "Frisbee",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 6.31
+  },
+  {
+    "priceLabel": "One Night (per person)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 15.78
+  },
+  {
+    "priceLabel": "10 Minute Session",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 84.17
+  },
+  {
+    "priceLabel": "2-8 Players",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 30
+  },
+  {
+    "priceLabel": "Senior - 1 Round",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 13
+  },
+  {
+    "priceLabel": "Electric Bike - XS",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 97.48
+  },
+  {
+    "priceLabel": "Birthday Party Package",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 263.04
+  },
+  {
+    "priceLabel": "Hard - Adult",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 42.09
+  },
+  {
+    "priceLabel": "Family - Miniputt 1 course + Driving Range +  Feed for a family",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 89
+  },
+  {
+    "priceLabel": "One Hour Hire - 16\"",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 39
+  },
+  {
+    "priceLabel": "E-Bike 1 Hour",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 21.04
+  },
+  {
+    "priceLabel": "Tow & GO!",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 840.69
+  },
+  {
+    "priceLabel": "Half Day Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 20
+  },
+  {
+    "priceLabel": "Theraputic Surfing Experience",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 185
+  },
+  {
+    "priceLabel": "Outdoor Escape Adventure",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 30.51
+  },
+  {
+    "priceLabel": "Sledger",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 151.51
+  },
+  {
+    "priceLabel": "Paddler",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 420.87
+  },
+  {
+    "priceLabel": "20 minutes",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 47.35
+  },
+  {
+    "priceLabel": "Private Tour - up to 6 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 735.47
+  },
+  {
+    "priceLabel": "60 Laps Total",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 63.13
+  },
+  {
+    "priceLabel": "38 South: Full Day - 8 hours",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 9680
+  },
+  {
+    "priceLabel": "10 Min - Adult",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 31.57
+  },
+  {
+    "priceLabel": "EASY (60min) - PER PERSON",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 30.51
+  },
+  {
+    "priceLabel": "Blokart session",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 69
+  },
+  {
+    "priceLabel": "Driftkart",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 30
+  },
+  {
+    "priceLabel": "Venue Hire - 1.5 Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 2392.5
+  },
+  {
+    "priceLabel": "Two Passengers",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 25
+  },
+  {
+    "priceLabel": "Group",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 925.91
+  },
+  {
+    "priceLabel": "Dog Day Pass",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 23
+  },
+  {
+    "priceLabel": "Register Rider bringing own horse",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 21.04
+  },
+  {
+    "priceLabel": "One Day Charter",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 11573.91
+  },
+  {
+    "priceLabel": "38 South: Half Day - 4 hours",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 4975
+  },
+  {
+    "priceLabel": "2 Hours - 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1450
+  },
+  {
+    "priceLabel": "3 Hours - 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 2175
+  },
+  {
+    "priceLabel": "4 Hours - 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 2900
+  },
+  {
+    "priceLabel": "1.5 Hours 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1125
+  },
+  {
+    "priceLabel": "5 Hours - 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 3625
+  },
+  {
+    "priceLabel": "6 Hours - 38 South",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 4350
+  },
+  {
+    "priceLabel": "XS-S E-Bike (154-165cm)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 220.96
+  },
+  {
+    "priceLabel": "2 Day Rental",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 100
+  },
+  {
+    "priceLabel": "Private Event",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 990
+  },
+  {
+    "priceLabel": "Youth - Journey",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 1575
+  },
+  {
+    "priceLabel": "Picnic Experience For Two",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 194.65
+  },
+  {
+    "priceLabel": "Hut Bed",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 30.4
+  },
+  {
+    "priceLabel": "Meal",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 28.41
+  },
+  {
+    "priceLabel": "Adult LIVE Horror Show Ticket",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 46.29
+  },
+  {
+    "priceLabel": "GoPro Video Package",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 75
+  },
+  {
+    "priceLabel": "Cruiser Bike & Kayak Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 94.7
+  },
+  {
+    "priceLabel": "One Hour Mini Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 14
+  },
+  {
+    "priceLabel": "Intermediate Tuition",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 205.22
+  },
+  {
+    "priceLabel": "Foosball- 1 Session",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 60
+  },
+  {
+    "priceLabel": "Group of 6 + People",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 500
+  },
+  {
+    "priceLabel": "Climber | Double luggage allowance",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 21.2
+  },
+  {
+    "priceLabel": "1.5 Hour Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 314.6
+  },
+  {
+    "priceLabel": "DL/RM",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 385
+  },
+  {
+    "priceLabel": "Transfer & Lunch Cruise - PICK UP QUEENSTOWN",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 815.43
+  },
+  {
+    "priceLabel": "One Game (16+)",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 14.73
+  },
+  {
+    "priceLabel": "Discover Scuba (Full Gear Included)",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 425.08
+  },
+  {
+    "priceLabel": "Certified Diver (Full Gear Hire Included)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 398.77
+  },
+  {
+    "priceLabel": "1-Hour",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 84.17
+  },
+  {
+    "priceLabel": "Tandem Kayak Guided",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 314.6
+  },
+  {
+    "priceLabel": "Passengers - LUNCH",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 367.21
+  },
+  {
+    "priceLabel": "Board & Wetsuit Hire two Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 31.8
+  },
+  {
+    "priceLabel": "Board Only Hire two Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 26.5
+  },
+  {
+    "priceLabel": "Wetsuit Only Hire two Hours",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 21.2
+  },
+  {
+    "priceLabel": "Dog (exclusive bookings only)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 25
+  },
+  {
+    "priceLabel": "12 Hour Mission",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 526.09
+  },
+  {
+    "priceLabel": "1-Day Battery",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 50
+  },
+  {
+    "priceLabel": "20 Shells",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 104.17
+  },
+  {
+    "priceLabel": "2 hours (min) -Up to 11 Guests -",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 547.13
+  },
+  {
+    "priceLabel": "Double Sea Kayak - Price for 2 Adults",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 178
+  },
+  {
+    "priceLabel": "Session",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 100
+  },
+  {
+    "priceLabel": "1-day International Rider Package",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 799.32
+  },
+  {
+    "priceLabel": "Advanced Tuition",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 307.83
+  },
+  {
+    "priceLabel": "Combo A (<16)",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 31.57
+  },
+  {
+    "priceLabel": "Extra Small Trek Roscoe 7 Mountain Bike + Helmet Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 141.75
+  },
+  {
+    "priceLabel": "Vehicle Transfer",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 275
+  },
+  {
+    "priceLabel": "Kids Bike - 20\"",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 66.7
+  },
+  {
+    "priceLabel": "Compact Vehicle (e.g. Hatchback)",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 420.87
+  },
+  {
+    "priceLabel": "5 Hours Jetski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 735.47
+  },
+  {
+    "priceLabel": "One dive with full gear hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 94.7
+  },
+  {
+    "priceLabel": "Group of 5 Adults",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 284.09
+  },
+  {
+    "priceLabel": "20 Arrow Package",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 51.56
+  },
+  {
+    "priceLabel": "60 Shot Package",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 51.56
+  },
+  {
+    "priceLabel": "Cargo Bike - Adult plus 1 Child",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 169.3
+  },
+  {
+    "priceLabel": "Adult Jacket",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 26
+  },
+  {
+    "priceLabel": "One Hour Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 110
+  },
+  {
+    "priceLabel": "Half day 3hrs: 1-2 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 292.43
+  },
+  {
+    "priceLabel": "Boat Bike experience",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 78.91
+  },
+  {
+    "priceLabel": "Bag",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 29
+  },
+  {
+    "priceLabel": "Party Room",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 84.17
+  },
+  {
+    "priceLabel": "Half Day Adult",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 149
+  },
+  {
+    "priceLabel": "Add-on Kayaking 1 – 3 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 131.52
+  },
+  {
+    "priceLabel": "1 Passenger",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 78.91
+  },
+  {
+    "priceLabel": "Pulk",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 59
+  },
+  {
+    "priceLabel": "Child Jacket and Pants",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 38
+  },
+  {
+    "priceLabel": "10 Shot",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 25.78
+  },
+  {
+    "priceLabel": "12 Shot",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 30.51
+  },
+  {
+    "priceLabel": "Waihaha One Way",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 296.8
+  },
+  {
+    "priceLabel": "Youth",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 21.04
+  },
+  {
+    "priceLabel": "Standard Package",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 1104.78
+  },
+  {
+    "priceLabel": "One to Four People",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 131.52
+  },
+  {
+    "priceLabel": "TGD Adult 2026/27",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 420
+  },
+  {
+    "priceLabel": "Adult with Bike (1 Person)",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 336.7
+  },
+  {
+    "priceLabel": "Half an Hour",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 280
+  },
+  {
+    "priceLabel": "Surfboard Hire 2 Hrs",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 31.57
+  },
+  {
+    "priceLabel": "Person - Group of 4-8 people",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 72.6
+  },
+  {
+    "priceLabel": "Private Lesson 1:1",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 126.26
+  },
+  {
+    "priceLabel": "Adult Mountain Bike",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 68.39
+  },
+  {
+    "priceLabel": "Adult Participant",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 5200
+  },
+  {
+    "priceLabel": "Wetsuit",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 26.3
+  },
+  {
+    "priceLabel": "Group Booking 90 Minutes",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 754.72
+  },
+  {
+    "priceLabel": "Electric Tandem Bike",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 189.83
+  },
+  {
+    "priceLabel": "Private Charter: Cardrona",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 959.58
+  },
+  {
+    "priceLabel": "Pedal Boat (Big Slide) | 30 Minutes",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 42.09
+  },
+  {
+    "priceLabel": "Dog Seasons Pass",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 68
+  },
+  {
+    "priceLabel": "1-Hour School Holiday Fun",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 62.08
+  },
+  {
+    "priceLabel": "Child with Unlimited Rentals",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 109
+  },
+  {
+    "priceLabel": "Kids Pass",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 52.61
+  },
+  {
+    "priceLabel": "One Day",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 178.87
+  },
+  {
+    "priceLabel": "Adult with Unlimited Rentals",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 490
+  },
+  {
+    "priceLabel": "One Hour Jet Ski Hire",
+    "unitState": "non-per-person",
+    "count": 1,
+    "dollars": 168.35
+  },
+  {
+    "priceLabel": "Aqua Trike | 30 Minutes",
+    "unitState": "unknown",
+    "count": 1,
+    "dollars": 26.3
+  },
+  {
+    "priceLabel": "Adult Ex-Pahiatua Return",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 71.55
+  },
+  {
+    "priceLabel": "Adult Return",
+    "unitState": "per-person",
+    "count": 1,
+    "dollars": 45
+  }
+]
