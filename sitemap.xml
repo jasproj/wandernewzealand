@@ -162,4 +162,40 @@
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
+    <url>
+        <loc>https://wandernewzealand.com/boat-tours.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/hiking-tours.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/wine-tours.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/bike-tours.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/surfing.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/rafting.html</loc>
+        <lastmod>2026-08-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>
