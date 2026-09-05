@@ -142,7 +142,25 @@ async function loadTours() {
         
         const _raw = await response.json();
         toursData = Array.isArray(_raw) ? _raw : _raw.tours;
-        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // hidden:true is the human-ruled hide, same convention as the other
+        // repos: the row stays in the file with hiddenReason/hiddenAt so a
+        // ruling survives a re-scrape instead of being re-litigated.
+        toursData = toursData.filter(t => t.status !== 'inactive' && !t.bookingDead && !t.hidden);
+
+        // A page can declare a price floor on its grid:
+        //   <div id="tours-grid" data-min-price="1500">
+        // The luxury page uses it so it draws the premium tier from this same
+        // file and this same card renderer, rather than a hand-written list
+        // that goes stale the moment an operator repositions. The floor is read
+        // in the row's own currency -- this repo is NZD throughout, per D-620,
+        // a row renders in ITS currency and is never converted -- so the number
+        // in the attribute means what it says on the page.
+        const _grid = document.getElementById('tours-grid');
+        const _floor = _grid ? parseFloat(_grid.dataset.minPrice) : NaN;
+        if (_floor > 0) {
+            toursData = toursData.filter(t => Number(t.price) >= _floor);
+            console.log(`Price floor ${_floor}: ${toursData.length} tours`);
+        }
         updateVerifiedToursCount(toursData.length);
         console.log(`✅ Loaded ${toursData.length} tours`);
         
@@ -201,7 +219,12 @@ function formatPrice(price, confidence, currency) {
     if (confidence === 'low') return 'Price on request';
     const symbol = CURRENCY_SYMBOL[currency];
     if (!symbol) return 'Price on request';
-    return `From ${symbol}${price}`;
+    // Group thousands and drop cents. Scraped prices arrive as raw floats, so a
+    // NZ$8,412 heli-flight was rendering "NZ$8412.13" -- unreadable at a glance
+    // and wrong-looking on the premium listings, where the number is the point.
+    // Rounding is display-only; the operator's own page remains the authority.
+    const shown = Math.round(price).toLocaleString('en-NZ');
+    return `From ${symbol}${shown}`;
 }
 
 function cleanLocation(location = '') {
