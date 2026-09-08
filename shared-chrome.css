@@ -195,7 +195,7 @@ h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 
 /* ===== Footer (verbatim from styles.css) ===== */
 .footer-logo-img {
-    height: 120px;
+    height: 92px;
     width: auto;
 }
 
@@ -260,15 +260,14 @@ h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 }
 
 .footer-logo-img {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    padding: 10px;
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+    background: rgba(255, 255, 255, 0.94);
+    border-radius: 10px;
+    padding: 14px 20px;
 }
 
 @media (max-width: 768px) {
     .footer-logo-img {
-        height: 90px;
+        height: 74px;
     }
     .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
     .footer-brand { grid-column: 1 / -1; }
