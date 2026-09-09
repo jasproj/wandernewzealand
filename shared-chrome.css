@@ -194,9 +194,11 @@ h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
 .footer img { display: block; max-width: 100%; }
 
 /* ===== Footer (verbatim from styles.css) ===== */
+.footer .footer-logo-img,
 .footer-logo-img {
-    height: 92px;
+    height: 160px;
     width: auto;
+    max-width: 100%;
 }
 
 .footer {
@@ -259,15 +261,12 @@ h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
     margin-bottom: var(--space-sm);
 }
 
-.footer-logo-img {
-    background: rgba(255, 255, 255, 0.94);
-    border-radius: 10px;
-    padding: 14px 20px;
-}
+
 
 @media (max-width: 768px) {
+    .footer .footer-logo-img,
     .footer-logo-img {
-        height: 74px;
+        height: 160px;
     }
     .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--space-xl); }
     .footer-brand { grid-column: 1 / -1; }
