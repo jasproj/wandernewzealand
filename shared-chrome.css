@@ -199,6 +199,7 @@ h1, h2, h3, h4, .tour-title { font-family: var(--font-display); }
     height: 160px;
     width: auto;
     max-width: 100%;
+    object-fit: contain;
 }
 
 .footer {
