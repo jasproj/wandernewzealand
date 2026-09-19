@@ -10,6 +10,58 @@ const FALLBACK_IMAGE = '/images/hero-photo-1.jpg';
 
 let toursData = [];
 
+// ---- City picker (s61) ------------------------------------------------------
+// The location select used to carry a few hand-written options; it is now
+// rebuilt from the catalogue by /city-picker.js: every town with at least
+// minCount live tours, with its count. Old option values still work
+// through legacyMatch, so existing ?island= links keep resolving, and
+// ?city=<town> links to one town.
+const CITY_PICKER = window.CityPicker ? window.CityPicker.create({
+    cityOf: t => {
+        const n = window.CityPicker.lastSegment(t.location);
+        if (/^(new zealand|cbd|manawatū-whanganui)$/i.test(n)) return '';
+        return ({
+            'Whangarei': 'Whangārei',
+            'Invercargill Airport': 'Invercargill',
+            'Mount Cook': 'Aoraki / Mount Cook',
+            'Aoraki Mount Cook National Park': 'Aoraki / Mount Cook',
+            'Mangawhai Heads': 'Mangawhai'
+        })[n] || n;
+    },
+    legacyMatch: (t, v) => {
+        const island = (t.island || '').toLowerCase();
+        const group = REGION_GROUPS[v];
+        return group ? group.includes(island) : island === v;
+    },
+    minCount: 3,
+    allLabel: 'All of New Zealand'
+}) : null;
+
+function cityPickerMatches(tour, value) {
+    return CITY_PICKER ? CITY_PICKER.matches(tour, value) : (tour.island || '').toLowerCase() === value;
+}
+
+function initCityPicker() {
+    const sel = document.getElementById('island-filter');
+    if (!CITY_PICKER || !sel) return;
+    CITY_PICKER.fill(sel, toursData);
+    const q = new URLSearchParams(window.location.search);
+    const want = (q.get('city') || '').trim().toLowerCase();
+    const legacy = (q.get('island') || q.get('area') || '').trim().toLowerCase();
+    let pick = '';
+    if (want) {
+        const opt = [...sel.options].find(o => o.value === 'city:' + want || o.value.endsWith('/' + want));
+        if (opt) pick = opt.value;
+    } else if (legacy) {
+        pick = legacy;
+        if (![...sel.options].some(o => o.value === legacy)) {
+            const o = document.createElement('option');
+            o.value = legacy; o.textContent = legacy; sel.appendChild(o);
+        }
+    }
+    if (pick) { sel.value = pick; filterTours(); }
+}
+
 // Region groups: a filter value that maps to MULTIPLE island slugs (e.g. Fiordland
 // is split across several towns). Values not listed here keep exact island matching.
 const REGION_GROUPS = {
@@ -174,6 +226,7 @@ async function loadTours() {
         displayedCount = 0;
         renderTours();
         updateResultsCount();
+        initCityPicker();
         console.log('✅ Tours rendered successfully');
     } catch (error) {
         console.error('❌ Error loading tours:', error.message);
@@ -451,13 +504,9 @@ function filterTours() {
     if (searchInput) trackSearchUsed(searchInput);
     
     filteredTours = toursData.filter(tour => {
-        // Island filter (supports multi-slug region groups; exact match otherwise)
-        if (islandFilter) {
-            const island = tour.island?.toLowerCase();
-            const group = REGION_GROUPS[islandFilter];
-            if (group ? !group.includes(island) : island !== islandFilter) {
-                return false;
-            }
+        // Location filter: island/region, or one town (city picker)
+        if (islandFilter && !cityPickerMatches(tour, islandFilter)) {
+            return false;
         }
         
         // Activity filter
