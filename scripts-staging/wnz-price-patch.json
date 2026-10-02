@@ -1,0 +1,757 @@
+{
+ "generated": "2026-10-02",
+ "site": "wnz",
+ "source": "fareharbor price-preview asn=fhdn, 4 dates",
+ "rule": "price := exact priceLabel tier price; label unchanged unless newLabel differs",
+ "auto": [
+  {
+   "co": "canoeandkayak-northshore",
+   "pk": "696775",
+   "name": "Coastal Brewery Paddle",
+   "oldPrice": 119.0,
+   "newPrice": 90.0,
+   "oldLabel": "Paddle to the Pub",
+   "newLabel": "Paddle to the Pub",
+   "cls": "DUPLICATE_LABEL",
+   "note": "two tiers share this name; the cheaper is the one-way paddle"
+  },
+  {
+   "co": "canyoningnewzealand",
+   "pk": "272826",
+   "name": "Mt Aspiring Full Day Canyoning Adventure",
+   "oldPrice": 525.03,
+   "newPrice": 419.82,
+   "oldLabel": "Per Person",
+   "newLabel": "Per Person",
+   "cls": "DUPLICATE_LABEL",
+   "note": "two tiers share this name; cheaper per-person rate"
+  },
+  {
+   "co": "corocowboyfishing",
+   "pk": "289220",
+   "name": "Half Day Fishing Charter",
+   "oldPrice": 163.09,
+   "newPrice": 147.3,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "553418",
+   "name": "Double Boat Dive",
+   "oldPrice": 367.21,
+   "newPrice": 352.48,
+   "oldLabel": "Diver",
+   "newLabel": "Diver",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "553420",
+   "name": "Single Boat Dive",
+   "oldPrice": 315.65,
+   "newPrice": 299.87,
+   "oldLabel": "Diver",
+   "newLabel": "Diver",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "553419",
+   "name": "Double Shore Dive",
+   "oldPrice": 293.56,
+   "newPrice": 278.83,
+   "oldLabel": "Diver",
+   "newLabel": "Diver",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "553422",
+   "name": "Single Shore Dive",
+   "oldPrice": 240.95,
+   "newPrice": 230.43,
+   "oldLabel": "Diver",
+   "newLabel": "Diver",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "553424",
+   "name": "SSI Open Water Program",
+   "oldPrice": 836.48,
+   "newPrice": 198.86,
+   "oldLabel": "Participant",
+   "newLabel": "Participant",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "721017",
+   "name": "Single Crayfish Dive",
+   "oldPrice": 325.12,
+   "newPrice": 314.6,
+   "oldLabel": "Diver",
+   "newLabel": "Diver",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "dempseybuses",
+   "pk": "267558",
+   "name": "Mountain Biking the Ohakune Old Coach Road",
+   "oldPrice": 26.3,
+   "newPrice": 21.04,
+   "oldLabel": "Adult return",
+   "newLabel": "Adult return",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "divetutukaka",
+   "pk": "734995",
+   "name": "Advanced Open Water",
+   "oldPrice": 1315.22,
+   "newPrice": 789.13,
+   "oldLabel": "Student",
+   "newLabel": "Student",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "divetutukaka",
+   "pk": "734997",
+   "name": "Drysuit Specialty",
+   "oldPrice": 1157.39,
+   "newPrice": 631.3,
+   "oldLabel": "Student",
+   "newLabel": "Student",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "divetutukaka",
+   "pk": "734625",
+   "name": "Open Water course",
+   "oldPrice": 1261.56,
+   "newPrice": 735.47,
+   "oldLabel": "Student",
+   "newLabel": "Student",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "eliteexcursions-nz",
+   "pk": "622564",
+   "name": "Nature Adventure",
+   "oldPrice": 251.47,
+   "newPrice": 230.43,
+   "oldLabel": "Per person",
+   "newLabel": "Per person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "fergswellington",
+   "pk": "684267",
+   "name": "Birthday Party at Fergs - Kayak / SUP",
+   "oldPrice": 315.65,
+   "newPrice": 273.57,
+   "oldLabel": "Paddling Birthday Party",
+   "newLabel": "Paddling Birthday Party",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "gentlecycling",
+   "pk": "489947",
+   "name": "Great Taste Wine - Silver",
+   "oldPrice": 184.13,
+   "newPrice": 163.09,
+   "oldLabel": "Touring Bike Step-Through S",
+   "newLabel": "Touring Bike Step-Through S",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "gentlecycling",
+   "pk": "489948",
+   "name": "Great Taste Wine - Gold",
+   "oldPrice": 289.35,
+   "newPrice": 257.78,
+   "oldLabel": "Touring Bike Step-Through S",
+   "newLabel": "Touring Bike Step-Through S",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "goingblue",
+   "pk": "397951",
+   "name": "Coronet Peak Ski: Private Shuttle",
+   "oldPrice": 505.04,
+   "newPrice": 419.82,
+   "oldLabel": "Private Return Transport",
+   "newLabel": "Private Return Transport",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "gravitynelson",
+   "pk": "472675",
+   "name": "Casual Shuttles: Firball Skid or Fringed Hill",
+   "oldPrice": 30.0,
+   "newPrice": 15.0,
+   "oldLabel": "1 Person Uplift",
+   "newLabel": "1 Person Uplift",
+   "cls": "DUPLICATE_LABEL",
+   "note": "two tiers share this name; $15 is one uplift, $30 is two"
+  },
+  {
+   "co": "helicoptersnelson",
+   "pk": "655412",
+   "name": "Luxury Landing | Awaroa Lodge Heli-Transfer",
+   "oldPrice": 2822.98,
+   "newPrice": 2586.24,
+   "oldLabel": "MD520N Helicopter for up to 3 pax (weight dependent)",
+   "newLabel": "MD520N Helicopter for up to 3 pax (weight dependent)",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "helicoptersnelson",
+   "pk": "656476",
+   "name": "Luxury Landing | Stonefly Lodge",
+   "oldPrice": 2495.76,
+   "newPrice": 2403.17,
+   "oldLabel": "AS350 Helicopter for up to 6 pax (weight dependent)",
+   "newLabel": "AS350 Helicopter for up to 6 pax (weight dependent)",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "668916",
+   "name": "Wellington Craft Beer Tour",
+   "oldPrice": 977.0,
+   "newPrice": 974.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "668898",
+   "name": "Wellington Scenic Half Day Tour",
+   "oldPrice": 897.0,
+   "newPrice": 834.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "668902",
+   "name": "Wellington Scenic Full Day Tour",
+   "oldPrice": 957.0,
+   "newPrice": 954.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "668914",
+   "name": "Lord of the Rings Half Day Tour",
+   "oldPrice": 957.0,
+   "newPrice": 954.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "669115",
+   "name": "K\u0101piti Coast Scenic Half Day Tour",
+   "oldPrice": 867.0,
+   "newPrice": 814.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaewatours",
+   "pk": "668915",
+   "name": "2 Hour Wellington Scenic Drive Tour",
+   "oldPrice": 767.0,
+   "newPrice": 574.0,
+   "oldLabel": "Solo",
+   "newLabel": "Solo",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "kaitiaki",
+   "pk": "196256",
+   "name": "Mount Tarawera & Te Puia Te P\u014d + Haka & Hangi",
+   "oldPrice": 513.46,
+   "newPrice": 499.78,
+   "oldLabel": "Hiker",
+   "newLabel": "Hiker",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "laserllamas",
+   "pk": "728852",
+   "name": "Combo B | Laser Tag & Floor is Lava",
+   "oldPrice": 26.3,
+   "newPrice": 25.25,
+   "oldLabel": "Adult (16+)",
+   "newLabel": "Adult (16+)",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "lordoftheringstours",
+   "pk": "719812",
+   "name": "Mavora Lakes Middle Earth Half Day Adventure - Fro",
+   "oldPrice": 299.0,
+   "newPrice": 269.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "queenstownbikehire",
+   "pk": "729642",
+   "name": "Cycle Queenstown to the Wineries \ud83d\udeb2 \ud83d\ude90",
+   "oldPrice": 173.61,
+   "newPrice": 152.57,
+   "oldLabel": "Adult eBike",
+   "newLabel": "Adult eBike",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "skydive",
+   "pk": "125020",
+   "name": "16,500ft Skydive \u2013 Abel Tasman",
+   "oldPrice": 556.6,
+   "newPrice": 525.03,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thecave",
+   "pk": "708630",
+   "name": "PC Gaming",
+   "oldPrice": 30.0,
+   "newPrice": 10.0,
+   "oldLabel": "Player (1 Hour)",
+   "newLabel": "Player (1 Hour)",
+   "cls": "WRONG_TIER",
+   "note": "card held the 3-hour price under the 1-hour label"
+  },
+  {
+   "co": "thecave-taupo",
+   "pk": "710802",
+   "name": "PC Gaming",
+   "oldPrice": 30.0,
+   "newPrice": 10.0,
+   "oldLabel": "Player (1 Hour)",
+   "newLabel": "Player (1 Hour)",
+   "cls": "WRONG_TIER",
+   "note": "card held the 3-hour price under the 1-hour label"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717268",
+   "name": "Omni VR Multiplayer",
+   "oldPrice": 62.08,
+   "newPrice": 60.54,
+   "oldLabel": "Standard Experience",
+   "newLabel": "Standard Experience",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717269",
+   "name": "Hologate VR",
+   "oldPrice": 51.56,
+   "newPrice": 50.28,
+   "oldLabel": "Standard Experience",
+   "newLabel": "Standard Experience",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717270",
+   "name": "Free Roaming VR Multiplayer",
+   "oldPrice": 51.56,
+   "newPrice": 50.28,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "718518",
+   "name": "Indoor Escape Room - Kids Birthday Party",
+   "oldPrice": 36.83,
+   "newPrice": 35.91,
+   "oldLabel": "Indoor Escape Room",
+   "newLabel": "Indoor Escape Room",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "718764",
+   "name": "Outdoor Escape Game - Kids Birthday Party",
+   "oldPrice": 30.51,
+   "newPrice": 29.76,
+   "oldLabel": "Outdoor Escape Adventure",
+   "newLabel": "Outdoor Escape Adventure",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717271",
+   "name": "VR Escape Games",
+   "oldPrice": 62.08,
+   "newPrice": 60.54,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717272",
+   "name": "Race Car Simulator",
+   "oldPrice": 36.83,
+   "newPrice": 35.91,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717273",
+   "name": "Tactical Laser Tag",
+   "oldPrice": 36.83,
+   "newPrice": 35.91,
+   "oldLabel": "30 Minutes",
+   "newLabel": "30 Minutes",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717275",
+   "name": "Outdoor Escape Adventure - Takapuna",
+   "oldPrice": 30.51,
+   "newPrice": 29.76,
+   "oldLabel": "EASY (60min) - PER PERSON",
+   "newLabel": "EASY (60min) - PER PERSON",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "719478",
+   "name": "KidzClub",
+   "oldPrice": 84.17,
+   "newPrice": 82.09,
+   "oldLabel": "1-Hour",
+   "newLabel": "1-Hour",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "727689",
+   "name": "VR Escape Room - Kids Birthday Party",
+   "oldPrice": 57.87,
+   "newPrice": 56.43,
+   "oldLabel": "VR Escape Room",
+   "newLabel": "VR Escape Room",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "733398",
+   "name": "Sneak Peak Session - Hologate VR",
+   "oldPrice": 19.99,
+   "newPrice": 19.5,
+   "oldLabel": "Sneak Peak Session",
+   "newLabel": "Sneak Peak Session",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "733399",
+   "name": "Sneak Peak Session - Omni VR",
+   "oldPrice": 19.99,
+   "newPrice": 19.5,
+   "oldLabel": "Sneak Peak Session",
+   "newLabel": "Sneak Peak Session",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717278",
+   "name": "1 Hour Pass",
+   "oldPrice": 93.64,
+   "newPrice": 91.32,
+   "oldLabel": "General Admission",
+   "newLabel": "General Admission",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717281",
+   "name": "Virtual Reality - Kids Birthday Parties",
+   "oldPrice": 30.51,
+   "newPrice": 29.76,
+   "oldLabel": "One Activity",
+   "newLabel": "One Activity",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "thrillzoneak",
+   "pk": "717280",
+   "name": "School Holidays Special",
+   "oldPrice": 62.08,
+   "newPrice": 60.54,
+   "oldLabel": "1-Hour School Holiday Fun",
+   "newLabel": "1-Hour School Holiday Fun",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "toursofauckland",
+   "pk": "473737",
+   "name": "Auckland Sheep World Tour",
+   "oldPrice": 326.17,
+   "newPrice": 310.39,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "treadmarknz",
+   "pk": "721992",
+   "name": "PMBIA LEVEL 1 - Intermediate instructor certificat",
+   "oldPrice": 949.13,
+   "newPrice": 925.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "treadmarknz",
+   "pk": "721998",
+   "name": "PMBIA LEVEL 2 - AIR INSTRUCTOR | 4 day course | Qu",
+   "oldPrice": 1205.65,
+   "newPrice": 1175.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "treadmarknz",
+   "pk": "644553",
+   "name": "Mountains to lake - a MTB E-bike adventure",
+   "oldPrice": 251.39,
+   "newPrice": 245.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "tutikatours",
+   "pk": "744187",
+   "name": "The Tu Tika Tour - 1pm i-site visitor centre",
+   "oldPrice": 168.54,
+   "newPrice": 159.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "ultimatecharters",
+   "pk": "259995",
+   "name": "Large Group Fishing Charter - Inshore",
+   "oldPrice": 2491.0,
+   "newPrice": 2279.0,
+   "oldLabel": "Person",
+   "newLabel": "Person",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "wayfaregroup",
+   "pk": "257762",
+   "name": "Ferry \u2022 Bluff \u2192 Stewart Island",
+   "oldPrice": 145.0,
+   "newPrice": 139.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "wayfaregroup",
+   "pk": "257764",
+   "name": "Ferry \u2022 Stewart Island \u2192 Bluff",
+   "oldPrice": 145.0,
+   "newPrice": 139.0,
+   "oldLabel": "Adult",
+   "newLabel": "Adult",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  },
+  {
+   "co": "yourguidechris",
+   "pk": "480008",
+   "name": "Dunedin City, Sights and Peninsula Half Day Privat",
+   "oldPrice": 925.91,
+   "newPrice": 652.35,
+   "oldLabel": "Group",
+   "newLabel": "Group",
+   "cls": "STALE",
+   "note": "exact-label price re-measured on 4 dates, identical each time"
+  }
+ ],
+ "flag": [
+  {
+   "co": "rakiuraadventurenz",
+   "pk": "552570",
+   "name": "Christmas Village Hut",
+   "card": 121.0,
+   "label": "Child",
+   "tiers": [
+    [
+     "1-2 Adults",
+     210.43
+    ],
+    [
+     "3-4 Adults Discount",
+     147.3
+    ],
+    [
+     "5-7 Adults Discount",
+     126.26
+    ],
+    [
+     "8-9 Adults Discount",
+     105.22
+    ],
+    [
+     "Child",
+     105.22
+    ]
+   ],
+   "cls": "STALE",
+   "reason": "label does not match any tier at that price; correct tier is a judgment call"
+  },
+  {
+   "co": "rakiuraadventurenz",
+   "pk": "368866",
+   "name": "Freshwater River Hut Watertaxi & Scenic Tour",
+   "card": 68.39,
+   "label": "Child",
+   "tiers": [
+    [
+     "1-2 Adults",
+     115.74
+    ],
+    [
+     "3-4 Adults",
+     89.43
+    ],
+    [
+     "5-7 Adults",
+     78.91
+    ],
+    [
+     "8-9 Adults",
+     68.39
+    ],
+    [
+     "Child",
+     52.61
+    ]
+   ],
+   "cls": "WRONG_TIER",
+   "reason": "label does not match any tier at that price; correct tier is a judgment call"
+  },
+  {
+   "co": "rakiuraadventurenz",
+   "pk": "325230",
+   "name": "Scenic Boat Tour",
+   "card": 57.87,
+   "label": "Child",
+   "tiers": [
+    [
+     "1-2 Adults",
+     99.96
+    ],
+    [
+     "3-4 Adults",
+     78.91
+    ],
+    [
+     "5-7 Adults",
+     73.65
+    ],
+    [
+     "Child",
+     52.61
+    ]
+   ],
+   "cls": "STALE",
+   "reason": "label does not match any tier at that price; correct tier is a judgment call"
+  }
+ ],
+ "delist": [
+  {
+   "co": "davesdivingkaikoura",
+   "pk": "704914",
+   "name": "Mikhail Lermontov Weekend",
+   "card": 736.52,
+   "reason": "FareHarbor returns $0.00 on every date tested; item is not bookable at a price"
+  }
+ ]
+}
