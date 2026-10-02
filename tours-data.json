@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.8",
-  "lastNormalized": "2026-05-28T15:23:28.658Z",
+  "lastNormalized": "2026-10-02T17:50:49Z",
   "tours": [
     {
       "id": "fh-171361",
@@ -6452,7 +6452,7 @@
       "category": "",
       "location": "New Zealand/Auckland/Auckland",
       "island": "auckland",
-      "price": 119,
+      "price": 90,
       "priceLabel": "Paddle to the Pub",
       "priceConfidence": "high",
       "qualityScore": 78,
@@ -6510,8 +6510,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T18:56:12.408Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Paddle to the Pub NZ$119.00 -> NZ$90.00 (duplicate_label); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-723610",
@@ -13285,7 +13287,7 @@
       "category": "",
       "location": "New Zealand/Tasman/Motueka",
       "island": "motueka",
-      "price": 556.6,
+      "price": 525.03,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 77,
@@ -13336,8 +13338,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T18:57:04.028Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$556.60 -> NZ$525.03 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "275956",
@@ -15733,7 +15737,7 @@
       "category": "",
       "location": "New Zealand/Bay of Plenty/Rotorua",
       "island": "rotorua",
-      "price": 513.46,
+      "price": 499.78,
       "priceLabel": "Hiker",
       "priceConfidence": "high",
       "qualityScore": 90,
@@ -15784,8 +15788,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T18:57:23.554Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Hiker NZ$513.46 -> NZ$499.78 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-381162",
@@ -41881,7 +41887,7 @@
       "category": "",
       "location": "New Zealand/Southland/Bluff",
       "island": "bluff",
-      "price": 145,
+      "price": 139,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -41920,7 +41926,7 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:58:51.307915",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:05:34.186Z",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
       "priceEnrichmentStatus": "high",
       "priceBreakdown": [
         {
@@ -41952,7 +41958,9 @@
         }
       ],
       "priceIncludesBookingFees": true,
-      "priceIncludesTaxes": true
+      "priceIncludesTaxes": true,
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$145.00 -> NZ$139.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "257764",
@@ -41963,7 +41971,7 @@
       "category": "",
       "location": "New Zealand/Southland/Oban",
       "island": "oban",
-      "price": 145,
+      "price": 139,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 85,
@@ -42002,7 +42010,7 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-05-27T13:58:51.307925",
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:05:34.186Z",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
       "priceEnrichmentStatus": "high",
       "priceBreakdown": [
         {
@@ -42034,7 +42042,9 @@
         }
       ],
       "priceIncludesBookingFees": true,
-      "priceIncludesTaxes": true
+      "priceIncludesTaxes": true,
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$145.00 -> NZ$139.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "262668",
@@ -45870,7 +45880,7 @@
       "category": "",
       "location": "New Zealand/Nelson/Nelson",
       "island": "nelson",
-      "price": 30,
+      "price": 15,
       "priceLabel": "1 Person Uplift",
       "priceConfidence": "high",
       "qualityScore": 82,
@@ -45939,8 +45949,10 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T18:56:13.217Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: 1 Person Uplift NZ$30.00 -> NZ$15.00 (duplicate_label); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-494283",
@@ -57005,7 +57017,7 @@
       "category": "",
       "location": "Nelson, New Zealand",
       "island": "nelson",
-      "price": 2822.98,
+      "price": 2586.24,
       "priceLabel": "MD520N Helicopter for up to 3 pax (weight dependent)",
       "priceConfidence": "high",
       "qualityScore": 59,
@@ -57063,8 +57075,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:18:31.942Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: MD520N Helicopter for up to 3 pax (weight dependent) NZ$2822.98 -> NZ$2586.24 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-679991",
@@ -60987,7 +61001,7 @@
       "category": "",
       "location": "Kumeū, New Zealand",
       "island": "kumeū",
-      "price": 326.17,
+      "price": 310.39,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 57,
@@ -61053,8 +61067,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:21:16.730Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$326.17 -> NZ$310.39 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-474182",
@@ -67220,7 +67236,7 @@
       "category": "",
       "location": "Queenstown, New Zealand",
       "island": "queenstown",
-      "price": 505.04,
+      "price": 419.82,
       "priceLabel": "Private Return Transport",
       "priceConfidence": "high",
       "qualityScore": 55,
@@ -67269,8 +67285,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:15:16.157Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Private Return Transport NZ$505.04 -> NZ$419.82 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-398966",
@@ -77273,7 +77291,7 @@
       "category": "",
       "location": "Wellington, New Zealand",
       "island": "wellington",
-      "price": 315.65,
+      "price": 273.57,
       "priceLabel": "Paddling Birthday Party",
       "priceConfidence": "high",
       "qualityScore": 53,
@@ -77330,8 +77348,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:22:46.700Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Paddling Birthday Party NZ$315.65 -> NZ$273.57 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-702153",
@@ -79156,7 +79176,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 62.08,
+      "price": 60.54,
       "priceLabel": "Standard Experience",
       "priceConfidence": "high",
       "qualityScore": 52,
@@ -79211,8 +79231,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Standard Experience NZ$62.08 -> NZ$60.54 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-253522",
@@ -79659,7 +79681,7 @@
       "category": "",
       "location": "New Zealand/Otago/Queenstown",
       "island": "queenstown",
-      "price": 525.03,
+      "price": 419.82,
       "priceLabel": "Per Person",
       "priceConfidence": "high",
       "qualityScore": 94,
@@ -79732,8 +79754,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:02:06.452Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Per Person NZ$525.03 -> NZ$419.82 (duplicate_label); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "280807",
@@ -82798,7 +82822,7 @@
       "category": "",
       "location": "Te Kouma, New Zealand",
       "island": "te-kouma",
-      "price": 163.09,
+      "price": 147.3,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 50,
@@ -82855,8 +82879,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:52.741Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$163.09 -> NZ$147.30 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-407036",
@@ -83052,7 +83078,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 367.21,
+      "price": 352.48,
       "priceLabel": "Diver",
       "priceConfidence": "high",
       "qualityScore": 50,
@@ -83100,8 +83126,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:57.513Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Diver NZ$367.21 -> NZ$352.48 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-580395",
@@ -83620,7 +83648,7 @@
       "category": "",
       "location": "New Zealand/Northland/Paihia",
       "island": "bay-of-islands",
-      "price": 251.47,
+      "price": 230.43,
       "priceLabel": "Per person",
       "priceConfidence": "high",
       "qualityScore": 74,
@@ -83664,8 +83692,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-08-24T19:03:16.741Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Per person NZ$251.47 -> NZ$230.43 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-634889",
@@ -85114,7 +85144,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 977,
+      "price": 974,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 50,
@@ -85181,8 +85211,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:12.576Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$977.00 -> NZ$974.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-668920",
@@ -85707,7 +85739,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 51.56,
+      "price": 50.28,
       "priceLabel": "Standard Experience",
       "priceConfidence": "high",
       "qualityScore": 50,
@@ -85762,8 +85794,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Standard Experience NZ$51.56 -> NZ$50.28 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-731175",
@@ -105085,7 +105119,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 897,
+      "price": 834,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -105161,8 +105195,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:12.576Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$897.00 -> NZ$834.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-668902",
@@ -105173,7 +105209,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 957,
+      "price": 954,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -105249,8 +105285,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:12.576Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$957.00 -> NZ$954.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-668908",
@@ -105516,7 +105554,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 957,
+      "price": 954,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -105592,8 +105630,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:15.123Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$957.00 -> NZ$954.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-668917",
@@ -105780,7 +105820,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 867,
+      "price": 814,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -105856,8 +105896,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:15.123Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$867.00 -> NZ$814.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-669120",
@@ -106172,7 +106214,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 51.56,
+      "price": 50.28,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -106218,8 +106260,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$51.56 -> NZ$50.28 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-718518",
@@ -106230,7 +106274,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 36.83,
+      "price": 35.91,
       "priceLabel": "Indoor Escape Room",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -106303,8 +106347,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Indoor Escape Room NZ$36.83 -> NZ$35.91 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-718764",
@@ -106315,7 +106361,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 30.51,
+      "price": 29.76,
       "priceLabel": "Outdoor Escape Adventure",
       "priceConfidence": "high",
       "qualityScore": 49,
@@ -106388,8 +106434,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Outdoor Escape Adventure NZ$30.51 -> NZ$29.76 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-720566",
@@ -109057,7 +109105,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 62.08,
+      "price": 60.54,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 48,
@@ -109103,8 +109151,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$62.08 -> NZ$60.54 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-717272",
@@ -109115,7 +109165,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 36.83,
+      "price": 35.91,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 48,
@@ -109161,8 +109211,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$36.83 -> NZ$35.91 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-717273",
@@ -109173,7 +109225,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 36.83,
+      "price": 35.91,
       "priceLabel": "30 Minutes",
       "priceConfidence": "high",
       "qualityScore": 48,
@@ -109228,8 +109280,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: 30 Minutes NZ$36.83 -> NZ$35.91 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-717274",
@@ -109298,7 +109352,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 30.51,
+      "price": 29.76,
       "priceLabel": "EASY (60min) - PER PERSON",
       "priceConfidence": "high",
       "qualityScore": 48,
@@ -109362,8 +109416,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:10.811Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: EASY (60min) - PER PERSON NZ$30.51 -> NZ$29.76 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-717993",
@@ -110615,7 +110671,7 @@
       "category": "",
       "location": "Dunedin, New Zealand",
       "island": "dunedin",
-      "price": 925.91,
+      "price": 652.35,
       "priceLabel": "Group",
       "priceConfidence": "high",
       "qualityScore": 47,
@@ -110664,8 +110720,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:26:52.122Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Group NZ$925.91 -> NZ$652.35 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "491120",
@@ -112033,7 +112091,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 315.65,
+      "price": 299.87,
       "priceLabel": "Diver",
       "priceConfidence": "high",
       "qualityScore": 47,
@@ -112081,8 +112139,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:57.513Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Diver NZ$315.65 -> NZ$299.87 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "577826",
@@ -113647,7 +113707,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 293.56,
+      "price": 278.83,
       "priceLabel": "Diver",
       "priceConfidence": "high",
       "qualityScore": 46,
@@ -113695,8 +113755,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:57.513Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Diver NZ$293.56 -> NZ$278.83 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-553422",
@@ -113707,7 +113769,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 240.95,
+      "price": 230.43,
       "priceLabel": "Diver",
       "priceConfidence": "high",
       "qualityScore": 46,
@@ -113755,8 +113817,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:57.513Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Diver NZ$240.95 -> NZ$230.43 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "569893",
@@ -121627,7 +121691,7 @@
       "category": "",
       "location": "Nelson, New Zealand",
       "island": "nelson",
-      "price": 2495.76,
+      "price": 2403.17,
       "priceLabel": "AS350 Helicopter for up to 6 pax (weight dependent)",
       "priceConfidence": "high",
       "qualityScore": 45,
@@ -121675,8 +121739,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:18:37.388Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: AS350 Helicopter for up to 6 pax (weight dependent) NZ$2495.76 -> NZ$2403.17 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-657577",
@@ -125756,7 +125822,7 @@
       "category": "",
       "location": "Papamoa, New Zealand",
       "island": "papamoa",
-      "price": 30,
+      "price": 10,
       "priceLabel": "Player (1 Hour)",
       "priceConfidence": "high",
       "qualityScore": 44,
@@ -125820,8 +125886,10 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:18:46.977Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Player (1 Hour) NZ$30.00 -> NZ$10.00 (wrong_tier); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-710802",
@@ -125832,7 +125900,7 @@
       "category": "",
       "location": "Taupō, New Zealand",
       "island": "taupō",
-      "price": 30,
+      "price": 10,
       "priceLabel": "Player (1 Hour)",
       "priceConfidence": "high",
       "qualityScore": 44,
@@ -125896,8 +125964,10 @@
       "priceIncludesBookingFees": false,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:18:55.744Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Player (1 Hour) NZ$30.00 -> NZ$10.00 (wrong_tier); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-713501",
@@ -126496,7 +126566,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 2491,
+      "price": 2279,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 43,
@@ -126553,8 +126623,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:04.021Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$2491.00 -> NZ$2279.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "260466",
@@ -133638,7 +133710,7 @@
       "category": "",
       "location": "Te Anau, New Zealand",
       "island": "te-anau",
-      "price": 299,
+      "price": 269,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 43,
@@ -133695,8 +133767,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:19:26.421Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$299.00 -> NZ$269.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "196167",
@@ -136739,7 +136813,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 84.17,
+      "price": 82.09,
       "priceLabel": "1-Hour",
       "priceConfidence": "high",
       "qualityScore": 42,
@@ -136812,8 +136886,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: 1-Hour NZ$84.17 -> NZ$82.09 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-719819",
@@ -139758,7 +139834,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 57.87,
+      "price": 56.43,
       "priceLabel": "VR Escape Room",
       "priceConfidence": "high",
       "qualityScore": 41,
@@ -139831,8 +139907,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: VR Escape Room NZ$57.87 -> NZ$56.43 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-263836",
@@ -143923,7 +144001,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 19.99,
+      "price": 19.5,
       "priceLabel": "Sneak Peak Session",
       "priceConfidence": "high",
       "qualityScore": 40,
@@ -143969,8 +144047,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Sneak Peak Session NZ$19.99 -> NZ$19.50 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-733399",
@@ -143981,7 +144061,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 19.99,
+      "price": 19.5,
       "priceLabel": "Sneak Peak Session",
       "priceConfidence": "high",
       "qualityScore": 40,
@@ -144027,8 +144107,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Sneak Peak Session NZ$19.99 -> NZ$19.50 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-164254",
@@ -146272,7 +146354,7 @@
       "category": "",
       "location": "Raetihi, New Zealand",
       "island": "raetihi",
-      "price": 26.3,
+      "price": 21.04,
       "priceLabel": "Adult return",
       "priceConfidence": "high",
       "qualityScore": 39,
@@ -146320,8 +146402,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:33.736Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult return NZ$26.30 -> NZ$21.04 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-278561",
@@ -159524,7 +159608,7 @@
       "category": "",
       "location": "Waikanae, New Zealand",
       "island": "waikanae",
-      "price": 767,
+      "price": 574,
       "priceLabel": "Solo",
       "priceConfidence": "high",
       "qualityScore": 39,
@@ -159597,8 +159681,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:15.123Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Solo NZ$767.00 -> NZ$574.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-669125",
@@ -160494,7 +160580,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 93.64,
+      "price": 91.32,
       "priceLabel": "General Admission",
       "priceConfidence": "high",
       "qualityScore": 39,
@@ -160540,8 +160626,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: General Admission NZ$93.64 -> NZ$91.32 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-717281",
@@ -160552,7 +160640,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 30.51,
+      "price": 29.76,
       "priceLabel": "One Activity",
       "priceConfidence": "high",
       "qualityScore": 39,
@@ -160625,8 +160713,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:13.714Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: One Activity NZ$30.51 -> NZ$29.76 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-728852",
@@ -160637,7 +160727,7 @@
       "category": "",
       "location": "Palmerston North, New Zealand",
       "island": "palmerston-north",
-      "price": 26.3,
+      "price": 25.25,
       "priceLabel": "Adult (16+)",
       "priceConfidence": "high",
       "qualityScore": 39,
@@ -160692,8 +160782,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:02.169Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult (16+) NZ$26.30 -> NZ$25.25 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-730188",
@@ -172882,7 +172974,7 @@
       "category": "",
       "location": "Nelson, New Zealand",
       "island": "nelson",
-      "price": 184.13,
+      "price": 163.09,
       "priceLabel": "Touring Bike Step-Through S",
       "priceConfidence": "high",
       "qualityScore": 34,
@@ -173038,8 +173130,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:25:11.320Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Touring Bike Step-Through S NZ$184.13 -> NZ$163.09 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-489948",
@@ -173050,7 +173144,7 @@
       "category": "",
       "location": "Nelson, New Zealand",
       "island": "nelson",
-      "price": 289.35,
+      "price": 257.78,
       "priceLabel": "Touring Bike Step-Through S",
       "priceConfidence": "high",
       "qualityScore": 34,
@@ -173215,8 +173309,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:25:23.955Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Touring Bike Step-Through S NZ$289.35 -> NZ$257.78 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-492500",
@@ -180605,7 +180701,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 836.48,
+      "price": 198.86,
       "priceLabel": "Participant",
       "priceConfidence": "high",
       "qualityScore": 31,
@@ -180653,8 +180749,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:57.513Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Participant NZ$836.48 -> NZ$198.86 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-580966",
@@ -197374,7 +197472,7 @@
       "island": "melville-cove",
       "price": 736.52,
       "priceLabel": "Diver",
-      "priceConfidence": "high",
+      "priceConfidence": "none",
       "qualityScore": 27,
       "currency": "NZD",
       "duration": "",
@@ -197396,7 +197494,7 @@
       "capacity": null,
       "enrichmentSource": "hermes-fh-api",
       "status": "inactive",
-      "statusReason": "no-availability-90d",
+      "statusReason": "s62-wnz-price-refresh: FareHarbor returns $0.00 on every date tested; item is not bookable at a price",
       "statusFirstSeen": "2026-09-22",
       "statusConsecutiveRuns": 0,
       "lastUpdated": "2026-09-22",
@@ -197941,7 +198039,7 @@
       "category": "",
       "location": "Queenstown, New Zealand",
       "island": "queenstown",
-      "price": 173.61,
+      "price": 152.57,
       "priceLabel": "Adult eBike",
       "priceConfidence": "high",
       "qualityScore": 26,
@@ -198053,8 +198151,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:21:52.992Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult eBike NZ$173.61 -> NZ$152.57 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-109891",
@@ -204248,7 +204348,7 @@
       "category": "",
       "location": "Auckland, New Zealand",
       "island": "auckland",
-      "price": 62.08,
+      "price": 60.54,
       "priceLabel": "1-Hour School Holiday Fun",
       "priceConfidence": "high",
       "qualityScore": 23,
@@ -204303,8 +204403,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:23:18.402Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: 1-Hour School Holiday Fun NZ$62.08 -> NZ$60.54 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-719480",
@@ -204465,7 +204567,7 @@
       "category": "",
       "location": "Kaikōura, New Zealand",
       "island": "kaikōura",
-      "price": 325.12,
+      "price": 314.6,
       "priceLabel": "Diver",
       "priceConfidence": "high",
       "qualityScore": 23,
@@ -204513,8 +204615,10 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:24:02.096Z",
-      "priceEnrichmentStatus": "high"
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceEnrichmentStatus": "high",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Diver NZ$325.12 -> NZ$314.60 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-728972",
@@ -216691,7 +216795,7 @@
       "category": "",
       "location": "Queenstown, New Zealand",
       "island": "queenstown",
-      "price": 949.13,
+      "price": 925,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 17,
@@ -216737,10 +216841,12 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:26.941Z",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
       "priceEnrichmentStatus": "high",
       "providerSource": "s49-wnz-companies-endpoint",
-      "providerSourceAt": "2026-08-25T16:30:51.652Z"
+      "providerSourceAt": "2026-08-25T16:30:51.652Z",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$949.13 -> NZ$925.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-722002",
@@ -217493,7 +217599,7 @@
       "category": "",
       "location": "Queenstown, New Zealand",
       "island": "queenstown",
-      "price": 1205.65,
+      "price": 1175,
       "priceLabel": "Person",
       "priceConfidence": "high",
       "qualityScore": 16,
@@ -217539,10 +217645,12 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
       "priceEnrichmentStatus": "high",
       "providerSource": "s49-wnz-companies-endpoint",
-      "providerSourceAt": "2026-08-25T16:30:51.652Z"
+      "providerSourceAt": "2026-08-25T16:30:51.652Z",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Person NZ$1205.65 -> NZ$1175.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-723043",
@@ -221074,7 +221182,7 @@
       "category": "",
       "location": "Queenstown, New Zealand",
       "island": "queenstown",
-      "price": 251.39,
+      "price": 245,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 13,
@@ -221131,10 +221239,12 @@
       "priceIncludesBookingFees": true,
       "priceIncludesTaxes": true,
       "priceEnrichmentSource": "extract-prices-v7-api",
-      "priceEnrichmentAt": "2026-05-28T06:28:27.888Z",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
       "priceEnrichmentStatus": "high",
       "providerSource": "s49-wnz-companies-endpoint",
-      "providerSourceAt": "2026-08-25T16:30:51.652Z"
+      "providerSourceAt": "2026-08-25T16:30:51.652Z",
+      "priceSource": "s62-wnz-price-refresh",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$251.39 -> NZ$245.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-693152",
@@ -224127,7 +224237,7 @@
       "category": "",
       "location": "Tutukaka, New Zealand",
       "island": "tutukaka",
-      "price": 1315.22,
+      "price": 789.13,
       "priceLabel": "Student",
       "priceConfidence": "high",
       "qualityScore": 61,
@@ -224165,7 +224275,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 4
-      }
+      },
+      "priceSource": "s62-wnz-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceBasis": "s62-wnz-price-refresh: Student NZ$1315.22 -> NZ$789.13 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-734996",
@@ -224278,7 +224391,7 @@
       "category": "",
       "location": "Tutukaka, New Zealand",
       "island": "tutukaka",
-      "price": 1157.39,
+      "price": 631.3,
       "priceLabel": "Student",
       "priceConfidence": "high",
       "qualityScore": 60,
@@ -224316,7 +224429,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 4
-      }
+      },
+      "priceSource": "s62-wnz-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceBasis": "s62-wnz-price-refresh: Student NZ$1157.39 -> NZ$631.30 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-742110",
@@ -224941,7 +225057,7 @@
       "category": "",
       "location": "Tutukaka, New Zealand",
       "island": "tutukaka",
-      "price": 1261.56,
+      "price": 735.47,
       "priceLabel": "Student",
       "priceConfidence": "high",
       "qualityScore": 70,
@@ -224980,7 +225096,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 5
-      }
+      },
+      "priceSource": "s62-wnz-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceBasis": "s62-wnz-price-refresh: Student NZ$1261.56 -> NZ$735.47 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-744187",
@@ -224991,7 +225110,7 @@
       "category": "",
       "location": "Whangārei, New Zealand",
       "island": "whangārei",
-      "price": 168.54,
+      "price": 159,
       "priceLabel": "Adult",
       "priceConfidence": "high",
       "qualityScore": 70,
@@ -225030,7 +225149,10 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export (s61 gap audit): live, priced, never listed",
         "availabilityNext30Days": 25
-      }
+      },
+      "priceSource": "s62-wnz-price-refresh",
+      "priceEnrichmentAt": "2026-10-02T17:50:49Z",
+      "priceBasis": "s62-wnz-price-refresh: Adult NZ$168.54 -> NZ$159.00 (stale); re-measured on FareHarbor asn=fhdn across 4 dates, identical each time"
     },
     {
       "id": "fh-734602",
