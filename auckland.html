@@ -24,7 +24,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-ZBV045RQR4');
+  /*ga-gate*/(function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}if(navigator.webdriver||/HeadlessChrome/.test(navigator.userAgent))return;var c=function(){gtag('config','G-ZBV045RQR4')};if(!/^Asia\/(Singapore|Shanghai|Hong_Kong|Chongqing|Harbin|Urumqi)$/.test(tz)){c();return;}var d=false,ev=['pointermove','touchstart','scroll','keydown'];function go(){if(d)return;d=true;ev.forEach(function(e){removeEventListener(e,go)});c()}ev.forEach(function(e){addEventListener(e,go,{passive:true})})})();
 </script>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristDestination", "name": "Auckland \u2014 WanderNewZealand", "description": "New Zealand's largest city \u2014 Hauraki Gulf islands, Waiheke wine, and a 1-day-from-anywhere arrival point.", "url": "https://wandernewzealand.com/auckland.html"}</script>
