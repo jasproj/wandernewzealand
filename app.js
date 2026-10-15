@@ -25,7 +25,11 @@ const CITY_PICKER = window.CityPicker ? window.CityPicker.create({
             'Invercargill Airport': 'Invercargill',
             'Mount Cook': 'Aoraki / Mount Cook',
             'Aoraki Mount Cook National Park': 'Aoraki / Mount Cook',
-            'Mangawhai Heads': 'Mangawhai'
+            'Mangawhai Heads': 'Mangawhai',
+            // Operator request (Rakiura Adventure, 2026-10-15): visitors search
+            // "Stewart Island", not the village name Oban (also a town in Scotland).
+            'Oban': 'Stewart Island',
+            'Rakiura': 'Stewart Island'
         })[n] || n;
     },
     legacyMatch: (t, v) => {
@@ -284,6 +288,7 @@ function cleanLocation(location = '') {
     return location
         .replace(/^United States\/New Zealand\//, '')
         .replace(/^New Zealand\//, '')
+        .replace(/\bOban\b/, 'Stewart Island')
         .trim() || 'New Zealand';
 }
 
@@ -423,7 +428,7 @@ function createTourCard(tour) {
             </div>
             <div class="tour-content">
                 <div class="tour-meta">
-                    <span class="tour-location">📍 ${escapeHtml(cleanLoc)}, ${escapeHtml(capitalizeIsland(tour.island))}</span>
+                    <span class="tour-location">📍 ${escapeHtml(cleanLoc)}${cleanLoc.includes(capitalizeIsland(tour.island)) ? '' : ', ' + escapeHtml(capitalizeIsland(tour.island))}</span>
                 </div>
                 <h3 class="tour-title">${escapeHtml(tour.name)}</h3>
                 <p class="tour-description">${escapeHtml(truncatedDesc)}</p>
@@ -440,6 +445,7 @@ function createTourCard(tour) {
 function capitalizeIsland(island) {
     if (!island) return '';
     if (island.toLowerCase() === 'big island') return 'Big Island';
+    if (island.toLowerCase() === 'oban' || island.toLowerCase() === 'stewart-island-/-rakiura') return 'Stewart Island';
     return island.charAt(0).toUpperCase() + island.slice(1);
 }
 
