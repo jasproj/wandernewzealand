@@ -12,7 +12,23 @@ WanderNZ helps travelers find and book authentic New Zealand experiences from lo
 - [Auckland Guide](https://wandernewzealand.com/auckland.html): Auckland tours, Hauraki Gulf islands and Waiheke wine
 - [Queenstown Guide](https://wandernewzealand.com/queenstown.html): Queenstown tours, Lake Wakatipu, bungy and jetboat operators
 - [Rotorua Guide](https://wandernewzealand.com/rotorua.html): Rotorua tours, geothermal parks and Māori cultural experiences
-- [Milford Sound Guide](https://wandernewzealand.com/milford-sound.html): Choosing between Milford and Doubtful Sound cruises in Fiordland
+- [Milford Sound Guide](https://wandernewzealand.com/milford-sound.html): Milford Sound tours and cruises with live prices, and when Doubtful Sound is the better pick
+
+## Regional Guides (Nov–Mar season)
+
+- [Nelson & Abel Tasman](https://wandernewzealand.com/nelson-abel-tasman.html): Abel Tasman sea kayaking, water taxis, Nelson wine and bike trails
+- [Christchurch & Akaroa](https://wandernewzealand.com/christchurch.html): Akaroa dolphins, Pōhatu penguins, punting, Arthur's Pass
+- [Dunedin & Otago Peninsula](https://wandernewzealand.com/dunedin.html): Royal albatross, yellow-eyed penguins, Otago Peninsula wildlife cruises, Larnach Castle
+- [Wellington](https://wandernewzealand.com/wellington.html): Zealandia, harbour cruises, Lord of the Rings locations, food and beer walks
+- [Wānaka & Cardrona](https://wandernewzealand.com/wanaka.html): Skydiving, Mount Aspiring heli-hikes, lake cruises, Cardrona
+- [Tauranga & Mount Maunganui](https://wandernewzealand.com/tauranga-mount-maunganui.html): Dolphin cruises, surf lessons, glow-worm kayaking, Hobbiton day trips
+- [Taupō](https://wandernewzealand.com/taupo.html): Huka Falls jet, Māori rock carvings by boat and kayak, skydiving, Tongariro Crossing
+- [Fiordland & Te Anau](https://wandernewzealand.com/fiordland-te-anau.html): Milford and Doubtful Sound from Te Anau, glowworm caves, heli-flights, Great Walks
+- [Kaikōura](https://wandernewzealand.com/kaikoura.html): Sperm whale watching, dusky dolphin swims, seal kayaking
+- [Bay of Islands](https://wandernewzealand.com/bay-of-islands.html): Hole in the Rock cruises, dolphins, Waitangi, Haruru Falls kayaking, Cape Reinga
+- [Doubtful Sound cruises](https://wandernewzealand.com/doubtful-sound-cruises.html): Day and overnight Doubtful Sound cruises from Manapouri, Te Anau and Queenstown
+- [Fiordland cruises](https://wandernewzealand.com/fiordland-cruises.html): Every Milford and Doubtful Sound cruise with prices: day, overnight, coach and fly packages
+- [Jet ski hire Auckland](https://wandernewzealand.com/auckland-jet-ski-hire.html): Hourly jet ski hire and tours on the Hauraki Gulf; no licence needed
 
 ## Activity Guides
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://wandernewzealand.com/</loc>
-        <lastmod>2026-07-23</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -14,7 +14,7 @@
     </url>
     <url>
         <loc>https://wandernewzealand.com/milford-sound.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -32,7 +32,7 @@
     </url>
     <url>
         <loc>https://wandernewzealand.com/tours.html</loc>
-        <lastmod>2026-07-21</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -56,13 +56,13 @@
     </url>
     <url>
         <loc>https://wandernewzealand.com/jet-ski.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://wandernewzealand.com/kayak.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -164,7 +164,7 @@
     </url>
     <url>
         <loc>https://wandernewzealand.com/bike-tours.html</loc>
-        <lastmod>2026-09-21</lastmod>
+        <lastmod>2026-10-25</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -224,7 +224,7 @@
     </url>
   <url>
     <loc>https://wandernewzealand.com/blog/milford-sound-vs-doubtful-sound.html</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -387,4 +387,82 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+        <loc>https://wandernewzealand.com/nelson-abel-tasman.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/christchurch.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/dunedin.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/wellington.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/wanaka.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/tauranga-mount-maunganui.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/taupo.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/fiordland-te-anau.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/kaikoura.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/bay-of-islands.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/doubtful-sound-cruises.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/fiordland-cruises.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://wandernewzealand.com/auckland-jet-ski-hire.html</loc>
+        <lastmod>2026-10-25</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>
