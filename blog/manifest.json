@@ -1,5 +1,61 @@
 [
   {
+    "url": "/blog/things-to-do-christchurch.html",
+    "title": "14 Best Things to Do in Christchurch, New Zealand",
+    "description": "The best things to do in Christchurch and Banks Peninsula — the rebuilt city centre, Akaroa's dolphins and penguins, the gondola, punting on the Avon and day trips into the Alps.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/vXRhSCbQ1yUbMTTnXU1I"
+  },
+  {
+    "url": "/blog/things-to-do-nelson-abel-tasman.html",
+    "title": "14 Best Things to Do in Nelson & Abel Tasman, New Zealand",
+    "description": "The best things to do in Nelson and Abel Tasman National Park — kayaking the golden-sand coast, the Coast Track, water taxis, mountain biking, the Saturday market and Golden Bay day trips.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/CaU1NWHBQFWMKhusXA5R"
+  },
+  {
+    "url": "/blog/things-to-do-dunedin.html",
+    "title": "14 Best Things to Do in Dunedin, New Zealand",
+    "description": "The best things to do in Dunedin — albatross and penguins on the Otago Peninsula, Larnach Castle, the Taieri Gorge railway, Speight's, the world's steepest street and the Moeraki Boulders.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/XDO1jecUTCm5c6f6H2hJ"
+  },
+  {
+    "url": "/blog/things-to-do-wanaka.html",
+    "title": "13 Best Things to Do in Wānaka, New Zealand",
+    "description": "The best things to do in Wānaka — Roys Peak, the Wānaka Tree, Rob Roy Glacier, lake cruises to Mou Waho, jet boating, the lavender farm, Blue Pools and Cardrona.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/zovPViubTkmfEK41amSv"
+  },
+  {
+    "url": "/blog/things-to-do-taupo.html",
+    "title": "14 Best Things to Do in Taupō, New Zealand",
+    "description": "The best things to do in Taupō — Huka Falls, the Māori rock carvings by boat or kayak, the Tongariro Alpine Crossing, hot springs, floatplane flights, skydiving and Orakei Korako.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/TcLlxnbRQJKNSSS3Wkps"
+  },
+  {
+    "url": "/blog/things-to-do-kaikoura.html",
+    "title": "13 Best Things to Do in Kaikōura, New Zealand",
+    "description": "The best things to do in Kaikōura — whale watching by boat and plane, swimming with dusky dolphins, seal kayaking, the Peninsula Walkway, crayfish, fishing charters and the Mount Fyffe track.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/rm3dsttyTXCc3EyvgA1X"
+  },
+  {
+    "url": "/blog/things-to-do-bay-of-islands.html",
+    "title": "13 Best Things to Do in Bay of Islands, New Zealand",
+    "description": "The best things to do in the Bay of Islands — Hole in the Rock cruises, Waitangi Treaty Grounds, Russell, dolphin cruises, kayaking to Haruru Falls, Kawiti glowworm caves and Cape Reinga day trips.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/eFLlBY0GTB2jomLI8y77"
+  },
+  {
+    "url": "/blog/things-to-do-te-anau-fiordland.html",
+    "title": "13 Best Things to Do in Te Anau & Fiordland, New Zealand",
+    "description": "The best things to do in Te Anau and Fiordland — Milford Sound and Doubtful Sound cruises, the Te Anau glowworm caves, the Kepler and Routeburn day walks, the Milford Road stops and Lake Manapouri.",
+    "tag": "Guide",
+    "image": "https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/Cc2BFwAJScOtyAapkA5b"
+  },
+  {
     "url": "/blog/milford-sound-vs-doubtful-sound.html",
     "title": "Milford Sound vs Doubtful Sound: Which Fiord Should You Visit?",
     "description": "Milford Sound vs Doubtful Sound compared — accessibility, crowds, wildlife, cruise options, and which fiord fits your trip. A practical decision guide.",
@@ -9,21 +65,21 @@
   {
     "url": "/blog/best-time-to-visit-new-zealand.html",
     "title": "Best Time to Visit New Zealand: Season-by-Season Guide",
-    "description": "When to visit New Zealand by season \u2014 weather, festivals, daylight, and crowds. A practical month-by-month traveler guide for both islands.",
+    "description": "When to visit New Zealand by season — weather, festivals, daylight, and crowds. A practical month-by-month traveler guide for both islands.",
     "tag": "Best Time",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Lake_Tekapo_01.jpg/1280px-Lake_Tekapo_01.jpg"
   },
   {
     "url": "/blog/north-island-vs-south-island.html",
     "title": "North Island vs South Island: Choose Your NZ Itinerary",
-    "description": "A practical comparison of the North and South Islands \u2014 landscape, activities, food, drive times, and how to combine them based on trip length.",
+    "description": "A practical comparison of the North and South Islands — landscape, activities, food, drive times, and how to combine them based on trip length.",
     "tag": "Compare",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Milford_Sound_in_Fiordland_National_Park_01.jpg/1280px-Milford_Sound_in_Fiordland_National_Park_01.jpg"
   },
   {
     "url": "/blog/top-adventure-activities-new-zealand.html",
     "title": "Top Adventure Activities in New Zealand for Every Traveler",
-    "description": "Adventure activities in New Zealand by intensity \u2014 from gentle kayaking to bungy jumping, sorted for every traveler type and trip pace.",
+    "description": "Adventure activities in New Zealand by intensity — from gentle kayaking to bungy jumping, sorted for every traveler type and trip pace.",
     "tag": "Top Picks",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Queenstown_NZ_08.jpg/1280px-Queenstown_NZ_08.jpg"
   }
