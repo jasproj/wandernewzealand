@@ -374,6 +374,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -410,38 +434,56 @@
   <div class="container">
     <h1>Rotorua Tours</h1>
     <p>Geothermal hot springs, Maori cultural experiences, and the only city in NZ where you can smell the ground.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">16 tours</span><span class="hub-chip">From NZ$47</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<!--
-  WNZ Weather Widget — Rotorua.
-  Sources: Open-Meteo (current conditions, Celsius/km-h), Windy.com (radar iframe).
-  Coordinates: Rotorua (-38.1368, 176.2497). No API keys required.
-  Tide ticker omitted: NOAA does not cover New Zealand; NIWA integration deferred.
-  Inject between the hero close and the intro section.
--->
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Rotorua</h2>
-    <p>Rotorua is built on top of an active geothermal field. The smell of hydrogen sulfide hits you within 5 minutes of arriving — locals call it the price of admission. Hell's Gate, Te Puia, and Wai-O-Tapu are the three main thermal parks, each with a different scale and pace: Wai-O-Tapu (Champagne Pool, Devil's Bath) is the most photogenic, Te Puia is the cultural center with a working Maori carving school, and Hell's Gate has the smaller-scale active mud pools and a working hot mud spa.<br><br>Most Rotorua tours we work with are full-day combinations: thermal park morning + Maori cultural evening (hangi feast and concert) is the standard pattern. The cultural experiences at Tamaki Maori Village and Mitai are the most-respected of the kind. If you're driving, plan for 3 days minimum to do the major sites; if you're on a tour bus, 1 day is enough for a thermal-park-and-hangi combo.</p>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/i89b5YpjQtOwMUPFPPfC" alt="Mt Tarawera Volcanic Crater Experience • Half Day" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Kaitiaki Adventures</div>
+        <h3 class="tour-title">Mt Tarawera Volcanic Crater Experience • Half Day</h3>
+        <p class="tour-desc">Embark on a fully guided adventure that showcases the awe-inspiring beauty and deep cultural heritage of Mt. Tarawera. This walking…</p>
+        <a href="https://fareharbor.com/embeds/book/kaitiaki/items/196252/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="196252" data-tour-name="Mt Tarawera Volcanic Crater Experience • Half Day">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/COLvQBtSNF88sMyN4HtQ" alt="Mount Tarawera &amp; Raft the Kaituna Combo" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Kaitiaki Adventures</div>
+        <h3 class="tour-title">Mount Tarawera &amp; Raft the Kaituna Combo</h3>
+        <p class="tour-desc">Get the best of both worlds with this full-day adventure that combines an exhilarating volcanic hike with the thrill of whitewater rafting! Start…</p>
+        <a href="https://fareharbor.com/embeds/book/kaitiaki/items/196188/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="196188" data-tour-name="Mount Tarawera &amp; Raft the Kaituna Combo">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/x3QBU9hToy2hgib95UEA" alt="Mount Tarawera &amp; Te Puia Te Pō + Haka &amp; Hangi" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Price on request</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Kaitiaki Adventures</div>
+        <h3 class="tour-title">Mount Tarawera &amp; Te Puia Te Pō + Haka &amp; Hangi</h3>
+        <p class="tour-desc">Immerse yourself in the ultimate blend of adventure and cultural discovery with this extraordinary full-day combo! Begin your journey with a fully…</p>
+        <a href="https://fareharbor.com/embeds/book/kaitiaki/items/196256/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="196256" data-tour-name="Mount Tarawera &amp; Te Puia Te Pō + Haka &amp; Hangi">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 16 tours ↓</a>
   </div>
 </section>
 
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>Built on an active geothermal field — sulfur smell is constant near the lakefront</li>
-<li>Te Puia is the cultural center; Wai-O-Tapu is the most photogenic; Hell&#x27;s Gate has working mud pools</li>
-<li>Maori cultural evenings (hangi + concert) at Tamaki or Mitai are the strongest single experience</li>
-<li>Most full-day tours combine thermal-park morning + cultural evening</li>
-<li>Best months: November-April; worst: June-July (cold, wet)</li>
-<li>Lake Rotorua is also a trout fishing destination — separate operator category</li>
-    </ul>
-  </div>
-</section>
-
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>Rotorua tours (18 available)</h2>
     <div class="tours-grid">
@@ -640,6 +682,26 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Rotorua</h2>
+    <p>Rotorua is built on top of an active geothermal field. The smell of hydrogen sulfide hits you within 5 minutes of arriving — locals call it the price of admission. Hell's Gate, Te Puia, and Wai-O-Tapu are the three main thermal parks, each with a different scale and pace: Wai-O-Tapu (Champagne Pool, Devil's Bath) is the most photogenic, Te Puia is the cultural center with a working Maori carving school, and Hell's Gate has the smaller-scale active mud pools and a working hot mud spa.<br><br>Most Rotorua tours we work with are full-day combinations: thermal park morning + Maori cultural evening (hangi feast and concert) is the standard pattern. The cultural experiences at Tamaki Maori Village and Mitai are the most-respected of the kind. If you're driving, plan for 3 days minimum to do the major sites; if you're on a tour bus, 1 day is enough for a thermal-park-and-hangi combo.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>Built on an active geothermal field — sulfur smell is constant near the lakefront</li>
+<li>Te Puia is the cultural center; Wai-O-Tapu is the most photogenic; Hell&#x27;s Gate has working mud pools</li>
+<li>Maori cultural evenings (hangi + concert) at Tamaki or Mitai are the strongest single experience</li>
+<li>Most full-day tours combine thermal-park morning + cultural evening</li>
+<li>Best months: November-April; worst: June-July (cold, wet)</li>
+<li>Lake Rotorua is also a trout fishing destination — separate operator category</li>
+    </ul>
+  </div>
+</section>
+
 
 <!-- WEATHER WIDGET START -->
 <section class="wnz-weather" id="weather" aria-labelledby="wnz-weather-heading">

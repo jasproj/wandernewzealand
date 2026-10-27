@@ -295,6 +295,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -331,35 +355,52 @@
   <div class="container">
     <h1>Bay of Islands Tours</h1>
     <p>144 islands, the Hole in the Rock, bottlenose dolphins, and the place New Zealand&#x27;s founding treaty was signed — all from Paihia wharf.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">14 tours</span><span class="hub-chip">From NZ$103</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About the Bay of Islands</h2>
-    <p>The Bay of Islands is three hours north of Auckland and the warmest sailing water in the country. Paihia is the operator town — the wharf is where the Hole in the Rock cruises, dolphin trips, island-hopping ferries and sailing charters all leave — and Russell, across the water by passenger ferry, is the quieter historic village. Waitangi Treaty Grounds, a 20-minute walk from Paihia, is where the 1840 treaty between Māori and the Crown was signed.</p><p>The Hole in the Rock at Cape Brett is the standard half-day: a fast catamaran or a sailing boat out through the islands, through the rock arch if the swell allows, with dolphins on most trips. Guided kayak tours paddle the Waitangi River up to Haruru Falls, one of the few waterfalls in the country you can kayak behind, and night kayaks in summer go for the bioluminescence.</p><p>Cape Reinga and Ninety Mile Beach are a long full-day coach trip north (about 12 hours return) and are run from Paihia daily in summer.</p>
-    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-bay-of-islands.html">13 best things to do in Bay of Islands</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>Northland's season starts earlier than the South Island's. By November the water is 19°C and the Hole in the Rock boats are on their full timetable; by February it is 22°C and swimming stops off the boats are routine. Bottlenose dolphins are resident and seen most of the year; common dolphins and, occasionally, orca are summer visitors. The Cape Reinga coach runs daily from November with a sand-dune boarding stop.</p><p>Waitangi Day (6 February) brings crowds and ceremonies to the Treaty Grounds; it is a good day to be there and a bad day to need a last-minute booking. Christmas to mid-January is busiest on the water.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Paihia wharf is the departure point for almost everything; Russell is a 15-minute passenger ferry</li>
-<li>Hole in the Rock cruises take 4–5 hours; passage through the arch depends on swell</li>
-<li>Dolphin swimming is no longer permitted in the Bay — watching only, by DOC rule</li>
-<li>Waitangi Treaty Grounds is a 20-minute walk from Paihia; allow 2–3 hours</li>
-<li>Cape Reinga day trips are 12 hours return — leave before 7:30am</li>
-<li>Kayak tours to Haruru Falls are tide-dependent on the Waitangi River</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/3mmZoOEhTBOaM8rHgGQ1" alt="Akaroa • Easy for beginners to steer • Departing Stone Store Wharf" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$284</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">NZ Electric Boat Co.</div>
+        <h3 class="tour-title">Akaroa • Easy for beginners to steer • Departing Stone Store Wharf</h3>
+        <p class="tour-desc">1 to 7 hour options • 7 Seats • Minimum one guest ages 16+ • Very easy to steer NZD284.09 1 Hour NZD373.52 2 Hours NZD462.96 3 Hours…</p>
+        <a href="https://fareharbor.com/embeds/book/electricboat/items/271150/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="271150" data-tour-name="Akaroa • Easy for beginners to steer • Departing Stone Store Wharf">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/eFLlBY0GTB2jomLI8y77" alt="Waterfall Cruise &amp; Kayaking Tour" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$103</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Bay of Islands Night Kayaking LTD</div>
+        <h3 class="tour-title">Waterfall Cruise &amp; Kayaking Tour</h3>
+        <p class="tour-desc">NZD103.11 Adults Ages 13+ NZD82.07 Children Ages 12 and under Prices for Saturday, 2 May 2026 @ 1pm. Prices include fees. All Age, First…</p>
+        <a href="https://fareharbor.com/embeds/book/kayakcruises/items/409759/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="409759" data-tour-name="Waterfall Cruise &amp; Kayaking Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/INAuv3I6RL6knpRT9bM7" alt="Waterfall Explorer - Guided Kayak Tour" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$114</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Bay of Islands Night Kayaking LTD</div>
+        <h3 class="tour-title">Waterfall Explorer - Guided Kayak Tour</h3>
+        <p class="tour-desc">NZD113.63 Adults Ages 13+ NZD92.59 Children Ages 12 and under Prices for Friday, 1 May 2026 @ 10am. Prices include fees. Duration 2.5 Hours…</p>
+        <a href="https://fareharbor.com/embeds/book/kayakcruises/items/501150/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="501150" data-tour-name="Waterfall Explorer - Guided Kayak Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 14 tours ↓</a>
   </div>
 </section>
 
@@ -538,6 +579,33 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About the Bay of Islands</h2>
+    <p>The Bay of Islands is three hours north of Auckland and the warmest sailing water in the country. Paihia is the operator town — the wharf is where the Hole in the Rock cruises, dolphin trips, island-hopping ferries and sailing charters all leave — and Russell, across the water by passenger ferry, is the quieter historic village. Waitangi Treaty Grounds, a 20-minute walk from Paihia, is where the 1840 treaty between Māori and the Crown was signed.</p><p>The Hole in the Rock at Cape Brett is the standard half-day: a fast catamaran or a sailing boat out through the islands, through the rock arch if the swell allows, with dolphins on most trips. Guided kayak tours paddle the Waitangi River up to Haruru Falls, one of the few waterfalls in the country you can kayak behind, and night kayaks in summer go for the bioluminescence.</p><p>Cape Reinga and Ninety Mile Beach are a long full-day coach trip north (about 12 hours return) and are run from Paihia daily in summer.</p>
+    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-bay-of-islands.html">13 best things to do in Bay of Islands</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>Northland's season starts earlier than the South Island's. By November the water is 19°C and the Hole in the Rock boats are on their full timetable; by February it is 22°C and swimming stops off the boats are routine. Bottlenose dolphins are resident and seen most of the year; common dolphins and, occasionally, orca are summer visitors. The Cape Reinga coach runs daily from November with a sand-dune boarding stop.</p><p>Waitangi Day (6 February) brings crowds and ceremonies to the Treaty Grounds; it is a good day to be there and a bad day to need a last-minute booking. Christmas to mid-January is busiest on the water.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Paihia wharf is the departure point for almost everything; Russell is a 15-minute passenger ferry</li>
+<li>Hole in the Rock cruises take 4–5 hours; passage through the arch depends on swell</li>
+<li>Dolphin swimming is no longer permitted in the Bay — watching only, by DOC rule</li>
+<li>Waitangi Treaty Grounds is a 20-minute walk from Paihia; allow 2–3 hours</li>
+<li>Cape Reinga day trips are 12 hours return — leave before 7:30am</li>
+<li>Kayak tours to Haruru Falls are tide-dependent on the Waitangi River</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

@@ -305,6 +305,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -339,7 +363,7 @@
 
 <section class="hero">
   <div class="container">
-    <h1>Milford Sound tours &amp; cruises — and when to book Doubtful instead</h1>
+    <h1>Milford Sound Tours &amp; Cruises</h1>
     <p class="verdict"><strong>Book Milford.</strong> It costs NZ$169–199, you can drive to the wharf, and it's the fiord you've already seen in photographs.</p>
     <p class="verdict-sub"><strong>Book Doubtful instead</strong> if crowds would spoil it, you have a spare day, and NZ$359+ per person is worth trading spectacle for silence.</p>
 
@@ -366,121 +390,65 @@
         <div class="cc-for">The fiord after the day boats have gone home.</div>
       </a>
     </div>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-
-<!-- s57-internal-links -->
-<aside style="border:1px solid #dbe1e8;border-left:4px solid #0b6e4f;border-radius:8px;padding:16px 18px;margin:28px 0;background:#f7fafc">
-<p style="margin:0 0 10px;font-weight:600;font-size:1rem">Popular New Zealand tours</p>
-<ul style="margin:0;padding-left:20px;line-height:1.7">
-<li style="margin:0 0 6px"><a href="/shark-diving.html" style="color:#0b6e4f">New Zealand Shark Diving</a></li>
-<li style="margin:0 0 6px"><a href="/queenstown.html" style="color:#0b6e4f">Queenstown Tours</a></li>
-</ul>
-</aside>
-    <h2>The short version</h2>
-    <p>Both are fiords carved by glaciers on the same stretch of the South Island's south-west coast, and both are in Fiordland National Park. They are not interchangeable, and the price gap is not a quality gap — it's a transport gap.</p>
-    <p><strong>Milford</strong> has a road to it. You drive, or a coach drives you, and you step onto the boat. That access is why a cruise starts at NZ$169, and also why you'll share the fiord with a lot of other people, particularly between about 11am and 2pm when the Queenstown day coaches converge.</p>
-    <p><strong>Doubtful</strong> has no road. Getting there means a boat across Lake Manapouri, then a bus over the Wilmot Pass, then your cruise — and the same chain in reverse. That's the whole reason it costs NZ$359 and the whole reason it's empty. You're not paying for a better fiord. You're paying for the difficulty that keeps everyone else away.</p>
-    <p>If you can only do one and you've never seen either, do Milford. If you've done Milford, or the idea of a busy viewing deck defeats the purpose for you, do Doubtful.</p>
-  </div>
-</section>
-
-<section class="compare">
-  <div class="container">
-    <h2>Milford vs Doubtful, side by side</h2>
-    <p class="note">Prices are per adult, verified against operator live availability on 21 July 2026. Read the price basis carefully — a NZ$169 ticket and a NZ$514 ticket can be the same fiord on the same day. Booking fees are not included in displayed prices.</p>
-    <div class="table-scroll">
-      <table class="cmp">
-        <thead>
-          <tr><th>&nbsp;</th><th>Milford Sound</th><th>Doubtful Sound</th></tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Cheapest adult fare</th>
-            <td class="pick">NZ$169<span class="basis">cruise only — you get yourself to the wharf</span></td>
-            <td>NZ$359<span class="basis">cruise + lake crossing + pass transfer</span></td>
-          </tr>
-          <tr>
-            <th>With coach from Te Anau</th>
-            <td class="pick">NZ$249<span class="basis">coach + cruise</span></td>
-            <td>NZ$383<span class="basis">coach + transfers + cruise</span></td>
-          </tr>
-          <tr>
-            <th>With coach from Queenstown</th>
-            <td class="pick">NZ$292<span class="basis">coach + cruise</span></td>
-            <td>NZ$514<span class="basis">coach + transfers + cruise</span></td>
-          </tr>
-          <tr>
-            <th>Overnight option</th>
-            <td>NZ$669+<span class="basis">per adult, cabin</span></td>
-            <td>NZ$749<span class="basis">per adult, double or twin-share cabin</span></td>
-          </tr>
-          <tr>
-            <th>How you get there</th>
-            <td class="pick">Drive or coach to the wharf. Sealed road all the way.</td>
-            <td>Boat across Lake Manapouri, bus over Wilmot Pass, then the cruise. No road access.</td>
-          </tr>
-          <tr>
-            <th>Time from Queenstown</th>
-            <td class="pick">About 4 hours each way</td>
-            <td>Longer — most people start from Te Anau or Manapouri instead</td>
-          </tr>
-          <tr>
-            <th>Size</th>
-            <td>About 15 km long</td>
-            <td class="pick">About 40 km long with three distinct arms</td>
-          </tr>
-          <tr>
-            <th>How busy</th>
-            <td>The most visited spot in the national park. Midday is the crush.</td>
-            <td class="pick">A fraction of Milford's numbers. Boats are often out of sight of each other.</td>
-          </tr>
-          <tr>
-            <th>The signature sight</th>
-            <td class="pick">Mitre Peak rising straight out of the water</td>
-            <td>Silence — crews cut the engines and ask everyone to stop talking</td>
-          </tr>
-          <tr>
-            <th>Wildlife</th>
-            <td>Fur seals, dolphins, occasional Fiordland crested penguins</td>
-            <td>Bottlenose dolphins resident year round, fur seals, penguins</td>
-          </tr>
-          <tr>
-            <th>Best for</th>
-            <td class="pick">First visit, tight budget, tight schedule, the iconic view</td>
-            <td>Repeat visitors, crowd-avoiders, anyone with a spare day and spare budget</td>
-          </tr>
-        </tbody>
-      </table>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+        <div class="tour-image">
+          <img src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/k7AhsDk7QvacxIIv9xib" alt="Milford Sound Boutique Small Boat Cruise" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="tour-content">
+          <div class="tour-company">Cruise Milford</div>
+          <h3 class="tour-title">Milford Sound Boutique Small Boat Cruise</h3>
+          <p class="price-line"><span class="amt">NZ$199</span> <span class="per">/ adult</span></p>
+          <span class="price-basis">cruise only</span>
+          <p class="tour-desc">The highest-rated Milford cruise we list. Smaller boat, fewer people, and it gets closer to the rock walls than the large vessels can. Worth the NZ$30 over the big-boat fare if you'd rather not be on a crowded deck.</p>
+          <a href="https://fareharbor.com/embeds/book/cruisemilfordnz/items/272184/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="272184" data-tour-name="Milford Sound Boutique Small Boat Cruise">Check Availability →</a>
+        </div>
+      </article>
+<article class="tour-card">
+        <div class="tour-image">
+          <img src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/S3XIDLh6T9iUUwgGiikV" alt="Milford Sound Cruise | Sovereign or Monarch" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="tour-content">
+          <div class="tour-company">RealNZ</div>
+          <h3 class="tour-title">Milford Sound Cruise | Sovereign or Monarch</h3>
+          <p class="price-line"><span class="amt">NZ$169</span> <span class="per">/ adult</span></p>
+          <span class="price-basis">cruise only</span>
+          <p class="tour-desc">The cheapest way onto the water at Milford. Large vessel with big viewing decks and indoor seating, which matters more than it sounds when it's raining sideways. Child fare is NZ$49.</p>
+          <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/257745/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="257745" data-tour-name="Milford Sound Cruise | Aboard The Sovereign or Monarch">Check Availability →</a>
+        </div>
+      </article>
+<article class="tour-card">
+        <div class="tour-image">
+          <img src="https://cdn.filestackcontent.com/resize=w:600/auto_image/compress/K9qs78muSmq6LIm2xxoN" alt="Milford Sound Cruise and Coach — Te Anau departure" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        </div>
+        <div class="tour-content">
+          <div class="tour-company">RealNZ</div>
+          <h3 class="tour-title">Milford Sound Cruise and Coach — Te Anau departure</h3>
+          <p class="price-line"><span class="amt">NZ$249</span> <span class="per">/ adult</span></p>
+          <span class="price-basis">coach + cruise</span>
+          <p class="tour-desc">The sensible choice if you're already staying in Te Anau. Coach each way on the Milford Road plus the cruise, so nobody in your party has to drive it.</p>
+          <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/265556/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="265556" data-tour-name="Milford Sound Cruise and Coach – Te Anau Departure">Check Availability →</a>
+        </div>
+      </article>
     </div>
+    <a class="top-picks-more" href="#tours">All 8 tours ↓</a>
   </div>
 </section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>Before you book</h2>
-    <ul>
-      <li><strong>Rain is the normal condition.</strong> Milford records several metres of rain a year. A wet day puts hundreds of temporary waterfalls down the rock walls that simply aren't there when it's dry. Book expecting rain; treat sun as a bonus.</li>
-      <li><strong>Avoid the midday coach convergence at Milford.</strong> Day coaches from Queenstown land the same crowd on the same wharf between roughly 11am and 2pm. An early or late departure is a different experience for the same money.</li>
-      <li><strong>Watch what the price includes.</strong> "Cruise only" means you arrive under your own steam. A coach-inclusive fare can be NZ$80–220 more for the identical time on the water. The table above splits this out.</li>
-      <li><strong>Doubtful is a full day, not a half day.</strong> The lake-and-pass transfer chain runs in both directions. Don't plan anything else for that day.</li>
-      <li><strong>Overnight fares are per person in a shared cabin.</strong> Solo travellers pay a single-occupancy rate that is close to double. Check the cabin basis before you assume the headline price applies to you.</li>
-      <li><strong>The road to Milford closes.</strong> Avalanche risk and weather shut the Milford Road at short notice in winter and spring. Operators rebook rather than refund in most cases — build a spare day into a tight itinerary.</li>
-    </ul>
-  </div>
-</section>
-
-    <section class="region-links" style="background:#eef6f3;padding:28px 0">
+<section class="region-links" style="background:#eef6f3;padding:28px 0">
       <div class="container">
         <h2 style="font-size:1.35rem;margin:0 0 8px">Doubtful Sound and the rest of Fiordland</h2>
         <p style="margin:0 0 14px">Milford is one fiord of fourteen. If you have a second day, these pages list every cruise with live prices:</p>
         <div style="display:flex;flex-wrap:wrap;gap:10px"><a href="/doubtful-sound-cruises.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Doubtful Sound cruises (day &amp; overnight)</a><a href="/fiordland-cruises.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">All Fiordland cruises compared</a><a href="/fiordland-te-anau.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Te Anau &amp; Fiordland tours</a><a href="/blog/milford-sound-vs-doubtful-sound.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Milford or Doubtful? Can you do both?</a></div>
       </div>
     </section>
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>The cruises worth booking</h2>
     <p class="subhead">Eight options, each verified live with the operator. Prices are the adult fare, in New Zealand dollars.</p>
@@ -613,6 +581,108 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+
+<!-- s57-internal-links -->
+<aside style="border:1px solid #dbe1e8;border-left:4px solid #0b6e4f;border-radius:8px;padding:16px 18px;margin:28px 0;background:#f7fafc">
+<p style="margin:0 0 10px;font-weight:600;font-size:1rem">Popular New Zealand tours</p>
+<ul style="margin:0;padding-left:20px;line-height:1.7">
+<li style="margin:0 0 6px"><a href="/shark-diving.html" style="color:#0b6e4f">New Zealand Shark Diving</a></li>
+<li style="margin:0 0 6px"><a href="/queenstown.html" style="color:#0b6e4f">Queenstown Tours</a></li>
+</ul>
+</aside>
+    <h2>The short version</h2>
+    <p>Both are fiords carved by glaciers on the same stretch of the South Island's south-west coast, and both are in Fiordland National Park. They are not interchangeable, and the price gap is not a quality gap — it's a transport gap.</p>
+    <p><strong>Milford</strong> has a road to it. You drive, or a coach drives you, and you step onto the boat. That access is why a cruise starts at NZ$169, and also why you'll share the fiord with a lot of other people, particularly between about 11am and 2pm when the Queenstown day coaches converge.</p>
+    <p><strong>Doubtful</strong> has no road. Getting there means a boat across Lake Manapouri, then a bus over the Wilmot Pass, then your cruise — and the same chain in reverse. That's the whole reason it costs NZ$359 and the whole reason it's empty. You're not paying for a better fiord. You're paying for the difficulty that keeps everyone else away.</p>
+    <p>If you can only do one and you've never seen either, do Milford. If you've done Milford, or the idea of a busy viewing deck defeats the purpose for you, do Doubtful.</p>
+  </div>
+</section>
+<section class="compare">
+  <div class="container">
+    <h2>Milford vs Doubtful, side by side</h2>
+    <p class="note">Prices are per adult, verified against operator live availability on 21 July 2026. Read the price basis carefully — a NZ$169 ticket and a NZ$514 ticket can be the same fiord on the same day. Booking fees are not included in displayed prices.</p>
+    <div class="table-scroll">
+      <table class="cmp">
+        <thead>
+          <tr><th>&nbsp;</th><th>Milford Sound</th><th>Doubtful Sound</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Cheapest adult fare</th>
+            <td class="pick">NZ$169<span class="basis">cruise only — you get yourself to the wharf</span></td>
+            <td>NZ$359<span class="basis">cruise + lake crossing + pass transfer</span></td>
+          </tr>
+          <tr>
+            <th>With coach from Te Anau</th>
+            <td class="pick">NZ$249<span class="basis">coach + cruise</span></td>
+            <td>NZ$383<span class="basis">coach + transfers + cruise</span></td>
+          </tr>
+          <tr>
+            <th>With coach from Queenstown</th>
+            <td class="pick">NZ$292<span class="basis">coach + cruise</span></td>
+            <td>NZ$514<span class="basis">coach + transfers + cruise</span></td>
+          </tr>
+          <tr>
+            <th>Overnight option</th>
+            <td>NZ$669+<span class="basis">per adult, cabin</span></td>
+            <td>NZ$749<span class="basis">per adult, double or twin-share cabin</span></td>
+          </tr>
+          <tr>
+            <th>How you get there</th>
+            <td class="pick">Drive or coach to the wharf. Sealed road all the way.</td>
+            <td>Boat across Lake Manapouri, bus over Wilmot Pass, then the cruise. No road access.</td>
+          </tr>
+          <tr>
+            <th>Time from Queenstown</th>
+            <td class="pick">About 4 hours each way</td>
+            <td>Longer — most people start from Te Anau or Manapouri instead</td>
+          </tr>
+          <tr>
+            <th>Size</th>
+            <td>About 15 km long</td>
+            <td class="pick">About 40 km long with three distinct arms</td>
+          </tr>
+          <tr>
+            <th>How busy</th>
+            <td>The most visited spot in the national park. Midday is the crush.</td>
+            <td class="pick">A fraction of Milford's numbers. Boats are often out of sight of each other.</td>
+          </tr>
+          <tr>
+            <th>The signature sight</th>
+            <td class="pick">Mitre Peak rising straight out of the water</td>
+            <td>Silence — crews cut the engines and ask everyone to stop talking</td>
+          </tr>
+          <tr>
+            <th>Wildlife</th>
+            <td>Fur seals, dolphins, occasional Fiordland crested penguins</td>
+            <td>Bottlenose dolphins resident year round, fur seals, penguins</td>
+          </tr>
+          <tr>
+            <th>Best for</th>
+            <td class="pick">First visit, tight budget, tight schedule, the iconic view</td>
+            <td>Repeat visitors, crowd-avoiders, anyone with a spare day and spare budget</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>Before you book</h2>
+    <ul>
+      <li><strong>Rain is the normal condition.</strong> Milford records several metres of rain a year. A wet day puts hundreds of temporary waterfalls down the rock walls that simply aren't there when it's dry. Book expecting rain; treat sun as a bonus.</li>
+      <li><strong>Avoid the midday coach convergence at Milford.</strong> Day coaches from Queenstown land the same crowd on the same wharf between roughly 11am and 2pm. An early or late departure is a different experience for the same money.</li>
+      <li><strong>Watch what the price includes.</strong> "Cruise only" means you arrive under your own steam. A coach-inclusive fare can be NZ$80–220 more for the identical time on the water. The table above splits this out.</li>
+      <li><strong>Doubtful is a full day, not a half day.</strong> The lake-and-pass transfer chain runs in both directions. Don't plan anything else for that day.</li>
+      <li><strong>Overnight fares are per person in a shared cabin.</strong> Solo travellers pay a single-occupancy rate that is close to double. Check the cabin basis before you assume the headline price applies to you.</li>
+      <li><strong>The road to Milford closes.</strong> Avalanche risk and weather shut the Milford Road at short notice in winter and spring. Operators rebook rather than refund in most cases — build a spare day into a tight itinerary.</li>
+    </ul>
+  </div>
+</section>
+
 
 
 <!--

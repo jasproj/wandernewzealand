@@ -11,9 +11,10 @@ Rules mirrored from app.js: price badge only when price is finite, confidence
 is not 'low' and currency is NZD/USD (formatPrice); JSON-LD Offer only for
 per-person price labels (classifyPriceUnit state 1). Nothing is invented.
 """
-import json, re, sys, html, pathlib, datetime
+import json, re, sys, html, pathlib, datetime, importlib.util
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
+_spec = importlib.util.spec_from_file_location("hub_fold", ROOT / "scripts" / "hub-fold.py"); hub_fold = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(hub_fold)
 TPL = (ROOT / "queenstown.html").read_text()
 DATA = json.load(open(ROOT / "tours-data.json"))["tours"]
 ACTIVE = [t for t in DATA if t.get("status") == "active"]
@@ -302,6 +303,8 @@ if __name__ == "__main__":
         if len(shown) < 8:
             print(f"SKIP {p['slug']}: only {len(shown)} tours"); continue
         if not dry:
-            (ROOT / f"{p['slug']}.html").write_text(build(p, shown, len(allm)))
+            out = build(p, shown, len(allm))
+            out, _ = hub_fold.transform(out, {int(t["pk"]): t for t in DATA}, "New Zealand")  # s66: fold CTA + top picks
+            (ROOT / f"{p['slug']}.html").write_text(out)
     for r in report:
         print(f"{r[0]:40s} matched={r[1]:4d} shown={r[2]}")

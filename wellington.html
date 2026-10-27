@@ -493,6 +493,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -529,34 +553,52 @@
   <div class="container">
     <h1>Wellington Tours</h1>
     <p>The capital on a harbour: Zealandia&#x27;s kiwi, Weta Workshop, Middle-earth film locations, craft beer and the ferry to the South Island.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$47</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Wellington</h2>
-    <p>Wellington is compact enough to walk and built on hills steep enough that most visitors don't. The waterfront, Te Papa, the Cable Car and Cuba Street are all within 20 minutes of each other on foot; the tour scene fills in what's harder to reach on your own — Zealandia's predator-free valley five minutes from downtown, Weta Workshop in Miramar, the Lord of the Rings locations scattered through the Hutt Valley and the town belt, and the islands in the harbour.</p><p>Harbour trips run to Matiu/Somes Island, a former quarantine station now managed as a reserve, and on calmer days out to the heads and the south coast seal colonies. Kayak and SUP hire operates from the waterfront. Food and craft-beer walking tours lean on the density of Wellington's bar and café scene; most run three hours and stop at four or five venues.</p><p>North of the city, Kāpiti Island is one of the country's most important bird sanctuaries and takes a permitted boat crossing from Paraparaumu, about 50 minutes up the coast.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>Wellington's wind is real, but summer is when the harbour is most often flat enough for kayaks, SUPs and the Somes Island ferry to run every scheduled sailing. Zealandia's night tours — the best way to see a kiwi in the wild — run year-round but start later in summer (around 9pm in December) because of the long twilight. Kāpiti Island crossings are most reliable from November onwards.</p><p>Late February to early March hosts the Fringe Festival and CubaDupa; accommodation tightens and walking tours book out on the weekends.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Zealandia is 10 minutes from the CBD by free shuttle from the i-SITE; night tours need booking</li>
-<li>Weta Workshop tours are in Miramar — 20 minutes by bus or included in film-location tours</li>
-<li>Somes Island ferries run from Queens Wharf; last return sailing is mid-afternoon</li>
-<li>Kāpiti Island requires a licensed operator; check the sea-state cancellation policy</li>
-<li>The Interislander and Bluebridge ferries to Picton leave from different terminals</li>
-<li>Wind cancellations are common for harbour kayaking — operators reschedule freely</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/GhZ6HMk5QSidalgOD6Cc" alt="Craft Beer &amp; Brewery Half-Day Tour" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$184</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Zozo Travel Limited</div>
+        <h3 class="tour-title">Craft Beer &amp; Brewery Half-Day Tour</h3>
+        <p class="tour-desc">The tour takes in three local craft breweries with tastings at each location. The standard itinerary includes an iconic central Wellington…</p>
+        <a href="https://fareharbor.com/embeds/book/zozotravel/items/275961/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="275961" data-tour-name="Craft Beer &amp; Brewery Half-Day Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/A3JrImVRDGKH0mhIp0nI" alt="Martinborough Foodie Half Day Tour" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$195</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Zozo Travel Limited</div>
+        <h3 class="tour-title">Martinborough Foodie Half Day Tour</h3>
+        <p class="tour-desc">Experience a half-day culinary adventure in the beautiful Wairarapa. Delight in a locally guided tour that explores various food…</p>
+        <a href="https://fareharbor.com/embeds/book/zozotravel/items/275936/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="275936" data-tour-name="Martinborough Foodie Half Day Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/CD8gNP3ETFSQHzm6VfC3" alt="Martinborough Winery &amp; Foodie Day Tour" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$337</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Zozo Travel Limited</div>
+        <h3 class="tour-title">Martinborough Winery &amp; Foodie Day Tour</h3>
+        <p class="tour-desc">Embark on an 8-hour gourmet escape from Wellington, discovering flavours with five of our handpicked tasting partners. What&#x27;s included A…</p>
+        <a href="https://fareharbor.com/embeds/book/zozotravel/items/275921/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="275921" data-tour-name="Martinborough Winery &amp; Foodie Day Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
@@ -855,6 +897,32 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Wellington</h2>
+    <p>Wellington is compact enough to walk and built on hills steep enough that most visitors don't. The waterfront, Te Papa, the Cable Car and Cuba Street are all within 20 minutes of each other on foot; the tour scene fills in what's harder to reach on your own — Zealandia's predator-free valley five minutes from downtown, Weta Workshop in Miramar, the Lord of the Rings locations scattered through the Hutt Valley and the town belt, and the islands in the harbour.</p><p>Harbour trips run to Matiu/Somes Island, a former quarantine station now managed as a reserve, and on calmer days out to the heads and the south coast seal colonies. Kayak and SUP hire operates from the waterfront. Food and craft-beer walking tours lean on the density of Wellington's bar and café scene; most run three hours and stop at four or five venues.</p><p>North of the city, Kāpiti Island is one of the country's most important bird sanctuaries and takes a permitted boat crossing from Paraparaumu, about 50 minutes up the coast.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>Wellington's wind is real, but summer is when the harbour is most often flat enough for kayaks, SUPs and the Somes Island ferry to run every scheduled sailing. Zealandia's night tours — the best way to see a kiwi in the wild — run year-round but start later in summer (around 9pm in December) because of the long twilight. Kāpiti Island crossings are most reliable from November onwards.</p><p>Late February to early March hosts the Fringe Festival and CubaDupa; accommodation tightens and walking tours book out on the weekends.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Zealandia is 10 minutes from the CBD by free shuttle from the i-SITE; night tours need booking</li>
+<li>Weta Workshop tours are in Miramar — 20 minutes by bus or included in film-location tours</li>
+<li>Somes Island ferries run from Queens Wharf; last return sailing is mid-afternoon</li>
+<li>Kāpiti Island requires a licensed operator; check the sea-state cancellation policy</li>
+<li>The Interislander and Bluebridge ferries to Picton leave from different terminals</li>
+<li>Wind cancellations are common for harbour kayaking — operators reschedule freely</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

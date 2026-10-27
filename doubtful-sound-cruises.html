@@ -268,6 +268,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -304,34 +328,52 @@
   <div class="container">
     <h1>Doubtful Sound Cruises</h1>
     <p>Three times the size of Milford, a tenth of the boats. Day cruises and overnight boats from Manapouri, with coach connections from Te Anau and Queenstown.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">12 tours</span><span class="hub-chip">From NZ$359</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>How Doubtful Sound cruises work</h2>
-    <p>Doubtful Sound has no road. Every trip starts with a 50-minute boat across Lake Manapouri, then a coach over the 671-metre Wilmot Pass — the most expensive road in New Zealand per kilometre, built for the power station — to Deep Cove, where the cruise vessel waits. That two-stage approach is why Doubtful takes a full day and why it sees a fraction of Milford's traffic.</p><p>Day cruises spend about three hours on the fiord, running the 40 km out to the Tasman Sea past the Shelter Islands fur seal colony and, in season, the bottlenose dolphin pod that lives in the sound. Total time from Manapouri is around 7 hours; from Te Anau add 40 minutes each way, from Queenstown add about 2.5 hours each way by coach.</p><p>Overnight cruises are the way most people who have done both fiords would choose to see Doubtful. The boats anchor in a side arm for the night, put kayaks and tender boats in the water in the evening, and run the sound in the early morning before the day boats arrive. One-night and two-night options exist, with private cabins or quad-share bunks.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to cruise: November to March</h2>
-    <p>Overnight cruises run from roughly September to May and are busiest from mid-December through February, when the private cabins book out weeks ahead; shoulder months (November, March) have the same 15-hour daylight and more availability. Day cruises run year-round. Summer brings the dolphins into the inner arms more often and makes the evening kayaking off the overnight boats comfortable.</p><p>Rain is part of the deal in Fiordland — about 200 days a year — and the fiord is at its most dramatic the morning after a wet night, when hundreds of temporary waterfalls run off the walls.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>All trips go via Lake Manapouri and Wilmot Pass — there is no road to the fiord</li>
-<li>Day cruise: ~7 hours from Manapouri, ~8 from Te Anau, ~12 from Queenstown</li>
-<li>Overnight cruises include dinner, breakfast, kayaks and tender-boat trips</li>
-<li>Private cabins sell out first in summer; quad-share bunks are the budget option</li>
-<li>Pack for rain and sandflies in every month</li>
-<li>Cellphone coverage ends at Manapouri</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/yla9FsGQ3Kyzlr4mPwmr" alt="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$823</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Doubtful Sound Overnight Cruise and Coach – Te Anau Departure</h3>
+        <p class="tour-desc">Escape to the peace and tranquility of Doubtful Sound on a magical overnight cruise. This experience includes return coach transfers from…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/289255/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="289255" data-tour-name="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/lrl4CHbxSyG2M3W0btoE" alt="Doubtful Sound Overnight Cruise | Aboard The Navigator (1 Night)" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$749</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Doubtful Sound Overnight Cruise | Aboard The Navigator (1 Night)</h3>
+        <p class="tour-desc">Experience the spectacular, remote wilderness of Doubtful Sound on a magical overnight cruise. Your journey will take you across Lake…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/257752/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="257752" data-tour-name="Doubtful Sound Overnight Cruise | Aboard The Navigator (1 Night)">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/jrHja8vASIJT65haMvwn" alt="Doubtful Sound Cruise and Coach – Te Anau Departure" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$383</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Doubtful Sound Cruise and Coach – Te Anau Departure</h3>
+        <p class="tour-desc">Experience the spectacular, remote wilderness of Doubtful Sound on our guided day trip from Te Anau What&#x27;s included Return coach transfers…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/295392/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="295392" data-tour-name="Doubtful Sound Cruise and Coach – Te Anau Departure">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 12 tours ↓</a>
   </div>
 </section>
 
@@ -486,6 +528,32 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>How Doubtful Sound cruises work</h2>
+    <p>Doubtful Sound has no road. Every trip starts with a 50-minute boat across Lake Manapouri, then a coach over the 671-metre Wilmot Pass — the most expensive road in New Zealand per kilometre, built for the power station — to Deep Cove, where the cruise vessel waits. That two-stage approach is why Doubtful takes a full day and why it sees a fraction of Milford's traffic.</p><p>Day cruises spend about three hours on the fiord, running the 40 km out to the Tasman Sea past the Shelter Islands fur seal colony and, in season, the bottlenose dolphin pod that lives in the sound. Total time from Manapouri is around 7 hours; from Te Anau add 40 minutes each way, from Queenstown add about 2.5 hours each way by coach.</p><p>Overnight cruises are the way most people who have done both fiords would choose to see Doubtful. The boats anchor in a side arm for the night, put kayaks and tender boats in the water in the evening, and run the sound in the early morning before the day boats arrive. One-night and two-night options exist, with private cabins or quad-share bunks.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to cruise: November to March</h2>
+    <p>Overnight cruises run from roughly September to May and are busiest from mid-December through February, when the private cabins book out weeks ahead; shoulder months (November, March) have the same 15-hour daylight and more availability. Day cruises run year-round. Summer brings the dolphins into the inner arms more often and makes the evening kayaking off the overnight boats comfortable.</p><p>Rain is part of the deal in Fiordland — about 200 days a year — and the fiord is at its most dramatic the morning after a wet night, when hundreds of temporary waterfalls run off the walls.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>All trips go via Lake Manapouri and Wilmot Pass — there is no road to the fiord</li>
+<li>Day cruise: ~7 hours from Manapouri, ~8 from Te Anau, ~12 from Queenstown</li>
+<li>Overnight cruises include dinner, breakfast, kayaks and tender-boat trips</li>
+<li>Private cabins sell out first in summer; quad-share bunks are the budget option</li>
+<li>Pack for rain and sandflies in every month</li>
+<li>Cellphone coverage ends at Manapouri</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

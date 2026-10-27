@@ -423,6 +423,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -459,35 +483,52 @@
   <div class="container">
     <h1>Christchurch Tours</h1>
     <p>Punting on the Avon, Hector&#x27;s dolphins at Akaroa, penguins on Banks Peninsula, and the TranzAlpine corridor into the Southern Alps.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$21</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Christchurch</h2>
-    <p>Christchurch is the South Island's largest city and the arrival point for most travellers heading to Kaikōura, Aoraki/Mount Cook or the West Coast. The city has rebuilt around the Avon River, Hagley Park and the new Riverside precinct, and the tour scene reflects that: punting, tram tours, guided walks of the post-earthquake architecture, and street-art bike rides.</p><p>Banks Peninsula, 80 minutes south-east, is where the wildlife is. Akaroa Harbour is a drowned volcanic crater and home to Hector's dolphins, the world's smallest marine dolphin; harbour cruises and dolphin swims run daily from the Akaroa wharf in summer. Over the hill at Flea Bay, the Pōhatu white-flippered penguin colony is visited by 4WD and sea-kayak safaris that leave from Akaroa village.</p><p>Inland, the Waimakariri Gorge jetboats and the Castle Hill limestone are an hour out on the Arthur's Pass road, and day trips to Lake Tekapo and Mount Cook run from the city for those not hiring a car.</p>
-    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-christchurch.html">14 best things to do in Christchurch</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>Summer is when Akaroa works best. Hector's dolphins are in the harbour year-round but come closer inshore from November to March, and the swim-with-dolphins permits are capped per boat, so those trips sell out first. Penguin numbers at Pōhatu peak during the September-to-February breeding season; by late February the adults are moulting and sightings drop.</p><p>Christchurch's nor'wester can shut down Akaroa boat trips at short notice. Most operators will move you to the next available departure, so leave a spare morning if a dolphin swim is the priority.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Akaroa is 80 minutes from the city — many wildlife tours include Christchurch pickup</li>
-<li>Dolphin swim permits limit numbers per boat; book ahead for December–February</li>
-<li>Pōhatu penguin tours leave from Akaroa village, not the wharf — check the meeting point</li>
-<li>The nor&#x27;wester cancels harbour trips; keep a spare morning</li>
-<li>Punting and tram tours run from the central city year-round</li>
-<li>Arthur&#x27;s Pass and Castle Hill are a day trip; Mount Cook is a long one (5 hours each way)</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/vXRhSCbQ1yUbMTTnXU1I" alt="Sea-kayaking Banks Track" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$132</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pohatu Penguins</div>
+        <h3 class="tour-title">Sea-kayaking Banks Track</h3>
+        <p class="tour-desc">Explore the outer coast of Pōhatu Marine Reserve by kayak and marvel at its spectacular towering cliffs, rock stacks, reefs, and deep-sea…</p>
+        <a href="https://fareharbor.com/embeds/book/pohatu/items/263345/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="263345" data-tour-name="Sea-kayaking Banks Track">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/8RyibN89TgmtgwRQpKIX" alt="4WD Scenic Sea-Kayaking Safari" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$163</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pohatu Penguins</div>
+        <h3 class="tour-title">4WD Scenic Sea-Kayaking Safari</h3>
+        <p class="tour-desc">Explore the outer coast of Pōhatu Marine Reserve by kayak and marvel at its spectacular towering cliffs, rock stacks, reefs, and deep-sea…</p>
+        <a href="https://fareharbor.com/embeds/book/pohatu/items/262881/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="262881" data-tour-name="4WD Scenic Sea-Kayaking Safari">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/5rv8mtETQOqC15AGkjag" alt="Early Bird Scenic Kayak Safari" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$153</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Pohatu Penguins</div>
+        <h3 class="tour-title">Early Bird Scenic Kayak Safari</h3>
+        <p class="tour-desc">Explore the outer coast of Pōhatu Marine Reserve by kayak and marvel at its spectacular towering cliffs, rock stacks, reefs, and deep-sea…</p>
+        <a href="https://fareharbor.com/embeds/book/pohatu/items/262878/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="262878" data-tour-name="Early Bird Scenic Kayak Safari">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
@@ -786,6 +827,33 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Christchurch</h2>
+    <p>Christchurch is the South Island's largest city and the arrival point for most travellers heading to Kaikōura, Aoraki/Mount Cook or the West Coast. The city has rebuilt around the Avon River, Hagley Park and the new Riverside precinct, and the tour scene reflects that: punting, tram tours, guided walks of the post-earthquake architecture, and street-art bike rides.</p><p>Banks Peninsula, 80 minutes south-east, is where the wildlife is. Akaroa Harbour is a drowned volcanic crater and home to Hector's dolphins, the world's smallest marine dolphin; harbour cruises and dolphin swims run daily from the Akaroa wharf in summer. Over the hill at Flea Bay, the Pōhatu white-flippered penguin colony is visited by 4WD and sea-kayak safaris that leave from Akaroa village.</p><p>Inland, the Waimakariri Gorge jetboats and the Castle Hill limestone are an hour out on the Arthur's Pass road, and day trips to Lake Tekapo and Mount Cook run from the city for those not hiring a car.</p>
+    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-christchurch.html">14 best things to do in Christchurch</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>Summer is when Akaroa works best. Hector's dolphins are in the harbour year-round but come closer inshore from November to March, and the swim-with-dolphins permits are capped per boat, so those trips sell out first. Penguin numbers at Pōhatu peak during the September-to-February breeding season; by late February the adults are moulting and sightings drop.</p><p>Christchurch's nor'wester can shut down Akaroa boat trips at short notice. Most operators will move you to the next available departure, so leave a spare morning if a dolphin swim is the priority.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Akaroa is 80 minutes from the city — many wildlife tours include Christchurch pickup</li>
+<li>Dolphin swim permits limit numbers per boat; book ahead for December–February</li>
+<li>Pōhatu penguin tours leave from Akaroa village, not the wharf — check the meeting point</li>
+<li>The nor&#x27;wester cancels harbour trips; keep a spare morning</li>
+<li>Punting and tram tours run from the central city year-round</li>
+<li>Arthur&#x27;s Pass and Castle Hill are a day trip; Mount Cook is a long one (5 hours each way)</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

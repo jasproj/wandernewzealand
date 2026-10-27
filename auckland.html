@@ -461,6 +461,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -497,38 +521,56 @@
   <div class="container">
     <h1>Auckland Tours</h1>
     <p>New Zealand&#x27;s largest city — Hauraki Gulf islands, Waiheke wine, and a 1-day-from-anywhere arrival point.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$15</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<!--
-  WNZ Weather Widget — Auckland.
-  Sources: Open-Meteo (current conditions, Celsius/km-h), Windy.com (radar iframe).
-  Coordinates: Auckland (-36.8485, 174.7633). No API keys required.
-  Tide ticker omitted: NOAA does not cover New Zealand; NIWA integration deferred.
-  Inject between the hero close and the intro section.
--->
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Auckland</h2>
-    <p>Auckland is most travelers' first stop in New Zealand — Auckland Airport is the country's busiest international gateway. The city sits between the Tasman Sea (west coast) and the Hauraki Gulf (east coast), with two harbors and a chain of small islands. Waiheke Island, a 35-minute ferry from downtown, is famous for its boutique vineyards and beaches; Rangitoto, the youngest volcano in NZ, is a walkable 25-minute ferry ride.<br><br>Most Auckland tours we work with fit into a 4-8 hour day-trip format: half-day vineyard runs to Waiheke, full-day Hauraki Gulf catamaran sails, harbor cruises that depart from the Viaduct Basin downtown. If you're spending only one day in Auckland before flying south, the highest-value pattern is morning ferry to Waiheke + afternoon walking tour back in the central city. The Sky Tower and Auckland War Memorial Museum are both worth 2-3 hours independent of any guided tour.</p>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/Vj3jFSBIRie8G57nxNzi" alt="Kids Surf Birthday Party" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">Check availability</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Aotearoa Surf School</div>
+        <h3 class="tour-title">Kids Surf Birthday Party</h3>
+        <p class="tour-desc">Looking to throw the ultimate birthday bash? Swap the cake and chaos for saltwater and stoke with a fun, active and surf party by…</p>
+        <a href="https://fareharbor.com/embeds/book/aotearoasurf/items/109315/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="109315" data-tour-name="Kids Surf Birthday Party">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/5OQe506CRYGacavDNEzc" alt="The Essence of Waiheke Wine Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$299</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Ananda Tours</div>
+        <h3 class="tour-title">The Essence of Waiheke Wine Tour</h3>
+        <p class="tour-desc">On this tour, you will visit three of Waiheke’s top vineyards and sample a range of their wines. Along the way enjoy a commentated scenic drive,…</p>
+        <a href="https://fareharbor.com/embeds/book/ananda/items/266156/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="266156" data-tour-name="The Essence of Waiheke Wine Tour">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/dt2cXQ4R06tJGKmxtNtv" alt="The Gourmet’s Food and Wine Tour" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$341</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Ananda Tours</div>
+        <h3 class="tour-title">The Gourmet’s Food and Wine Tour</h3>
+        <p class="tour-desc">Our most popular shared group tour experience, ideal for food and wine lovers. The day begins with a visit to a boutique vineyard for a guided…</p>
+        <a href="https://fareharbor.com/embeds/book/ananda/items/266157/?asn=fhdn-nzd&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="266157" data-tour-name="The Gourmet’s Food and Wine Tour">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-      <li>Auckland Airport is the busiest in NZ — most international flights land here</li>
-<li>Waiheke Island (35-min ferry) is the strongest single day-trip — vineyards, beaches</li>
-<li>Rangitoto Island is a 600-year-old volcano and walkable in a half-day</li>
-<li>Best months: November-April (NZ summer/autumn); July is rainy and cool</li>
-<li>Hauraki Gulf is sheltered — sailing/catamaran tours run year-round in most weather</li>
-<li>Downtown ferry terminal is at the foot of Queen Street — easy walk from CBD hotels</li>
-    </ul>
-  </div>
-</section>
-
-<section class="tours">
+<section class="tours" id="tours">
   <div class="container">
     <h2>Auckland tours (114 available)</h2>
     <div class="tours-grid">
@@ -823,6 +865,26 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Auckland</h2>
+    <p>Auckland is most travelers' first stop in New Zealand — Auckland Airport is the country's busiest international gateway. The city sits between the Tasman Sea (west coast) and the Hauraki Gulf (east coast), with two harbors and a chain of small islands. Waiheke Island, a 35-minute ferry from downtown, is famous for its boutique vineyards and beaches; Rangitoto, the youngest volcano in NZ, is a walkable 25-minute ferry ride.<br><br>Most Auckland tours we work with fit into a 4-8 hour day-trip format: half-day vineyard runs to Waiheke, full-day Hauraki Gulf catamaran sails, harbor cruises that depart from the Viaduct Basin downtown. If you're spending only one day in Auckland before flying south, the highest-value pattern is morning ferry to Waiheke + afternoon walking tour back in the central city. The Sky Tower and Auckland War Memorial Museum are both worth 2-3 hours independent of any guided tour.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+      <li>Auckland Airport is the busiest in NZ — most international flights land here</li>
+<li>Waiheke Island (35-min ferry) is the strongest single day-trip — vineyards, beaches</li>
+<li>Rangitoto Island is a 600-year-old volcano and walkable in a half-day</li>
+<li>Best months: November-April (NZ summer/autumn); July is rainy and cool</li>
+<li>Hauraki Gulf is sheltered — sailing/catamaran tours run year-round in most weather</li>
+<li>Downtown ferry terminal is at the foot of Queen Street — easy walk from CBD hotels</li>
+    </ul>
+  </div>
+</section>
+
 
 <!-- WEATHER WIDGET START -->
 <section class="wnz-weather" id="weather" aria-labelledby="wnz-weather-heading">

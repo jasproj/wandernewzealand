@@ -223,6 +223,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -238,23 +262,69 @@
     </header>
     <section class="activity-hero">
         <div class="container">
-            <h1>New Zealand Bike Tours: Guided &amp; Self-Guided Cycling</h1>
+            <h1>New Zealand Bike Tours</h1>
             <p>Pedal through volcanic landscapes, coastal trails, and vineyard routes on New Zealand's cycle trails.</p>
             <div class="hero-stats">
                 <div class="hero-stat"><span class="hero-stat-number">141</span><span class="hero-stat-label">Bike Tours</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">10+</span><span class="hero-stat-label">Trail Networks</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">2-6 hrs</span><span class="hero-stat-label">Avg Duration</span></div>
             </div>
-        </div>
+        
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
     </section>
-    <section class="region-links" style="background:#eef6f3;padding:28px 0">
+<section class="top-picks" aria-label="Top picks">
+  <div class="container">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/9I4tjY4NSiKyYQgpx4HX" alt="Ale Trail – Wharehuanui Adventure" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$108.37</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Going Blue</div>
+        <h3 class="tour-title">Ale Trail – Wharehuanui Adventure</h3>
+        <p class="tour-desc">Ride at your own pace from Arrowtown to Queenstown, stopping at hand-picked breweries along the way. This is a self-guided experience…</p>
+        <a href="https://fareharbor.com/embeds/book/goingblue/items/580166/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="580166" data-tour-name="Ale Trail – Wharehuanui Adventure">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/hNrE1q6S6MoIeTDLLAHQ" alt="Half Day Mountain Bike Rental- Full suspension" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$89</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Gravity Nelson</div>
+        <h3 class="tour-title">Half Day Mountain Bike Rental- Full suspension</h3>
+        <p class="tour-desc">Challenge yourself and experience the thrill of Nelson’s trails with a Half-Day Acoustic Full-Suspension Mountain Bike Rental from…</p>
+        <a href="https://fareharbor.com/embeds/book/gravitynelson/items/137625/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="137625" data-tour-name="Half Day Mountain Bike Rental- Full suspension">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/d35jJMRTQaSRW0QBa5aO" alt="The Packed Moa" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$152</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">River Valley Ventures</div>
+        <h3 class="tour-title">The Packed Moa</h3>
+        <p class="tour-desc">Discover River Valley by E-Bike River Valley Lodge is nestled in one of New Zealand&#x27;s most landscapes. While many of our guests love…</p>
+        <a href="https://fareharbor.com/embeds/book/rivervalley/items/689758/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="689758" data-tour-name="The Packed Moa">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 12 tours ↓</a>
+  </div>
+</section>
+<section class="region-links" style="background:#eef6f3;padding:28px 0">
       <div class="container">
         <h2 style="font-size:1.35rem;margin:0 0 8px">Where to ride</h2>
         <p style="margin:0 0 14px">Guided and self-guided trail days with shuttles and e-bikes, region by region:</p>
         <div style="display:flex;flex-wrap:wrap;gap:10px"><a href="/queenstown.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Queenstown &amp; Arrowtown trails</a><a href="/nelson-abel-tasman.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Nelson Great Taste Trail</a><a href="/wanaka.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Wānaka &amp; Cardrona</a><a href="/christchurch.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Christchurch</a><a href="/wine-tours.html" style="background:#fff;border:1px solid #d9e2e7;border-radius:20px;padding:8px 14px;color:#0a5c4f;text-decoration:none;font-weight:500">Marlborough wine by bike</a></div>
       </div>
     </section>
-    <section class="tours" id="tours">
+<section class="tours" id="tours">
       <div class="container">
         <h2>Book New Zealand Bike Tours &amp; Cycling Adventures (12 available)</h2>
         <div class="tours-grid">
@@ -405,6 +475,8 @@
         </div>
       </div>
     </section>
+
+
 
 
     <section class="types-section">

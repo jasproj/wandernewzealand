@@ -430,6 +430,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -466,35 +490,52 @@
   <div class="container">
     <h1>Nelson &amp; Abel Tasman Tours</h1>
     <p>Sea kayaks, water taxis and coastal walks into Abel Tasman National Park, plus helicopters, wineries and mountain-bike trails out of Nelson.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$30</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Nelson and Abel Tasman</h2>
-    <p>Nelson is the northern tip of the South Island and the gateway to three national parks. Abel Tasman is the one most visitors come for: a coastal track of golden beaches and estuaries with no road access past Marahau, so you get in by water taxi, by kayak, or on foot. The launch points are Marahau and Kaiteriteri, roughly an hour's drive west of Nelson past Motueka.</p><p>The classic pattern is a water taxi one way and a walk or paddle back. Water taxis run a fixed schedule up the coast and drop you at Anchorage, Bark Bay, Onetahuti or Awaroa; most people walk south for three to four hours and get collected. Guided kayak days cover the Astrolabe Roadstead and the seal colony on Tonga Island. If you have a full day, a kayak-and-walk combo does both.</p><p>Nelson itself has the Great Taste Trail cycle route through the Moutere wine country, the Nelson Lakes to the south, and helicopter operators who run Abel Tasman scenic flights and alpine landings. Golden Bay and Farewell Spit are a further two hours over the Tākaka Hill.</p>
-    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-nelson-abel-tasman.html">14 best things to do in Nelson &amp; Abel Tasman</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>Abel Tasman is a summer park. From November the water taxis move to their full timetable, the kayak operators run morning and afternoon departures, and sea temperatures climb to the high teens by January. December 26 to mid-January is the busiest fortnight of the year; book kayaks and water taxis a week or more ahead for those dates. November and March are the quieter ends of the season with the same daylight and most of the warmth.</p><p>Tides matter here: the Awaroa estuary crossing on the Coast Track is only passable within about two hours of low tide, so check tide times before booking a one-way walk that crosses it.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Marahau and Kaiteriteri are the launch points — about 60 minutes from Nelson by car or shuttle</li>
-<li>No roads inside the park past Marahau; access is by water taxi, kayak or the Coast Track</li>
-<li>Water taxis run to a schedule and drop/collect at named beaches — book the return leg</li>
-<li>Awaroa estuary crossing is tide-limited (roughly ±2 hours of low tide)</li>
-<li>Kayak tours are weather-dependent; operators reschedule for strong northerlies</li>
-<li>Bring reef-safe sunscreen and a hat — there is little shade on the water</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/vUIUtjQPQSK3HigwJZd0" alt="Full Day Mountain Bike Rental- Full suspension" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$159</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Gravity Nelson</div>
+        <h3 class="tour-title">Full Day Mountain Bike Rental- Full suspension</h3>
+        <p class="tour-desc">Take your riding to the next level with a Full-Day Acoustic Full-Suspension Mountain Bike Rental from Gravity Nelson. Featuring premium…</p>
+        <a href="https://fareharbor.com/embeds/book/gravitynelson/items/262314/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="262314" data-tour-name="Full Day Mountain Bike Rental- Full suspension">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/hNrE1q6S6MoIeTDLLAHQ" alt="Half Day Mountain Bike Rental- Full suspension" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$89</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Gravity Nelson</div>
+        <h3 class="tour-title">Half Day Mountain Bike Rental- Full suspension</h3>
+        <p class="tour-desc">Challenge yourself and experience the thrill of Nelson’s trails with a Half-Day Acoustic Full-Suspension Mountain Bike Rental from Gravity…</p>
+        <a href="https://fareharbor.com/embeds/book/gravitynelson/items/137625/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="137625" data-tour-name="Half Day Mountain Bike Rental- Full suspension">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/HzqGv0QlSjmy08hCoYbb" alt="Half Day Electric Mountain Bike Rental- Full suspension" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$179</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Gravity Nelson</div>
+        <h3 class="tour-title">Half Day Electric Mountain Bike Rental- Full suspension</h3>
+        <p class="tour-desc">Discover Nelson’s incredible trails with a Half-Day Electric Mountain Bike Rental from Gravity Nelson. Our fleet of full-suspension…</p>
+        <a href="https://fareharbor.com/embeds/book/gravitynelson/items/137624/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="137624" data-tour-name="Half Day Electric Mountain Bike Rental- Full suspension">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
@@ -793,6 +834,33 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Nelson and Abel Tasman</h2>
+    <p>Nelson is the northern tip of the South Island and the gateway to three national parks. Abel Tasman is the one most visitors come for: a coastal track of golden beaches and estuaries with no road access past Marahau, so you get in by water taxi, by kayak, or on foot. The launch points are Marahau and Kaiteriteri, roughly an hour's drive west of Nelson past Motueka.</p><p>The classic pattern is a water taxi one way and a walk or paddle back. Water taxis run a fixed schedule up the coast and drop you at Anchorage, Bark Bay, Onetahuti or Awaroa; most people walk south for three to four hours and get collected. Guided kayak days cover the Astrolabe Roadstead and the seal colony on Tonga Island. If you have a full day, a kayak-and-walk combo does both.</p><p>Nelson itself has the Great Taste Trail cycle route through the Moutere wine country, the Nelson Lakes to the south, and helicopter operators who run Abel Tasman scenic flights and alpine landings. Golden Bay and Farewell Spit are a further two hours over the Tākaka Hill.</p>
+    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-nelson-abel-tasman.html">14 best things to do in Nelson &amp; Abel Tasman</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>Abel Tasman is a summer park. From November the water taxis move to their full timetable, the kayak operators run morning and afternoon departures, and sea temperatures climb to the high teens by January. December 26 to mid-January is the busiest fortnight of the year; book kayaks and water taxis a week or more ahead for those dates. November and March are the quieter ends of the season with the same daylight and most of the warmth.</p><p>Tides matter here: the Awaroa estuary crossing on the Coast Track is only passable within about two hours of low tide, so check tide times before booking a one-way walk that crosses it.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Marahau and Kaiteriteri are the launch points — about 60 minutes from Nelson by car or shuttle</li>
+<li>No roads inside the park past Marahau; access is by water taxi, kayak or the Coast Track</li>
+<li>Water taxis run to a schedule and drop/collect at named beaches — book the return leg</li>
+<li>Awaroa estuary crossing is tide-limited (roughly ±2 hours of low tide)</li>
+<li>Kayak tours are weather-dependent; operators reschedule for strong northerlies</li>
+<li>Bring reef-safe sunscreen and a hat — there is little shade on the water</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

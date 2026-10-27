@@ -400,6 +400,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -436,34 +460,52 @@
   <div class="container">
     <h1>Fiordland Cruises</h1>
     <p>Milford and Doubtful Sound day cruises, overnight boats, and the coach and flight combinations that get you there from Queenstown and Te Anau — with live prices.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">21 tours</span><span class="hub-chip">From NZ$169</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>Choosing a Fiordland cruise</h2>
-    <p>Fiordland National Park has fourteen fiords and two with scheduled cruises: Milford Sound and Doubtful Sound. Milford is the famous one — Mitre Peak, Stirling Falls, a 16 km run to the sea — and has the widest choice of boats, from 2-hour nature cruises to small-boat and overnight options. Doubtful is larger, quieter and reached only via Lake Manapouri and Wilmot Pass, which makes it a longer day and a stronger case for staying the night on board.</p><p>Prices depend less on the boat than on how you reach it. A Milford Sound cruise alone is the cheapest line on this page; add a coach from Te Anau and it roughly doubles; add a coach from Queenstown and the day becomes 12 hours; replace the return coach with a scenic flight (coach-cruise-fly) or fly both ways (fly-cruise-fly) and you are into the premium bracket but back in Queenstown by early afternoon.</p><p>Overnight cruises on either fiord include dinner, breakfast, kayaking and tender trips and anchor in arms the day boats never reach. For multi-day expedition cruising into Dusky, Breaksea and the southern fiords, a handful of small vessels run 3- to 7-night itineraries in summer.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Cruise season: November to March</h2>
-    <p>Day cruises run every day of the year; what changes in summer is frequency and daylight. From November, Milford operators run departures roughly hourly from 9am to 3pm, overnight boats are on their full schedule, and the Milford Road is open without avalanche-control closures. Fly-cruise-fly and coach-cruise-fly packages depend on Milford airstrip weather and are most reliable from December to March.</p><p>Book overnight cabins and anything departing between 24 December and 31 January as early as you can; day cruises from Milford itself rarely sell out, but the coaches from Queenstown do.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Milford Sound: 2 hours from Te Anau, 4 from Queenstown by road — cruise alone is 1.5–2.5 hours</li>
-<li>Doubtful Sound: via Manapouri lake crossing + Wilmot Pass coach — about 7 hours total</li>
-<li>Coach-cruise-fly and fly-cruise-fly packages cut the Queenstown day from 12 hours to 4–6</li>
-<li>Overnight cruises include meals, kayaks and tender boats; cabins book out in summer</li>
-<li>Prices shown are per adult in NZ$ where the operator publishes a per-person rate</li>
-<li>Flights are weather-dependent; the coach is the fallback on cloudy days</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/k7AhsDk7QvacxIIv9xib" alt="Milford Sound Boutique Small Boat Cruise" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$199</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Cruise Milford</div>
+        <h3 class="tour-title">Milford Sound Boutique Small Boat Cruise</h3>
+        <p class="tour-desc">Your cruise will begin at one of the most scenic points of the journey. You can take in the magnificent view of Mitre Peak (New Zealand&#x27;s…</p>
+        <a href="https://fareharbor.com/embeds/book/cruisemilfordnz/items/272184/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="272184" data-tour-name="Milford Sound Boutique Small Boat Cruise">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/S3XIDLh6T9iUUwgGiikV" alt="Milford Sound Cruise | Aboard The Sovereign or Monarch" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$169</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Milford Sound Cruise | Aboard The Sovereign or Monarch</h3>
+        <p class="tour-desc">Explore Milford Sound aboard our most spacious boats the Milford Sovereign or Monarch. With large viewing decks, you&#x27;ll have a great view…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/257745/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="257745" data-tour-name="Milford Sound Cruise | Aboard The Sovereign or Monarch">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/yla9FsGQ3Kyzlr4mPwmr" alt="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$823</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Doubtful Sound Overnight Cruise and Coach – Te Anau Departure</h3>
+        <p class="tour-desc">Escape to the peace and tranquility of Doubtful Sound on a magical overnight cruise. This experience includes return coach transfers from…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/289255/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="289255" data-tour-name="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 21 tours ↓</a>
   </div>
 </section>
 
@@ -726,6 +768,32 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>Choosing a Fiordland cruise</h2>
+    <p>Fiordland National Park has fourteen fiords and two with scheduled cruises: Milford Sound and Doubtful Sound. Milford is the famous one — Mitre Peak, Stirling Falls, a 16 km run to the sea — and has the widest choice of boats, from 2-hour nature cruises to small-boat and overnight options. Doubtful is larger, quieter and reached only via Lake Manapouri and Wilmot Pass, which makes it a longer day and a stronger case for staying the night on board.</p><p>Prices depend less on the boat than on how you reach it. A Milford Sound cruise alone is the cheapest line on this page; add a coach from Te Anau and it roughly doubles; add a coach from Queenstown and the day becomes 12 hours; replace the return coach with a scenic flight (coach-cruise-fly) or fly both ways (fly-cruise-fly) and you are into the premium bracket but back in Queenstown by early afternoon.</p><p>Overnight cruises on either fiord include dinner, breakfast, kayaking and tender trips and anchor in arms the day boats never reach. For multi-day expedition cruising into Dusky, Breaksea and the southern fiords, a handful of small vessels run 3- to 7-night itineraries in summer.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Cruise season: November to March</h2>
+    <p>Day cruises run every day of the year; what changes in summer is frequency and daylight. From November, Milford operators run departures roughly hourly from 9am to 3pm, overnight boats are on their full schedule, and the Milford Road is open without avalanche-control closures. Fly-cruise-fly and coach-cruise-fly packages depend on Milford airstrip weather and are most reliable from December to March.</p><p>Book overnight cabins and anything departing between 24 December and 31 January as early as you can; day cruises from Milford itself rarely sell out, but the coaches from Queenstown do.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Milford Sound: 2 hours from Te Anau, 4 from Queenstown by road — cruise alone is 1.5–2.5 hours</li>
+<li>Doubtful Sound: via Manapouri lake crossing + Wilmot Pass coach — about 7 hours total</li>
+<li>Coach-cruise-fly and fly-cruise-fly packages cut the Queenstown day from 12 hours to 4–6</li>
+<li>Overnight cruises include meals, kayaks and tender boats; cabins book out in summer</li>
+<li>Prices shown are per adult in NZ$ where the operator publishes a per-person rate</li>
+<li>Flights are weather-dependent; the coach is the fallback on cloudy days</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">
