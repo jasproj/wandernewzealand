@@ -465,6 +465,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -501,35 +525,52 @@
   <div class="container">
     <h1>Fiordland &amp; Te Anau Tours</h1>
     <p>The gateway town for Milford and Doubtful Sounds: glowworm caves across the lake, heli-flights over the fiords, and the start of the Kepler and Milford Tracks.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$110</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Te Anau and Fiordland</h2>
-    <p>Te Anau is the town on the edge of Fiordland National Park and the sensible base for seeing both of the famous fiords without a 12-hour day from Queenstown. Milford Sound is 118 km up the Milford Road — two hours' drive, more with stops at Mirror Lakes, the Homer Tunnel and the Chasm. Doubtful Sound is reached from Manapouri, 20 minutes south, via a boat across Lake Manapouri and a bus over Wilmot Pass.</p><p>Te Anau's own attractions are the glowworm caves — a boat trip across the lake to a limestone cave system — and the start points of the Kepler Track (walkable as a day loop to the Luxmore Hut) and, via the Milford Road, the Routeburn and Milford Tracks. Helicopter operators based at Te Anau fly over the fiords, land on Mount Luxmore and reach Dusky Sound, which no road touches.</p><p>Everything here is further than it looks. Bus-and-cruise combinations from Te Anau remove the driving and are the standard way to do Milford in a day.</p>
-    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-te-anau-fiordland.html">13 best things to do in Te Anau &amp; Fiordland</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>The Great Walks season — Milford, Routeburn, Kepler — opens in late October and runs to the end of April; this is when huts are serviced, bridges are in and the Milford Road is reliably open without avalanche closures. Day-cruise departures to both fiords move to their summer timetable in November, with the first Milford cruises leaving around 9am and the last in mid-afternoon. December to February is peak; November and March have the same daylight with easier bookings.</p><p>Fiordland gets 7 metres of rain a year and the waterfalls are at their best the day after a downpour. Bring a proper rain jacket in every month, and sandfly repellent from November on.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Milford Sound is 2 hours from Te Anau by car — coach-cruise packages include the drive</li>
-<li>Doubtful Sound trips leave from Manapouri (20 min south): boat, bus over Wilmot Pass, then cruise</li>
-<li>Te Anau glowworm caves are a 2-hour evening or afternoon trip across the lake</li>
-<li>Great Walks huts book out months ahead in summer; day walks on the Kepler need no booking</li>
-<li>Heli-flights to Dusky Sound and Mount Luxmore weather-dependent — allow a spare morning</li>
-<li>Sandflies are serious here from November — repellent, long sleeves</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/k7AhsDk7QvacxIIv9xib" alt="Milford Sound Boutique Small Boat Cruise" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$199</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Cruise Milford</div>
+        <h3 class="tour-title">Milford Sound Boutique Small Boat Cruise</h3>
+        <p class="tour-desc">Your cruise will begin at one of the most scenic points of the journey. You can take in the magnificent view of Mitre Peak (New Zealand&#x27;s…</p>
+        <a href="https://fareharbor.com/embeds/book/cruisemilfordnz/items/272184/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="272184" data-tour-name="Milford Sound Boutique Small Boat Cruise">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/S3XIDLh6T9iUUwgGiikV" alt="Milford Sound Cruise | Aboard The Sovereign or Monarch" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$169</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Milford Sound Cruise | Aboard The Sovereign or Monarch</h3>
+        <p class="tour-desc">Explore Milford Sound aboard our most spacious boats the Milford Sovereign or Monarch. With large viewing decks, you&#x27;ll have a great view…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/257745/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="257745" data-tour-name="Milford Sound Cruise | Aboard The Sovereign or Monarch">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/yla9FsGQ3Kyzlr4mPwmr" alt="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$823</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">RealNZ</div>
+        <h3 class="tour-title">Doubtful Sound Overnight Cruise and Coach – Te Anau Departure</h3>
+        <p class="tour-desc">Escape to the peace and tranquility of Doubtful Sound on a magical overnight cruise. This experience includes return coach transfers from…</p>
+        <a href="https://fareharbor.com/embeds/book/wayfaregroup/items/289255/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="289255" data-tour-name="Doubtful Sound Overnight Cruise and Coach – Te Anau Departure">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
@@ -828,6 +869,33 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Te Anau and Fiordland</h2>
+    <p>Te Anau is the town on the edge of Fiordland National Park and the sensible base for seeing both of the famous fiords without a 12-hour day from Queenstown. Milford Sound is 118 km up the Milford Road — two hours' drive, more with stops at Mirror Lakes, the Homer Tunnel and the Chasm. Doubtful Sound is reached from Manapouri, 20 minutes south, via a boat across Lake Manapouri and a bus over Wilmot Pass.</p><p>Te Anau's own attractions are the glowworm caves — a boat trip across the lake to a limestone cave system — and the start points of the Kepler Track (walkable as a day loop to the Luxmore Hut) and, via the Milford Road, the Routeburn and Milford Tracks. Helicopter operators based at Te Anau fly over the fiords, land on Mount Luxmore and reach Dusky Sound, which no road touches.</p><p>Everything here is further than it looks. Bus-and-cruise combinations from Te Anau remove the driving and are the standard way to do Milford in a day.</p>
+    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-te-anau-fiordland.html">13 best things to do in Te Anau &amp; Fiordland</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>The Great Walks season — Milford, Routeburn, Kepler — opens in late October and runs to the end of April; this is when huts are serviced, bridges are in and the Milford Road is reliably open without avalanche closures. Day-cruise departures to both fiords move to their summer timetable in November, with the first Milford cruises leaving around 9am and the last in mid-afternoon. December to February is peak; November and March have the same daylight with easier bookings.</p><p>Fiordland gets 7 metres of rain a year and the waterfalls are at their best the day after a downpour. Bring a proper rain jacket in every month, and sandfly repellent from November on.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Milford Sound is 2 hours from Te Anau by car — coach-cruise packages include the drive</li>
+<li>Doubtful Sound trips leave from Manapouri (20 min south): boat, bus over Wilmot Pass, then cruise</li>
+<li>Te Anau glowworm caves are a 2-hour evening or afternoon trip across the lake</li>
+<li>Great Walks huts book out months ahead in summer; day walks on the Kepler need no booking</li>
+<li>Heli-flights to Dusky Sound and Mount Luxmore weather-dependent — allow a spare morning</li>
+<li>Sandflies are serious here from November — repellent, long sleeves</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

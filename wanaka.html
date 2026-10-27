@@ -295,6 +295,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -331,35 +355,52 @@
   <div class="container">
     <h1>Wānaka &amp; Cardrona Tours</h1>
     <p>Queenstown&#x27;s quieter neighbour: Lake Wānaka, Mount Aspiring National Park, Cardrona Valley horse treks and the highest-rated skydive in the South Island.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">14 tours</span><span class="hub-chip">From NZ$8</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Wānaka</h2>
-    <p>Wānaka sits an hour north-east of Queenstown over the Crown Range, on the southern shore of its own lake with Mount Aspiring National Park filling the western horizon. It has the same adventure menu as Queenstown — skydiving, canyoning, jetboats, heli-flights, lake cruises — at roughly half the crowd. The town centre is a single lakefront strip; most operator pickups are from the i-SITE or the lakefront car park.</p><p>Mount Aspiring is the draw for walkers and flyers. Guided day walks go up the Matukituki Valley to the Rob Roy Glacier viewpoint; helicopter operators land on the glaciers around Tititea/Mount Aspiring itself; and the Blue Pools and Haast Pass are a 70-minute drive north for a half-day. Lake cruises run to Mou Waho Island, which has its own lake on top with an island in it.</p><p>Cardrona, 25 minutes up the Crown Range road, is a ski field in winter and in summer a mountain-bike park and horse-trekking valley with the historic Cardrona Hotel at the bottom.</p>
-    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-wanaka.html">13 best things to do in Wānaka</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>Summer is the walking and lake season. The Matukituki Valley road to the Rob Roy track is unsealed with fords that are usually passable from November; guided walks handle the river crossings. Skydives and heli-flights run year-round but have the clearest air and longest operating windows in summer, with sunrise flights from about 6am in December. Lake water reaches 18 to 20°C by late January.</p><p>Cardrona's summer trails and horse treks open from around Labour Weekend (late October) and run to Easter. Early January is peak; late February and March are drier and quieter.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Wānaka is 60–70 minutes from Queenstown via the Crown Range (steep; chains in winter only)</li>
-<li>Skydive and heli operators meet at Wānaka Airport, 10 minutes east of town</li>
-<li>Rob Roy Glacier walk: 3–4 hours return, 50-minute gravel drive from town — guided tours include transport</li>
-<li>Lake cruises and kayak hire leave from the lakefront by the i-SITE</li>
-<li>Cardrona horse treks and bike park are 25 minutes up the Crown Range road</li>
-<li>Alpine weather changes fast — wear layers for anything above the valley floor</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/nI1JleqPTKOZiL1RTTHh" alt="Farm Experience Ticket" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$8</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Wanaka Lavender Farm</div>
+        <h3 class="tour-title">Farm Experience Ticket</h3>
+        <p class="tour-desc">Wānaka Lavender Farm 4.6 stars 2933 Google reviews Our self-guided tour is a great way to explore Wānaka Lavender Farm at any time of year,…</p>
+        <a href="https://fareharbor.com/embeds/book/wanakalavenderfarm/items/634454/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="634454" data-tour-name="Farm Experience Ticket">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/3OVr0eDNSDiIHiU13Rrm" alt="Picnic Experience" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$195</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Wanaka Lavender Farm</div>
+        <h3 class="tour-title">Picnic Experience</h3>
+        <p class="tour-desc">Wānaka Lavender Farm A picnic experience for two on the farm. 4.6 stars 2933 Google reviews Indulge in a cosy picnic for two amidst our…</p>
+        <a href="https://fareharbor.com/embeds/book/wanakalavenderfarm/items/564209/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="564209" data-tour-name="Picnic Experience">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/zovPViubTkmfEK41amSv" alt="Lake Cruise &amp; Guided Island Nature Walk" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$295</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Eco Adventures Wanaka</div>
+        <h3 class="tour-title">Lake Cruise &amp; Guided Island Nature Walk</h3>
+        <p class="tour-desc">Sail across Lake Wanaka to Mou Waho Island, where a scenic walk reveals a hidden lake atop the island. Enjoy birdwatching, panoramic…</p>
+        <a href="https://fareharbor.com/embeds/book/adventurewanaka/items/575745/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="575745" data-tour-name="Lake Cruise &amp; Guided Island Nature Walk">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 14 tours ↓</a>
   </div>
 </section>
 
@@ -538,6 +579,33 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Wānaka</h2>
+    <p>Wānaka sits an hour north-east of Queenstown over the Crown Range, on the southern shore of its own lake with Mount Aspiring National Park filling the western horizon. It has the same adventure menu as Queenstown — skydiving, canyoning, jetboats, heli-flights, lake cruises — at roughly half the crowd. The town centre is a single lakefront strip; most operator pickups are from the i-SITE or the lakefront car park.</p><p>Mount Aspiring is the draw for walkers and flyers. Guided day walks go up the Matukituki Valley to the Rob Roy Glacier viewpoint; helicopter operators land on the glaciers around Tititea/Mount Aspiring itself; and the Blue Pools and Haast Pass are a 70-minute drive north for a half-day. Lake cruises run to Mou Waho Island, which has its own lake on top with an island in it.</p><p>Cardrona, 25 minutes up the Crown Range road, is a ski field in winter and in summer a mountain-bike park and horse-trekking valley with the historic Cardrona Hotel at the bottom.</p>
+    <p class="planning-days"><strong>Planning your days?</strong> Our guide to the <a href="/blog/things-to-do-wanaka.html">13 best things to do in Wānaka</a> covers the walks, viewpoints, free stops and bookable trips with times and distances.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>Summer is the walking and lake season. The Matukituki Valley road to the Rob Roy track is unsealed with fords that are usually passable from November; guided walks handle the river crossings. Skydives and heli-flights run year-round but have the clearest air and longest operating windows in summer, with sunrise flights from about 6am in December. Lake water reaches 18 to 20°C by late January.</p><p>Cardrona's summer trails and horse treks open from around Labour Weekend (late October) and run to Easter. Early January is peak; late February and March are drier and quieter.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Wānaka is 60–70 minutes from Queenstown via the Crown Range (steep; chains in winter only)</li>
+<li>Skydive and heli operators meet at Wānaka Airport, 10 minutes east of town</li>
+<li>Rob Roy Glacier walk: 3–4 hours return, 50-minute gravel drive from town — guided tours include transport</li>
+<li>Lake cruises and kayak hire leave from the lakefront by the i-SITE</li>
+<li>Cardrona horse treks and bike park are 25 minutes up the Crown Range road</li>
+<li>Alpine weather changes fast — wear layers for anything above the valley floor</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

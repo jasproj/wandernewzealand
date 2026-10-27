@@ -423,6 +423,30 @@
  ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
 <header class="header">
@@ -459,34 +483,52 @@
   <div class="container">
     <h1>Tauranga &amp; Mount Maunganui Tours</h1>
     <p>Bay of Plenty&#x27;s beach town: Mauao at dawn, dolphins offshore, surf schools on the main beach and glow-worm kayaking after dark.</p>
-  </div>
+  
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a><div class="hub-chips"><span class="hub-chip">24 tours</span><span class="hub-chip">From NZ$10</span><span class="hub-chip">New Zealand</span></div></div>
+</div>
 </section>
-
-<section class="intro">
+<section class="top-picks" aria-label="Top picks">
   <div class="container">
-    <h2>About Tauranga and the Mount</h2>
-    <p>Tauranga is the country's biggest export port and its fastest-growing city, but the visitor centre of gravity is Mount Maunganui — a beach suburb wrapped around Mauao, the 232-metre volcanic cone at the harbour entrance. The Mauao base track takes 45 minutes; the summit an hour. Below it, the main beach is one of the most consistent learner surf breaks in the North Island, and surf schools run from the sand.</p><p>Offshore, common and bottlenose dolphins work the Bay of Plenty most days, and wildlife cruises leave from Tauranga Bridge Marina and Salisbury Wharf. Inland, McLaren Falls Park has a glow-worm gully that kayak operators paddle after dark, and the Kaimai Range offers waterfall walks within 30 minutes. Hobbiton at Matamata is 50 minutes west and is a standard day trip from here.</p><p>Cruise ships berth at the Mount from October to April, which means the dolphin and Hobbiton tours fill on port days; check the schedule.</p>
-  </div>
-</section>
-
-<section class="season">
-  <div class="container">
-    <h2>Best time to go: November to March</h2>
-    <p>The Mount is a summer beach town. Water temperature passes 20°C by January, surf schools run multiple sessions a day, and the dolphin operators go to daily departures. December 26 to the end of January is busiest — the Mount's population roughly triples — and the glow-worm kayak tours, which take small groups, sell out well ahead on those dates. November and March have the same water, less crowd.</p><p>Evening kayak tours start later in summer (around 8:30pm) to allow full dark for the glow-worms.</p>
-  </div>
-</section>
-
-<section class="what-to-know">
-  <div class="container">
-    <h2>What to know before you book</h2>
-    <ul>
-<li>Mount Maunganui and Tauranga are 10 minutes apart across the harbour bridge</li>
-<li>Dolphin cruises depart from Tauranga Bridge Marina — allow 4–5 hours</li>
-<li>Surf lessons run from the main beach at the Mount; boards and wetsuits included</li>
-<li>Glow-worm kayaking at McLaren Falls is 20 minutes inland and runs after dark</li>
-<li>Hobbiton is 50 minutes west — several tours include Tauranga pickup</li>
-<li>Cruise-ship days fill tours; book ahead for October–April port days</li>
-    </ul>
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/FJcPCCgLSyeQgU2nvlbm" alt="Wild Dolphin Encounter" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$189</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Dolphin Seafaris</div>
+        <h3 class="tour-title">Wild Dolphin Encounter</h3>
+        <p class="tour-desc">NZD173.61 Adults Ages 16+ NZD131.52 Children Ages 7 to 16 years of age NZD578.70 Family 2 Adults + 2 Children NZD10.52 Toddlers Under 7…</p>
+        <a href="https://fareharbor.com/embeds/book/nzdolphin/items/242834/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="242834" data-tour-name="Wild Dolphin Encounter">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/lx6L6SNqSBy7ds5CoBLL" alt="Winter Coastal Cruise" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$95</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Dolphin Seafaris</div>
+        <h3 class="tour-title">Winter Coastal Cruise</h3>
+        <p class="tour-desc">Experience the magic of winter on a captivating 2.5-hour boat cruise through the Bay of Plenty. Discover photography…</p>
+        <a href="https://fareharbor.com/embeds/book/nzdolphin/items/466722/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="466722" data-tour-name="Winter Coastal Cruise">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/aDbEdWhTLey0lu85RElB" alt="Mount Maunganui Scenic Flight" loading="eager" decoding="async" width="400" height="200" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$367</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Skydive Tauranga</div>
+        <h3 class="tour-title">Mount Maunganui Scenic Flight</h3>
+        <p class="tour-desc">Take to the skies for a flight around one of New Zealand’s most iconic coastal landmarks: Mount Maunganui. Lifting off from the coast,…</p>
+        <a href="https://fareharbor.com/embeds/book/skydivetauranga/items/642513/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="642513" data-tour-name="Mount Maunganui Scenic Flight">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 24 tours ↓</a>
   </div>
 </section>
 
@@ -785,6 +827,32 @@
     </div>
   </div>
 </section>
+<section class="intro">
+  <div class="container">
+    <h2>About Tauranga and the Mount</h2>
+    <p>Tauranga is the country's biggest export port and its fastest-growing city, but the visitor centre of gravity is Mount Maunganui — a beach suburb wrapped around Mauao, the 232-metre volcanic cone at the harbour entrance. The Mauao base track takes 45 minutes; the summit an hour. Below it, the main beach is one of the most consistent learner surf breaks in the North Island, and surf schools run from the sand.</p><p>Offshore, common and bottlenose dolphins work the Bay of Plenty most days, and wildlife cruises leave from Tauranga Bridge Marina and Salisbury Wharf. Inland, McLaren Falls Park has a glow-worm gully that kayak operators paddle after dark, and the Kaimai Range offers waterfall walks within 30 minutes. Hobbiton at Matamata is 50 minutes west and is a standard day trip from here.</p><p>Cruise ships berth at the Mount from October to April, which means the dolphin and Hobbiton tours fill on port days; check the schedule.</p>
+  </div>
+</section>
+<section class="season">
+  <div class="container">
+    <h2>Best time to go: November to March</h2>
+    <p>The Mount is a summer beach town. Water temperature passes 20°C by January, surf schools run multiple sessions a day, and the dolphin operators go to daily departures. December 26 to the end of January is busiest — the Mount's population roughly triples — and the glow-worm kayak tours, which take small groups, sell out well ahead on those dates. November and March have the same water, less crowd.</p><p>Evening kayak tours start later in summer (around 8:30pm) to allow full dark for the glow-worms.</p>
+  </div>
+</section>
+<section class="what-to-know">
+  <div class="container">
+    <h2>What to know before you book</h2>
+    <ul>
+<li>Mount Maunganui and Tauranga are 10 minutes apart across the harbour bridge</li>
+<li>Dolphin cruises depart from Tauranga Bridge Marina — allow 4–5 hours</li>
+<li>Surf lessons run from the main beach at the Mount; boards and wetsuits included</li>
+<li>Glow-worm kayaking at McLaren Falls is 20 minutes inland and runs after dark</li>
+<li>Hobbiton is 50 minutes west — several tours include Tauranga pickup</li>
+<li>Cruise-ship days fill tours; book ahead for October–April port days</li>
+    </ul>
+  </div>
+</section>
+
 
 <section class="faq" id="faq">
   <div class="container">

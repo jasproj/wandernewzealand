@@ -283,6 +283,30 @@
   ]
 }
 </script>
+<style id="hub-fold-css">
+.hub-fold{margin-top:18px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.hub-cta{display:inline-block;background:var(--coral,#FF6B6B);color:#fff!important;font-weight:700;padding:13px 24px;border-radius:999px;text-decoration:none;font-size:1rem;box-shadow:0 4px 14px rgba(0,0,0,.18)}
+.hub-cta:hover{background:#e85c5c}
+.hub-chips{display:flex;gap:8px;flex-wrap:wrap}
+.hub-chip{font-size:.78rem;font-weight:600;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.16);color:#fff;border:1px solid rgba(255,255,255,.4);white-space:nowrap}
+.top-picks{padding:22px 0 10px;background:#fff}
+.top-picks .container{max-width:1200px;margin:0 auto;padding:0 20px}
+.top-picks h2{font-size:1.25rem;margin:0 0 12px;color:var(--ocean-deep,#0A4D68)}
+.top-picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.top-picks-more{display:inline-block;margin:14px 0 6px;font-weight:600;color:var(--ocean-mid,#088395)}
+@media (max-width:760px){
+  .top-picks-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;padding-bottom:6px;-webkit-overflow-scrolling:touch}
+  .top-picks-grid>*{flex:0 0 84%;scroll-snap-align:start}
+  .hero h1,.activity-hero h1,.page-hero h1,.page-banner h1{font-size:clamp(1.55rem,7vw,2rem)!important;line-height:1.15!important}
+  .hero,.activity-hero,.page-hero,.page-banner{padding-top:34px!important;padding-bottom:30px!important}
+  .hub-cta{width:100%;text-align:center}
+  .activity-hero p,.hero p,.page-hero p,.page-banner p{font-size:1rem!important;line-height:1.45!important;margin-bottom:14px!important}
+  .hero-stats{gap:6px 22px!important;margin-bottom:0!important}
+  .hero-stat-number{font-size:1.25rem!important}
+  .hero-stat-label{font-size:.72rem!important}
+  .hub-fold{margin-top:14px}
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -307,9 +331,56 @@
                 <div class="hero-stat"><span class="hero-stat-number">4</span><span class="hero-stat-label">Regions</span></div>
                 <div class="hero-stat"><span class="hero-stat-number">Year-Round</span><span class="hero-stat-label">Season</span></div>
             </div>
-        </div>
+        
+    <div class="hub-fold"><a class="hub-cta" href="#tours">See tours ↓</a></div>
+</div>
     </section>
-    <section class="tours" id="tours">
+<section class="top-picks" aria-label="Top picks">
+  <div class="container">
+    <h2>Top picks</h2>
+    <div class="tours-grid top-picks-grid">
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/BOhpiRRm2WnWWa4gCAMg" alt="2 Hour - Fishing &amp; Crayfishing Trip" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$130</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Top Catch Charters Kaikoura</div>
+        <h3 class="tour-title">2 Hour - Fishing &amp; Crayfishing Trip</h3>
+        <p class="tour-desc">Experience the thrill of offshore fishing with Top Catch Charters in Kaikōura! Join a friendly small group for an adventure amidst…</p>
+        <a href="https://fareharbor.com/embeds/book/topcatchcharters/items/506020/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="fh-506020" data-tour-name="2 Hour - Fishing &amp; Crayfishing Trip">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/2PKRASqLRCiWRmC2g8jM" alt="Deep Sea Fishing (Private Charter)" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$4419.13</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Jackson Bay Charters</div>
+        <h3 class="tour-title">Deep Sea Fishing (Private Charter)</h3>
+        <p class="tour-desc">Dive into the deep with a full-day offshore fishing adventure from Jackson Bay. Target rare species in waters over 400m deep, using top…</p>
+        <a href="https://fareharbor.com/embeds/book/jacksonbaycharters/items/689404/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="fh-689404" data-tour-name="Deep Sea Fishing (Private Charter)">Check Availability →</a>
+    </div>
+</article>
+<article class="tour-card">
+    <div class="tour-image">
+        <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/SP8hGAHcS3m3lpSda5qG" alt="Heli-Fishing - Exclusive 2 Person Fishing in R44" loading="eager" style="width:100%; height:200px; object-fit:cover;">
+        <div class="tour-price">From NZ$3970</div>
+    </div>
+    <div class="tour-content">
+        <div class="tour-company">Heletranz Helicopters</div>
+        <h3 class="tour-title">Heli-Fishing - Exclusive 2 Person Fishing in R44</h3>
+        <p class="tour-desc">Fly over islands in a helicopter, then reel in snapper, kingfish, or kahawai in the rich Hauraki Gulf. Enjoy top gear, a scenic…</p>
+        <a href="https://fareharbor.com/embeds/book/heletranz/items/232142/?asn=fhdn-nzd&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" target="_blank" rel="noopener noreferrer" class="tour-book-btn book-now-btn" data-tour-id="fh-232142" data-tour-name="Heli-Fishing - Exclusive 2 Person Fishing in R44">Check Availability →</a>
+    </div>
+</article>
+    </div>
+    <a class="top-picks-more" href="#tours">All 12 tours ↓</a>
+  </div>
+</section>
+
+<section class="tours" id="tours">
       <div class="container">
         <h2>Book 🎣 New Zealand Fishing Charters (12 available)</h2>
         <div class="tours-grid">
@@ -460,6 +531,8 @@
         </div>
       </div>
     </section>
+
+
 
 
     <section class="types-section">
